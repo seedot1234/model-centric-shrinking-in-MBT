@@ -1,0 +1,472 @@
+Generated on: 2024-07-09 21:45:50.580195558 +0200
+===== SHRINKER: [Shrinking::ShortestPathShrinker] =====
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_8"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_8"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_8"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_8"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_8"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_8"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  
+Generated on: 2024-07-09 21:45:50.592249741 +0200
+===== SHRINKER: [Shrinking::ShortestPathLabelCount] =====
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_8"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_8"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_8"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_8"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_8"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_8"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  
+Generated on: 2024-07-09 21:45:50.606399005 +0200
+===== SHRINKER: [Shrinking::PartialOrderShrinker] =====
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_8"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_8"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_8"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_8"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_8"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_8"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  
+Generated on: 2024-07-09 21:45:50.619316573 +0200
+===== SHRINKER: [Shrinking::CycleShrink2] =====
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_8"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_8"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_8"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_8"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_8"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_8"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  
+Generated on: 2024-07-09 21:45:50.637687229 +0200
+===== SHRINKER: [Shrinking::BinaryShrink2] =====
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_8"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_8"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_8"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_8"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_8"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_8"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_8"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  
+Generated on: 2024-07-09 21:45:50.652056036 +0200
+===== SHRINKER: [Shrinking::CycleShrink2, Shrinking::ElemShrink2] =====
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_8"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_8"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_8"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_8"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_8"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_8"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  
+Generated on: 2024-07-09 21:45:50.664146998 +0200
+===== SHRINKER: [Shrinking::CycleShrink2, Shrinking::BinaryShrink2] =====
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_8"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_8"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_8"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_8"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_8"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_8"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  

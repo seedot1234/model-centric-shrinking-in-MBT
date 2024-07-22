@@ -1,0 +1,331 @@
+Generated on: 2024-07-09 23:03:35.645832107 +0200
+===== SHRINKER: [Shrinking::ShortestPathLabelCount] =====
+===== START TRACE =====
+?Reset -> ?Reset -> ?Go -> ?Choice_Double -> ?Go -> ?Coin1 -> ?Choice_Espresso -> ?Choice_Wiener ->  
+?Coin1 -> ?Choice_French -> ?Go -> ?Coin1 -> ?Choice_Wiener -> ?Choice_French -> ?Reset -> !Change_3 ->  
+?Choice_French -> ?Choice_Coffee -> ?Choice_Coffee -> ?Info_Coffee_0 -> !Info_Coffee_0 -> ?Coin1 -> ?Coin1 -> ?Go ->  
+!Cup_Coffee -> ?Choice_French -> ?Choice_Coffee -> ?Choice_Double -> ?Go -> ?Coin2 -> ?Coin2 -> ?Reset ->  
+!Change_4 -> ?Choice_Espresso -> ?Go -> ?Choice_Coffee -> ?Coin1 -> ?Reset -> !Change_1 -> ?Choice_French ->  
+?Choice_French -> ?Choice_French -> ?Go -> ?Choice_Coffee -> ?Choice_Wiener -> ?Coin2 -> ?Choice_Wiener -> ?Info_Wiener_2 ->  
+!Info_Wiener_2 -> ?Coin1 -> ?Reset -> !Change_3 -> ?Reset -> ?Go -> ?Info_None_0 -> !Info_None_0 ->  
+?Info_None_0 -> !Info_None_0 -> ?Coin1 -> ?Choice_Coffee -> ?Choice_Double -> ?Go -> ?Coin1 -> ?Choice_Coffee ->  
+?Choice_French -> ?Coin2 -> ?Choice_Double -> ?Go -> !Cup_Double -> ?Choice_Double -> ?Choice_Espresso -> ?Choice_Wiener ->  
+?Choice_Espresso -> ?Reset -> !Change_1 -> ?Choice_Espresso -> ?Coin1 -> ?Choice_Espresso -> ?Choice_French -> ?Choice_French ->  
+?Go -> ?Coin1 -> ?Info_French_2 -> !Info_French_2 -> ?Choice_Wiener -> ?Choice_Wiener -> ?Choice_Double -> ?Coin1 ->  
+?Choice_Double -> ?Coin2 -> ?Choice_Double -> ?Choice_Coffee -> ?Choice_Coffee -> ?Choice_Wiener -> ?Choice_Wiener -> ?Reset ->  
+!Change_5 -> ?Choice_Wiener -> ?Choice_Wiener -> ?Choice_Coffee -> ?Info_Coffee_0 -> !Info_Coffee_0 -> ?Reset -> ?Coin2 ->  
+?Choice_Wiener -> ?Choice_Espresso -> ?Info_Espresso_2 -> !Info_Espresso_2 -> ?Choice_Wiener -> ?Go -> ?Coin2 -> ?Choice_French ->  
+?Choice_French -> ?Choice_Double -> ?Choice_French -> ?Choice_French -> ?Coin2 -> ?Choice_Double -> ?Coin1 -> ?Go ->  
+!Cup_Double -> ?Info_None_4 -> !Info_Double_4 -> 
+===== END TRACE =====
+?Coin2 -> ?Coin2 -> ?Coin2 -> ?Choice_Coffee -> ?Go -> !Cup_Coffee -> ?Info_None_4 -> !Info_Coffee_4 ->  
+
+===== START TRACE =====
+?Reset -> ?Choice_Espresso -> ?Go -> ?Info_Espresso_0 -> !Info_Espresso_0 -> ?Choice_Coffee -> ?Choice_Coffee -> ?Coin2 ->  
+?Choice_Coffee -> ?Reset -> !Change_2 -> ?Coin2 -> ?Choice_Coffee -> ?Coin1 -> ?Reset -> !Change_3 ->  
+?Reset -> ?Choice_Coffee -> ?Coin1 -> ?Coin2 -> ?Info_Coffee_3 -> !Info_Coffee_3 -> ?Choice_Double -> ?Info_Double_3 ->  
+!Info_Double_3 -> ?Choice_Wiener -> ?Choice_Wiener -> ?Info_Wiener_3 -> !Info_Wiener_3 -> ?Coin2 -> ?Choice_Double -> ?Choice_Wiener ->  
+?Coin1 -> ?Choice_French -> ?Reset -> !Change_6 -> ?Choice_Double -> ?Choice_French -> ?Choice_Double -> ?Choice_Double ->  
+?Coin1 -> ?Coin2 -> ?Choice_Espresso -> ?Choice_Espresso -> ?Go -> !Cup_Espresso -> ?Choice_Double -> ?Reset ->  
+?Reset -> ?Choice_French -> ?Choice_Espresso -> ?Coin1 -> ?Info_Espresso_1 -> !Info_Espresso_1 -> ?Coin2 -> ?Choice_Coffee ->  
+?Choice_Espresso -> ?Coin1 -> ?Choice_Coffee -> ?Coin1 -> ?Reset -> !Change_5 -> ?Info_None_0 -> !Info_None_0 ->  
+?Choice_French -> ?Choice_French -> ?Choice_Wiener -> ?Info_Wiener_0 -> !Info_Wiener_0 -> ?Choice_Double -> ?Choice_Wiener -> ?Choice_Double ->  
+?Choice_Coffee -> ?Info_Coffee_0 -> !Info_Coffee_0 -> ?Info_Coffee_0 -> !Info_Coffee_0 -> ?Coin2 -> ?Go -> !Cup_Coffee ->  
+?Choice_French -> ?Choice_Espresso -> ?Info_Espresso_0 -> !Info_Espresso_0 -> ?Coin2 -> ?Reset -> !Change_2 -> ?Choice_Double ->  
+?Go -> ?Info_Double_0 -> !Info_Double_0 -> ?Choice_Espresso -> ?Coin2 -> ?Info_Espresso_2 -> !Info_Espresso_2 -> ?Coin2 ->  
+?Choice_Coffee -> ?Choice_Coffee -> ?Choice_Double -> ?Choice_Double -> ?Coin2 -> ?Coin1 -> ?Go -> !Cup_Double ->  
+?Info_None_4 -> !Info_Double_4 -> 
+===== END TRACE =====
+?Coin2 -> ?Coin2 -> ?Coin2 -> ?Choice_Coffee -> ?Go -> !Cup_Coffee -> ?Info_None_4 -> !Info_Coffee_4 ->  
+
+===== START TRACE =====
+?Coin2 -> ?Choice_Double -> ?Coin2 -> ?Choice_Espresso -> ?Coin2 -> ?Choice_Coffee -> ?Choice_Espresso -> ?Info_Espresso_6 ->  
+!Info_Espresso_6 -> ?Choice_Espresso -> ?Choice_Wiener -> ?Choice_Coffee -> ?Choice_Double -> ?Coin1 -> ?Coin2 -> ?Choice_French ->  
+?Choice_French -> ?Reset -> !Change_9 -> ?Go -> ?Choice_Espresso -> ?Choice_Double -> ?Choice_French -> ?Choice_Double ->  
+?Info_Double_0 -> !Info_Double_0 -> ?Coin1 -> ?Choice_Double -> ?Go -> ?Choice_Double -> ?Coin2 -> ?Choice_Wiener ->  
+?Reset -> !Change_3 -> ?Choice_Wiener -> ?Coin2 -> ?Reset -> !Change_2 -> ?Info_None_0 -> !Info_None_0 ->  
+?Choice_Wiener -> ?Info_Wiener_0 -> !Info_Wiener_0 -> ?Choice_Wiener -> ?Coin2 -> ?Reset -> !Change_2 -> ?Info_None_0 ->  
+!Info_None_0 -> ?Choice_Double -> ?Choice_Coffee -> ?Info_Coffee_0 -> !Info_Coffee_0 -> ?Coin2 -> ?Choice_Espresso -> ?Coin2 ->  
+?Choice_French -> ?Choice_Wiener -> ?Go -> !Cup_Wiener -> ?Coin1 -> ?Choice_French -> ?Info_French_2 -> !Info_French_2 ->  
+?Choice_Double -> ?Coin2 -> ?Choice_Espresso -> ?Choice_Coffee -> ?Reset -> !Change_4 -> ?Choice_Espresso -> ?Coin2 ->  
+?Info_Espresso_2 -> !Info_Espresso_2 -> ?Choice_Espresso -> ?Reset -> !Change_2 -> ?Choice_French -> ?Choice_Wiener -> ?Choice_Espresso ->  
+?Coin2 -> ?Coin2 -> ?Choice_Coffee -> ?Choice_Espresso -> ?Choice_French -> ?Choice_Coffee -> ?Go -> !Cup_Coffee ->  
+?Info_None_2 -> !Info_Coffee_2 -> 
+===== END TRACE =====
+?Coin2 -> ?Coin2 -> ?Choice_Coffee -> ?Go -> !Cup_Coffee -> ?Info_None_2 -> !Info_Coffee_2 -> 
+Generated on: 2024-07-09 23:03:35.71098646 +0200
+===== SHRINKER: [Shrinking::PartialOrderShrinker] =====
+===== START TRACE =====
+?Reset -> ?Reset -> ?Go -> ?Choice_Double -> ?Go -> ?Coin1 -> ?Choice_Espresso -> ?Choice_Wiener ->  
+?Coin1 -> ?Choice_French -> ?Go -> ?Coin1 -> ?Choice_Wiener -> ?Choice_French -> ?Reset -> !Change_3 ->  
+?Choice_French -> ?Choice_Coffee -> ?Choice_Coffee -> ?Info_Coffee_0 -> !Info_Coffee_0 -> ?Coin1 -> ?Coin1 -> ?Go ->  
+!Cup_Coffee -> ?Choice_French -> ?Choice_Coffee -> ?Choice_Double -> ?Go -> ?Coin2 -> ?Coin2 -> ?Reset ->  
+!Change_4 -> ?Choice_Espresso -> ?Go -> ?Choice_Coffee -> ?Coin1 -> ?Reset -> !Change_1 -> ?Choice_French ->  
+?Choice_French -> ?Choice_French -> ?Go -> ?Choice_Coffee -> ?Choice_Wiener -> ?Coin2 -> ?Choice_Wiener -> ?Info_Wiener_2 ->  
+!Info_Wiener_2 -> ?Coin1 -> ?Reset -> !Change_3 -> ?Reset -> ?Go -> ?Info_None_0 -> !Info_None_0 ->  
+?Info_None_0 -> !Info_None_0 -> ?Coin1 -> ?Choice_Coffee -> ?Choice_Double -> ?Go -> ?Coin1 -> ?Choice_Coffee ->  
+?Choice_French -> ?Coin2 -> ?Choice_Double -> ?Go -> !Cup_Double -> ?Choice_Double -> ?Choice_Espresso -> ?Choice_Wiener ->  
+?Choice_Espresso -> ?Reset -> !Change_1 -> ?Choice_Espresso -> ?Coin1 -> ?Choice_Espresso -> ?Choice_French -> ?Choice_French ->  
+?Go -> ?Coin1 -> ?Info_French_2 -> !Info_French_2 -> ?Choice_Wiener -> ?Choice_Wiener -> ?Choice_Double -> ?Coin1 ->  
+?Choice_Double -> ?Coin2 -> ?Choice_Double -> ?Choice_Coffee -> ?Choice_Coffee -> ?Choice_Wiener -> ?Choice_Wiener -> ?Reset ->  
+!Change_5 -> ?Choice_Wiener -> ?Choice_Wiener -> ?Choice_Coffee -> ?Info_Coffee_0 -> !Info_Coffee_0 -> ?Reset -> ?Coin2 ->  
+?Choice_Wiener -> ?Choice_Espresso -> ?Info_Espresso_2 -> !Info_Espresso_2 -> ?Choice_Wiener -> ?Go -> ?Coin2 -> ?Choice_French ->  
+?Choice_French -> ?Choice_Double -> ?Choice_French -> ?Choice_French -> ?Coin2 -> ?Choice_Double -> ?Coin1 -> ?Go ->  
+!Cup_Double -> ?Info_None_4 -> !Info_Double_4 -> 
+===== END TRACE =====
+?Coin2 -> ?Coin2 -> ?Coin2 -> ?Choice_Double -> ?Coin1 -> ?Go -> !Cup_Double -> ?Info_None_4 ->  
+!Info_Double_4 -> 
+===== START TRACE =====
+?Reset -> ?Choice_Espresso -> ?Go -> ?Info_Espresso_0 -> !Info_Espresso_0 -> ?Choice_Coffee -> ?Choice_Coffee ->  
+?Coin2 -> ?Choice_Coffee -> ?Reset -> !Change_2 -> ?Coin2 -> ?Choice_Coffee -> ?Coin1 -> ?Reset ->  
+!Change_3 -> ?Reset -> ?Choice_Coffee -> ?Coin1 -> ?Coin2 -> ?Info_Coffee_3 -> !Info_Coffee_3 -> ?Choice_Double ->  
+?Info_Double_3 -> !Info_Double_3 -> ?Choice_Wiener -> ?Choice_Wiener -> ?Info_Wiener_3 -> !Info_Wiener_3 -> ?Coin2 -> ?Choice_Double ->  
+?Choice_Wiener -> ?Coin1 -> ?Choice_French -> ?Reset -> !Change_6 -> ?Choice_Double -> ?Choice_French -> ?Choice_Double ->  
+?Choice_Double -> ?Coin1 -> ?Coin2 -> ?Choice_Espresso -> ?Choice_Espresso -> ?Go -> !Cup_Espresso -> ?Choice_Double ->  
+?Reset -> ?Reset -> ?Choice_French -> ?Choice_Espresso -> ?Coin1 -> ?Info_Espresso_1 -> !Info_Espresso_1 -> ?Coin2 ->  
+?Choice_Coffee -> ?Choice_Espresso -> ?Coin1 -> ?Choice_Coffee -> ?Coin1 -> ?Reset -> !Change_5 -> ?Info_None_0 ->  
+!Info_None_0 -> ?Choice_French -> ?Choice_French -> ?Choice_Wiener -> ?Info_Wiener_0 -> !Info_Wiener_0 -> ?Choice_Double -> ?Choice_Wiener ->  
+?Choice_Double -> ?Choice_Coffee -> ?Info_Coffee_0 -> !Info_Coffee_0 -> ?Info_Coffee_0 -> !Info_Coffee_0 -> ?Coin2 -> ?Go ->  
+!Cup_Coffee -> ?Choice_French -> ?Choice_Espresso -> ?Info_Espresso_0 -> !Info_Espresso_0 -> ?Coin2 -> ?Reset -> !Change_2 ->  
+?Choice_Double -> ?Go -> ?Info_Double_0 -> !Info_Double_0 -> ?Choice_Espresso -> ?Coin2 -> ?Info_Espresso_2 -> !Info_Espresso_2 ->  
+?Coin2 -> ?Choice_Coffee -> ?Choice_Coffee -> ?Choice_Double -> ?Choice_Double -> ?Coin2 -> ?Coin1 -> ?Go ->  
+!Cup_Double -> ?Info_None_4 -> !Info_Double_4 -> 
+===== END TRACE =====
+?Coin2 -> ?Coin2 -> ?Choice_Double -> ?Coin2 -> ?Coin1 -> ?Go -> !Cup_Double -> ?Info_None_4 ->  
+!Info_Double_4 -> 
+===== START TRACE =====
+?Coin2 -> ?Choice_Double -> ?Coin2 -> ?Choice_Espresso -> ?Coin2 -> ?Choice_Coffee -> ?Choice_Espresso ->  
+?Info_Espresso_6 -> !Info_Espresso_6 -> ?Choice_Espresso -> ?Choice_Wiener -> ?Choice_Coffee -> ?Choice_Double -> ?Coin1 -> ?Coin2 ->  
+?Choice_French -> ?Choice_French -> ?Reset -> !Change_9 -> ?Go -> ?Choice_Espresso -> ?Choice_Double -> ?Choice_French ->  
+?Choice_Double -> ?Info_Double_0 -> !Info_Double_0 -> ?Coin1 -> ?Choice_Double -> ?Go -> ?Choice_Double -> ?Coin2 ->  
+?Choice_Wiener -> ?Reset -> !Change_3 -> ?Choice_Wiener -> ?Coin2 -> ?Reset -> !Change_2 -> ?Info_None_0 ->  
+!Info_None_0 -> ?Choice_Wiener -> ?Info_Wiener_0 -> !Info_Wiener_0 -> ?Choice_Wiener -> ?Coin2 -> ?Reset -> !Change_2 ->  
+?Info_None_0 -> !Info_None_0 -> ?Choice_Double -> ?Choice_Coffee -> ?Info_Coffee_0 -> !Info_Coffee_0 -> ?Coin2 -> ?Choice_Espresso ->  
+?Coin2 -> ?Choice_French -> ?Choice_Wiener -> ?Go -> !Cup_Wiener -> ?Coin1 -> ?Choice_French -> ?Info_French_2 ->  
+!Info_French_2 -> ?Choice_Double -> ?Coin2 -> ?Choice_Espresso -> ?Choice_Coffee -> ?Reset -> !Change_4 -> ?Choice_Espresso ->  
+?Coin2 -> ?Info_Espresso_2 -> !Info_Espresso_2 -> ?Choice_Espresso -> ?Reset -> !Change_2 -> ?Choice_French -> ?Choice_Wiener ->  
+?Choice_Espresso -> ?Coin2 -> ?Coin2 -> ?Choice_Coffee -> ?Choice_Espresso -> ?Choice_French -> ?Choice_Coffee -> ?Go ->  
+!Cup_Coffee -> ?Info_None_2 -> !Info_Coffee_2 -> 
+===== END TRACE =====
+?Coin2 -> ?Coin2 -> ?Choice_Coffee -> ?Go -> !Cup_Coffee -> ?Info_None_2 -> !Info_Coffee_2 -> 
+Generated on: 2024-07-09 23:03:35.784323591 +0200
+===== SHRINKER: [Shrinking::CycleShrink2] =====
+===== START TRACE =====
+?Reset -> ?Reset -> ?Go -> ?Choice_Double -> ?Go -> ?Coin1 -> ?Choice_Espresso -> ?Choice_Wiener ->  
+?Coin1 -> ?Choice_French -> ?Go -> ?Coin1 -> ?Choice_Wiener -> ?Choice_French -> ?Reset -> !Change_3 ->  
+?Choice_French -> ?Choice_Coffee -> ?Choice_Coffee -> ?Info_Coffee_0 -> !Info_Coffee_0 -> ?Coin1 -> ?Coin1 -> ?Go ->  
+!Cup_Coffee -> ?Choice_French -> ?Choice_Coffee -> ?Choice_Double -> ?Go -> ?Coin2 -> ?Coin2 -> ?Reset ->  
+!Change_4 -> ?Choice_Espresso -> ?Go -> ?Choice_Coffee -> ?Coin1 -> ?Reset -> !Change_1 -> ?Choice_French ->  
+?Choice_French -> ?Choice_French -> ?Go -> ?Choice_Coffee -> ?Choice_Wiener -> ?Coin2 -> ?Choice_Wiener -> ?Info_Wiener_2 ->  
+!Info_Wiener_2 -> ?Coin1 -> ?Reset -> !Change_3 -> ?Reset -> ?Go -> ?Info_None_0 -> !Info_None_0 ->  
+?Info_None_0 -> !Info_None_0 -> ?Coin1 -> ?Choice_Coffee -> ?Choice_Double -> ?Go -> ?Coin1 -> ?Choice_Coffee ->  
+?Choice_French -> ?Coin2 -> ?Choice_Double -> ?Go -> !Cup_Double -> ?Choice_Double -> ?Choice_Espresso -> ?Choice_Wiener ->  
+?Choice_Espresso -> ?Reset -> !Change_1 -> ?Choice_Espresso -> ?Coin1 -> ?Choice_Espresso -> ?Choice_French -> ?Choice_French ->  
+?Go -> ?Coin1 -> ?Info_French_2 -> !Info_French_2 -> ?Choice_Wiener -> ?Choice_Wiener -> ?Choice_Double -> ?Coin1 ->  
+?Choice_Double -> ?Coin2 -> ?Choice_Double -> ?Choice_Coffee -> ?Choice_Coffee -> ?Choice_Wiener -> ?Choice_Wiener -> ?Reset ->  
+!Change_5 -> ?Choice_Wiener -> ?Choice_Wiener -> ?Choice_Coffee -> ?Info_Coffee_0 -> !Info_Coffee_0 -> ?Reset -> ?Coin2 ->  
+?Choice_Wiener -> ?Choice_Espresso -> ?Info_Espresso_2 -> !Info_Espresso_2 -> ?Choice_Wiener -> ?Go -> ?Coin2 -> ?Choice_French ->  
+?Choice_French -> ?Choice_Double -> ?Choice_French -> ?Choice_French -> ?Coin2 -> ?Choice_Double -> ?Coin1 -> ?Go ->  
+!Cup_Double -> ?Info_None_4 -> !Info_Double_4 -> 
+===== END TRACE =====
+?Coin2 -> ?Choice_Wiener -> ?Coin2 -> ?Choice_French -> ?Coin2 -> ?Choice_Double -> ?Coin1 -> ?Go ->  
+!Cup_Double -> ?Info_None_4 -> !Info_Double_4 -> 
+===== START TRACE =====
+?Reset -> ?Choice_Espresso -> ?Go -> ?Info_Espresso_0 -> !Info_Espresso_0 ->  
+?Choice_Coffee -> ?Choice_Coffee -> ?Coin2 -> ?Choice_Coffee -> ?Reset -> !Change_2 -> ?Coin2 -> ?Choice_Coffee ->  
+?Coin1 -> ?Reset -> !Change_3 -> ?Reset -> ?Choice_Coffee -> ?Coin1 -> ?Coin2 -> ?Info_Coffee_3 ->  
+!Info_Coffee_3 -> ?Choice_Double -> ?Info_Double_3 -> !Info_Double_3 -> ?Choice_Wiener -> ?Choice_Wiener -> ?Info_Wiener_3 -> !Info_Wiener_3 ->  
+?Coin2 -> ?Choice_Double -> ?Choice_Wiener -> ?Coin1 -> ?Choice_French -> ?Reset -> !Change_6 -> ?Choice_Double ->  
+?Choice_French -> ?Choice_Double -> ?Choice_Double -> ?Coin1 -> ?Coin2 -> ?Choice_Espresso -> ?Choice_Espresso -> ?Go ->  
+!Cup_Espresso -> ?Choice_Double -> ?Reset -> ?Reset -> ?Choice_French -> ?Choice_Espresso -> ?Coin1 -> ?Info_Espresso_1 ->  
+!Info_Espresso_1 -> ?Coin2 -> ?Choice_Coffee -> ?Choice_Espresso -> ?Coin1 -> ?Choice_Coffee -> ?Coin1 -> ?Reset ->  
+!Change_5 -> ?Info_None_0 -> !Info_None_0 -> ?Choice_French -> ?Choice_French -> ?Choice_Wiener -> ?Info_Wiener_0 -> !Info_Wiener_0 ->  
+?Choice_Double -> ?Choice_Wiener -> ?Choice_Double -> ?Choice_Coffee -> ?Info_Coffee_0 -> !Info_Coffee_0 -> ?Info_Coffee_0 -> !Info_Coffee_0 ->  
+?Coin2 -> ?Go -> !Cup_Coffee -> ?Choice_French -> ?Choice_Espresso -> ?Info_Espresso_0 -> !Info_Espresso_0 -> ?Coin2 ->  
+?Reset -> !Change_2 -> ?Choice_Double -> ?Go -> ?Info_Double_0 -> !Info_Double_0 -> ?Choice_Espresso -> ?Coin2 ->  
+?Info_Espresso_2 -> !Info_Espresso_2 -> ?Coin2 -> ?Choice_Coffee -> ?Choice_Coffee -> ?Choice_Double -> ?Choice_Double -> ?Coin2 ->  
+?Coin1 -> ?Go -> !Cup_Double -> ?Info_None_4 -> !Info_Double_4 -> 
+===== END TRACE =====
+?Choice_Espresso -> ?Coin2 -> ?Coin2 -> ?Choice_Coffee -> ?Choice_Double -> ?Coin2 -> ?Coin1 -> ?Go ->  
+!Cup_Double -> ?Info_None_4 -> !Info_Double_4 -> 
+===== START TRACE =====
+?Coin2 -> ?Choice_Double -> ?Coin2 -> ?Choice_Espresso -> ?Coin2 ->  
+?Choice_Coffee -> ?Choice_Espresso -> ?Info_Espresso_6 -> !Info_Espresso_6 -> ?Choice_Espresso -> ?Choice_Wiener -> ?Choice_Coffee -> ?Choice_Double ->  
+?Coin1 -> ?Coin2 -> ?Choice_French -> ?Choice_French -> ?Reset -> !Change_9 -> ?Go -> ?Choice_Espresso ->  
+?Choice_Double -> ?Choice_French -> ?Choice_Double -> ?Info_Double_0 -> !Info_Double_0 -> ?Coin1 -> ?Choice_Double -> ?Go ->  
+?Choice_Double -> ?Coin2 -> ?Choice_Wiener -> ?Reset -> !Change_3 -> ?Choice_Wiener -> ?Coin2 -> ?Reset ->  
+!Change_2 -> ?Info_None_0 -> !Info_None_0 -> ?Choice_Wiener -> ?Info_Wiener_0 -> !Info_Wiener_0 -> ?Choice_Wiener -> ?Coin2 ->  
+?Reset -> !Change_2 -> ?Info_None_0 -> !Info_None_0 -> ?Choice_Double -> ?Choice_Coffee -> ?Info_Coffee_0 -> !Info_Coffee_0 ->  
+?Coin2 -> ?Choice_Espresso -> ?Coin2 -> ?Choice_French -> ?Choice_Wiener -> ?Go -> !Cup_Wiener -> ?Coin1 ->  
+?Choice_French -> ?Info_French_2 -> !Info_French_2 -> ?Choice_Double -> ?Coin2 -> ?Choice_Espresso -> ?Choice_Coffee -> ?Reset ->  
+!Change_4 -> ?Choice_Espresso -> ?Coin2 -> ?Info_Espresso_2 -> !Info_Espresso_2 -> ?Choice_Espresso -> ?Reset -> !Change_2 ->  
+?Choice_French -> ?Choice_Wiener -> ?Choice_Espresso -> ?Coin2 -> ?Coin2 -> ?Choice_Coffee -> ?Choice_Espresso -> ?Choice_French ->  
+?Choice_Coffee -> ?Go -> !Cup_Coffee -> ?Info_None_2 -> !Info_Coffee_2 -> 
+===== END TRACE =====
+?Coin2 -> ?Choice_Double -> ?Coin2 -> ?Choice_Espresso -> ?Choice_French -> ?Choice_Coffee -> ?Go -> !Cup_Coffee ->  
+?Info_None_2 -> !Info_Coffee_2 -> 
+Generated on: 2024-07-09 23:03:35.84067189 +0200
+===== SHRINKER: [Shrinking::BinaryShrink2] =====
+===== START TRACE =====
+?Reset -> ?Reset -> ?Go -> ?Choice_Double -> ?Go -> ?Coin1 -> ?Choice_Espresso -> ?Choice_Wiener ->  
+?Coin1 -> ?Choice_French -> ?Go -> ?Coin1 -> ?Choice_Wiener -> ?Choice_French -> ?Reset -> !Change_3 ->  
+?Choice_French -> ?Choice_Coffee -> ?Choice_Coffee -> ?Info_Coffee_0 -> !Info_Coffee_0 -> ?Coin1 -> ?Coin1 -> ?Go ->  
+!Cup_Coffee -> ?Choice_French -> ?Choice_Coffee -> ?Choice_Double -> ?Go -> ?Coin2 -> ?Coin2 -> ?Reset ->  
+!Change_4 -> ?Choice_Espresso -> ?Go -> ?Choice_Coffee -> ?Coin1 -> ?Reset -> !Change_1 -> ?Choice_French ->  
+?Choice_French -> ?Choice_French -> ?Go -> ?Choice_Coffee -> ?Choice_Wiener -> ?Coin2 -> ?Choice_Wiener -> ?Info_Wiener_2 ->  
+!Info_Wiener_2 -> ?Coin1 -> ?Reset -> !Change_3 -> ?Reset -> ?Go -> ?Info_None_0 -> !Info_None_0 ->  
+?Info_None_0 -> !Info_None_0 -> ?Coin1 -> ?Choice_Coffee -> ?Choice_Double -> ?Go -> ?Coin1 -> ?Choice_Coffee ->  
+?Choice_French -> ?Coin2 -> ?Choice_Double -> ?Go -> !Cup_Double -> ?Choice_Double -> ?Choice_Espresso -> ?Choice_Wiener ->  
+?Choice_Espresso -> ?Reset -> !Change_1 -> ?Choice_Espresso -> ?Coin1 -> ?Choice_Espresso -> ?Choice_French -> ?Choice_French ->  
+?Go -> ?Coin1 -> ?Info_French_2 -> !Info_French_2 -> ?Choice_Wiener -> ?Choice_Wiener -> ?Choice_Double -> ?Coin1 ->  
+?Choice_Double -> ?Coin2 -> ?Choice_Double -> ?Choice_Coffee -> ?Choice_Coffee -> ?Choice_Wiener -> ?Choice_Wiener -> ?Reset ->  
+!Change_5 -> ?Choice_Wiener -> ?Choice_Wiener -> ?Choice_Coffee -> ?Info_Coffee_0 -> !Info_Coffee_0 -> ?Reset -> ?Coin2 ->  
+?Choice_Wiener -> ?Choice_Espresso -> ?Info_Espresso_2 -> !Info_Espresso_2 -> ?Choice_Wiener -> ?Go -> ?Coin2 -> ?Choice_French ->  
+?Choice_French -> ?Choice_Double -> ?Choice_French -> ?Choice_French -> ?Coin2 -> ?Choice_Double -> ?Coin1 -> ?Go ->  
+!Cup_Double -> ?Info_None_4 -> !Info_Double_4 -> 
+===== END TRACE =====
+?Choice_Coffee -> ?Coin2 -> ?Choice_Espresso -> ?Coin2 -> ?Coin2 -> ?Coin1 -> ?Go -> !Cup_Espresso ->  
+?Info_None_4 -> !Info_Espresso_4 -> 
+===== START TRACE =====
+?Reset -> ?Choice_Espresso -> ?Go -> ?Info_Espresso_0 -> !Info_Espresso_0 -> ?Choice_Coffee ->  
+?Choice_Coffee -> ?Coin2 -> ?Choice_Coffee -> ?Reset -> !Change_2 -> ?Coin2 -> ?Choice_Coffee -> ?Coin1 ->  
+?Reset -> !Change_3 -> ?Reset -> ?Choice_Coffee -> ?Coin1 -> ?Coin2 -> ?Info_Coffee_3 -> !Info_Coffee_3 ->  
+?Choice_Double -> ?Info_Double_3 -> !Info_Double_3 -> ?Choice_Wiener -> ?Choice_Wiener -> ?Info_Wiener_3 -> !Info_Wiener_3 -> ?Coin2 ->  
+?Choice_Double -> ?Choice_Wiener -> ?Coin1 -> ?Choice_French -> ?Reset -> !Change_6 -> ?Choice_Double -> ?Choice_French ->  
+?Choice_Double -> ?Choice_Double -> ?Coin1 -> ?Coin2 -> ?Choice_Espresso -> ?Choice_Espresso -> ?Go -> !Cup_Espresso ->  
+?Choice_Double -> ?Reset -> ?Reset -> ?Choice_French -> ?Choice_Espresso -> ?Coin1 -> ?Info_Espresso_1 -> !Info_Espresso_1 ->  
+?Coin2 -> ?Choice_Coffee -> ?Choice_Espresso -> ?Coin1 -> ?Choice_Coffee -> ?Coin1 -> ?Reset -> !Change_5 ->  
+?Info_None_0 -> !Info_None_0 -> ?Choice_French -> ?Choice_French -> ?Choice_Wiener -> ?Info_Wiener_0 -> !Info_Wiener_0 -> ?Choice_Double ->  
+?Choice_Wiener -> ?Choice_Double -> ?Choice_Coffee -> ?Info_Coffee_0 -> !Info_Coffee_0 -> ?Info_Coffee_0 -> !Info_Coffee_0 -> ?Coin2 ->  
+?Go -> !Cup_Coffee -> ?Choice_French -> ?Choice_Espresso -> ?Info_Espresso_0 -> !Info_Espresso_0 -> ?Coin2 -> ?Reset ->  
+!Change_2 -> ?Choice_Double -> ?Go -> ?Info_Double_0 -> !Info_Double_0 -> ?Choice_Espresso -> ?Coin2 -> ?Info_Espresso_2 ->  
+!Info_Espresso_2 -> ?Coin2 -> ?Choice_Coffee -> ?Choice_Coffee -> ?Choice_Double -> ?Choice_Double -> ?Coin2 -> ?Coin1 ->  
+?Go -> !Cup_Double -> ?Info_None_4 -> !Info_Double_4 -> 
+===== END TRACE =====
+?Choice_Coffee -> ?Choice_Espresso -> ?Coin2 -> ?Coin2 -> ?Coin2 -> ?Coin1 -> ?Go -> !Cup_Espresso ->  
+?Info_None_4 -> !Info_Espresso_4 -> 
+===== START TRACE =====
+?Coin2 -> ?Choice_Double -> ?Coin2 -> ?Choice_Espresso -> ?Coin2 -> ?Choice_Coffee ->  
+?Choice_Espresso -> ?Info_Espresso_6 -> !Info_Espresso_6 -> ?Choice_Espresso -> ?Choice_Wiener -> ?Choice_Coffee -> ?Choice_Double -> ?Coin1 ->  
+?Coin2 -> ?Choice_French -> ?Choice_French -> ?Reset -> !Change_9 -> ?Go -> ?Choice_Espresso -> ?Choice_Double ->  
+?Choice_French -> ?Choice_Double -> ?Info_Double_0 -> !Info_Double_0 -> ?Coin1 -> ?Choice_Double -> ?Go -> ?Choice_Double ->  
+?Coin2 -> ?Choice_Wiener -> ?Reset -> !Change_3 -> ?Choice_Wiener -> ?Coin2 -> ?Reset -> !Change_2 ->  
+?Info_None_0 -> !Info_None_0 -> ?Choice_Wiener -> ?Info_Wiener_0 -> !Info_Wiener_0 -> ?Choice_Wiener -> ?Coin2 -> ?Reset ->  
+!Change_2 -> ?Info_None_0 -> !Info_None_0 -> ?Choice_Double -> ?Choice_Coffee -> ?Info_Coffee_0 -> !Info_Coffee_0 -> ?Coin2 ->  
+?Choice_Espresso -> ?Coin2 -> ?Choice_French -> ?Choice_Wiener -> ?Go -> !Cup_Wiener -> ?Coin1 -> ?Choice_French ->  
+?Info_French_2 -> !Info_French_2 -> ?Choice_Double -> ?Coin2 -> ?Choice_Espresso -> ?Choice_Coffee -> ?Reset -> !Change_4 ->  
+?Choice_Espresso -> ?Coin2 -> ?Info_Espresso_2 -> !Info_Espresso_2 -> ?Choice_Espresso -> ?Reset -> !Change_2 -> ?Choice_French ->  
+?Choice_Wiener -> ?Choice_Espresso -> ?Coin2 -> ?Coin2 -> ?Choice_Coffee -> ?Choice_Espresso -> ?Choice_French -> ?Choice_Coffee ->  
+?Go -> !Cup_Coffee -> ?Info_None_2 -> !Info_Coffee_2 -> 
+===== END TRACE =====
+?Coin2 -> ?Coin2 -> ?Choice_Coffee -> ?Go -> !Cup_Coffee -> ?Info_None_2 -> !Info_Coffee_2 -> 
+Generated on: 2024-07-09 23:03:35.905524817 +0200
+===== SHRINKER: [Shrinking::CycleShrink2, Shrinking::ElemShrink2] =====
+===== START TRACE =====
+?Reset -> ?Reset -> ?Go -> ?Choice_Double -> ?Go -> ?Coin1 -> ?Choice_Espresso -> ?Choice_Wiener ->  
+?Coin1 -> ?Choice_French -> ?Go -> ?Coin1 -> ?Choice_Wiener -> ?Choice_French -> ?Reset -> !Change_3 ->  
+?Choice_French -> ?Choice_Coffee -> ?Choice_Coffee -> ?Info_Coffee_0 -> !Info_Coffee_0 -> ?Coin1 -> ?Coin1 -> ?Go ->  
+!Cup_Coffee -> ?Choice_French -> ?Choice_Coffee -> ?Choice_Double -> ?Go -> ?Coin2 -> ?Coin2 -> ?Reset ->  
+!Change_4 -> ?Choice_Espresso -> ?Go -> ?Choice_Coffee -> ?Coin1 -> ?Reset -> !Change_1 -> ?Choice_French ->  
+?Choice_French -> ?Choice_French -> ?Go -> ?Choice_Coffee -> ?Choice_Wiener -> ?Coin2 -> ?Choice_Wiener -> ?Info_Wiener_2 ->  
+!Info_Wiener_2 -> ?Coin1 -> ?Reset -> !Change_3 -> ?Reset -> ?Go -> ?Info_None_0 -> !Info_None_0 ->  
+?Info_None_0 -> !Info_None_0 -> ?Coin1 -> ?Choice_Coffee -> ?Choice_Double -> ?Go -> ?Coin1 -> ?Choice_Coffee ->  
+?Choice_French -> ?Coin2 -> ?Choice_Double -> ?Go -> !Cup_Double -> ?Choice_Double -> ?Choice_Espresso -> ?Choice_Wiener ->  
+?Choice_Espresso -> ?Reset -> !Change_1 -> ?Choice_Espresso -> ?Coin1 -> ?Choice_Espresso -> ?Choice_French -> ?Choice_French ->  
+?Go -> ?Coin1 -> ?Info_French_2 -> !Info_French_2 -> ?Choice_Wiener -> ?Choice_Wiener -> ?Choice_Double -> ?Coin1 ->  
+?Choice_Double -> ?Coin2 -> ?Choice_Double -> ?Choice_Coffee -> ?Choice_Coffee -> ?Choice_Wiener -> ?Choice_Wiener -> ?Reset ->  
+!Change_5 -> ?Choice_Wiener -> ?Choice_Wiener -> ?Choice_Coffee -> ?Info_Coffee_0 -> !Info_Coffee_0 -> ?Reset -> ?Coin2 ->  
+?Choice_Wiener -> ?Choice_Espresso -> ?Info_Espresso_2 -> !Info_Espresso_2 -> ?Choice_Wiener -> ?Go -> ?Coin2 -> ?Choice_French ->  
+?Choice_French -> ?Choice_Double -> ?Choice_French -> ?Choice_French -> ?Coin2 -> ?Choice_Double -> ?Coin1 -> ?Go ->  
+!Cup_Double -> ?Info_None_4 -> !Info_Double_4 -> 
+===== END TRACE =====
+?Coin2 -> ?Coin2 -> ?Coin2 -> ?Choice_Double -> ?Coin1 -> ?Go -> !Cup_Double -> ?Info_None_4 ->  
+!Info_Double_4 -> 
+===== START TRACE =====
+?Reset -> ?Choice_Espresso -> ?Go -> ?Info_Espresso_0 -> !Info_Espresso_0 -> ?Choice_Coffee -> ?Choice_Coffee ->  
+?Coin2 -> ?Choice_Coffee -> ?Reset -> !Change_2 -> ?Coin2 -> ?Choice_Coffee -> ?Coin1 -> ?Reset ->  
+!Change_3 -> ?Reset -> ?Choice_Coffee -> ?Coin1 -> ?Coin2 -> ?Info_Coffee_3 -> !Info_Coffee_3 -> ?Choice_Double ->  
+?Info_Double_3 -> !Info_Double_3 -> ?Choice_Wiener -> ?Choice_Wiener -> ?Info_Wiener_3 -> !Info_Wiener_3 -> ?Coin2 -> ?Choice_Double ->  
+?Choice_Wiener -> ?Coin1 -> ?Choice_French -> ?Reset -> !Change_6 -> ?Choice_Double -> ?Choice_French -> ?Choice_Double ->  
+?Choice_Double -> ?Coin1 -> ?Coin2 -> ?Choice_Espresso -> ?Choice_Espresso -> ?Go -> !Cup_Espresso -> ?Choice_Double ->  
+?Reset -> ?Reset -> ?Choice_French -> ?Choice_Espresso -> ?Coin1 -> ?Info_Espresso_1 -> !Info_Espresso_1 -> ?Coin2 ->  
+?Choice_Coffee -> ?Choice_Espresso -> ?Coin1 -> ?Choice_Coffee -> ?Coin1 -> ?Reset -> !Change_5 -> ?Info_None_0 ->  
+!Info_None_0 -> ?Choice_French -> ?Choice_French -> ?Choice_Wiener -> ?Info_Wiener_0 -> !Info_Wiener_0 -> ?Choice_Double -> ?Choice_Wiener ->  
+?Choice_Double -> ?Choice_Coffee -> ?Info_Coffee_0 -> !Info_Coffee_0 -> ?Info_Coffee_0 -> !Info_Coffee_0 -> ?Coin2 -> ?Go ->  
+!Cup_Coffee -> ?Choice_French -> ?Choice_Espresso -> ?Info_Espresso_0 -> !Info_Espresso_0 -> ?Coin2 -> ?Reset -> !Change_2 ->  
+?Choice_Double -> ?Go -> ?Info_Double_0 -> !Info_Double_0 -> ?Choice_Espresso -> ?Coin2 -> ?Info_Espresso_2 -> !Info_Espresso_2 ->  
+?Coin2 -> ?Choice_Coffee -> ?Choice_Coffee -> ?Choice_Double -> ?Choice_Double -> ?Coin2 -> ?Coin1 -> ?Go ->  
+!Cup_Double -> ?Info_None_4 -> !Info_Double_4 -> 
+===== END TRACE =====
+?Coin2 -> ?Coin2 -> ?Choice_Double -> ?Coin2 -> ?Coin1 -> ?Go -> !Cup_Double -> ?Info_None_4 ->  
+!Info_Double_4 -> 
+===== START TRACE =====
+?Coin2 -> ?Choice_Double -> ?Coin2 -> ?Choice_Espresso -> ?Coin2 -> ?Choice_Coffee -> ?Choice_Espresso ->  
+?Info_Espresso_6 -> !Info_Espresso_6 -> ?Choice_Espresso -> ?Choice_Wiener -> ?Choice_Coffee -> ?Choice_Double -> ?Coin1 -> ?Coin2 ->  
+?Choice_French -> ?Choice_French -> ?Reset -> !Change_9 -> ?Go -> ?Choice_Espresso -> ?Choice_Double -> ?Choice_French ->  
+?Choice_Double -> ?Info_Double_0 -> !Info_Double_0 -> ?Coin1 -> ?Choice_Double -> ?Go -> ?Choice_Double -> ?Coin2 ->  
+?Choice_Wiener -> ?Reset -> !Change_3 -> ?Choice_Wiener -> ?Coin2 -> ?Reset -> !Change_2 -> ?Info_None_0 ->  
+!Info_None_0 -> ?Choice_Wiener -> ?Info_Wiener_0 -> !Info_Wiener_0 -> ?Choice_Wiener -> ?Coin2 -> ?Reset -> !Change_2 ->  
+?Info_None_0 -> !Info_None_0 -> ?Choice_Double -> ?Choice_Coffee -> ?Info_Coffee_0 -> !Info_Coffee_0 -> ?Coin2 -> ?Choice_Espresso ->  
+?Coin2 -> ?Choice_French -> ?Choice_Wiener -> ?Go -> !Cup_Wiener -> ?Coin1 -> ?Choice_French -> ?Info_French_2 ->  
+!Info_French_2 -> ?Choice_Double -> ?Coin2 -> ?Choice_Espresso -> ?Choice_Coffee -> ?Reset -> !Change_4 -> ?Choice_Espresso ->  
+?Coin2 -> ?Info_Espresso_2 -> !Info_Espresso_2 -> ?Choice_Espresso -> ?Reset -> !Change_2 -> ?Choice_French -> ?Choice_Wiener ->  
+?Choice_Espresso -> ?Coin2 -> ?Coin2 -> ?Choice_Coffee -> ?Choice_Espresso -> ?Choice_French -> ?Choice_Coffee -> ?Go ->  
+!Cup_Coffee -> ?Info_None_2 -> !Info_Coffee_2 -> 
+===== END TRACE =====
+?Coin2 -> ?Coin2 -> ?Choice_Coffee -> ?Go -> !Cup_Coffee -> ?Info_None_2 -> !Info_Coffee_2 -> 
+Generated on: 2024-07-09 23:03:35.981702656 +0200
+===== SHRINKER: [Shrinking::CycleShrink2, Shrinking::BinaryShrink2] =====
+===== START TRACE =====
+?Reset -> ?Reset -> ?Go -> ?Choice_Double -> ?Go -> ?Coin1 -> ?Choice_Espresso -> ?Choice_Wiener ->  
+?Coin1 -> ?Choice_French -> ?Go -> ?Coin1 -> ?Choice_Wiener -> ?Choice_French -> ?Reset -> !Change_3 ->  
+?Choice_French -> ?Choice_Coffee -> ?Choice_Coffee -> ?Info_Coffee_0 -> !Info_Coffee_0 -> ?Coin1 -> ?Coin1 -> ?Go ->  
+!Cup_Coffee -> ?Choice_French -> ?Choice_Coffee -> ?Choice_Double -> ?Go -> ?Coin2 -> ?Coin2 -> ?Reset ->  
+!Change_4 -> ?Choice_Espresso -> ?Go -> ?Choice_Coffee -> ?Coin1 -> ?Reset -> !Change_1 -> ?Choice_French ->  
+?Choice_French -> ?Choice_French -> ?Go -> ?Choice_Coffee -> ?Choice_Wiener -> ?Coin2 -> ?Choice_Wiener -> ?Info_Wiener_2 ->  
+!Info_Wiener_2 -> ?Coin1 -> ?Reset -> !Change_3 -> ?Reset -> ?Go -> ?Info_None_0 -> !Info_None_0 ->  
+?Info_None_0 -> !Info_None_0 -> ?Coin1 -> ?Choice_Coffee -> ?Choice_Double -> ?Go -> ?Coin1 -> ?Choice_Coffee ->  
+?Choice_French -> ?Coin2 -> ?Choice_Double -> ?Go -> !Cup_Double -> ?Choice_Double -> ?Choice_Espresso -> ?Choice_Wiener ->  
+?Choice_Espresso -> ?Reset -> !Change_1 -> ?Choice_Espresso -> ?Coin1 -> ?Choice_Espresso -> ?Choice_French -> ?Choice_French ->  
+?Go -> ?Coin1 -> ?Info_French_2 -> !Info_French_2 -> ?Choice_Wiener -> ?Choice_Wiener -> ?Choice_Double -> ?Coin1 ->  
+?Choice_Double -> ?Coin2 -> ?Choice_Double -> ?Choice_Coffee -> ?Choice_Coffee -> ?Choice_Wiener -> ?Choice_Wiener -> ?Reset ->  
+!Change_5 -> ?Choice_Wiener -> ?Choice_Wiener -> ?Choice_Coffee -> ?Info_Coffee_0 -> !Info_Coffee_0 -> ?Reset -> ?Coin2 ->  
+?Choice_Wiener -> ?Choice_Espresso -> ?Info_Espresso_2 -> !Info_Espresso_2 -> ?Choice_Wiener -> ?Go -> ?Coin2 -> ?Choice_French ->  
+?Choice_French -> ?Choice_Double -> ?Choice_French -> ?Choice_French -> ?Coin2 -> ?Choice_Double -> ?Coin1 -> ?Go ->  
+!Cup_Double -> ?Info_None_4 -> !Info_Double_4 -> 
+===== END TRACE =====
+?Coin2 -> ?Coin2 -> ?Coin2 -> ?Choice_Double -> ?Coin1 -> ?Go -> !Cup_Double -> ?Info_None_4 ->  
+!Info_Double_4 -> 
+===== START TRACE =====
+?Reset -> ?Choice_Espresso -> ?Go -> ?Info_Espresso_0 -> !Info_Espresso_0 -> ?Choice_Coffee -> ?Choice_Coffee ->  
+?Coin2 -> ?Choice_Coffee -> ?Reset -> !Change_2 -> ?Coin2 -> ?Choice_Coffee -> ?Coin1 -> ?Reset ->  
+!Change_3 -> ?Reset -> ?Choice_Coffee -> ?Coin1 -> ?Coin2 -> ?Info_Coffee_3 -> !Info_Coffee_3 -> ?Choice_Double ->  
+?Info_Double_3 -> !Info_Double_3 -> ?Choice_Wiener -> ?Choice_Wiener -> ?Info_Wiener_3 -> !Info_Wiener_3 -> ?Coin2 -> ?Choice_Double ->  
+?Choice_Wiener -> ?Coin1 -> ?Choice_French -> ?Reset -> !Change_6 -> ?Choice_Double -> ?Choice_French -> ?Choice_Double ->  
+?Choice_Double -> ?Coin1 -> ?Coin2 -> ?Choice_Espresso -> ?Choice_Espresso -> ?Go -> !Cup_Espresso -> ?Choice_Double ->  
+?Reset -> ?Reset -> ?Choice_French -> ?Choice_Espresso -> ?Coin1 -> ?Info_Espresso_1 -> !Info_Espresso_1 -> ?Coin2 ->  
+?Choice_Coffee -> ?Choice_Espresso -> ?Coin1 -> ?Choice_Coffee -> ?Coin1 -> ?Reset -> !Change_5 -> ?Info_None_0 ->  
+!Info_None_0 -> ?Choice_French -> ?Choice_French -> ?Choice_Wiener -> ?Info_Wiener_0 -> !Info_Wiener_0 -> ?Choice_Double -> ?Choice_Wiener ->  
+?Choice_Double -> ?Choice_Coffee -> ?Info_Coffee_0 -> !Info_Coffee_0 -> ?Info_Coffee_0 -> !Info_Coffee_0 -> ?Coin2 -> ?Go ->  
+!Cup_Coffee -> ?Choice_French -> ?Choice_Espresso -> ?Info_Espresso_0 -> !Info_Espresso_0 -> ?Coin2 -> ?Reset -> !Change_2 ->  
+?Choice_Double -> ?Go -> ?Info_Double_0 -> !Info_Double_0 -> ?Choice_Espresso -> ?Coin2 -> ?Info_Espresso_2 -> !Info_Espresso_2 ->  
+?Coin2 -> ?Choice_Coffee -> ?Choice_Coffee -> ?Choice_Double -> ?Choice_Double -> ?Coin2 -> ?Coin1 -> ?Go ->  
+!Cup_Double -> ?Info_None_4 -> !Info_Double_4 -> 
+===== END TRACE =====
+?Coin2 -> ?Coin2 -> ?Choice_Double -> ?Coin2 -> ?Coin1 -> ?Go -> !Cup_Double -> ?Info_None_4 ->  
+!Info_Double_4 -> 
+===== START TRACE =====
+?Coin2 -> ?Choice_Double -> ?Coin2 -> ?Choice_Espresso -> ?Coin2 -> ?Choice_Coffee -> ?Choice_Espresso ->  
+?Info_Espresso_6 -> !Info_Espresso_6 -> ?Choice_Espresso -> ?Choice_Wiener -> ?Choice_Coffee -> ?Choice_Double -> ?Coin1 -> ?Coin2 ->  
+?Choice_French -> ?Choice_French -> ?Reset -> !Change_9 -> ?Go -> ?Choice_Espresso -> ?Choice_Double -> ?Choice_French ->  
+?Choice_Double -> ?Info_Double_0 -> !Info_Double_0 -> ?Coin1 -> ?Choice_Double -> ?Go -> ?Choice_Double -> ?Coin2 ->  
+?Choice_Wiener -> ?Reset -> !Change_3 -> ?Choice_Wiener -> ?Coin2 -> ?Reset -> !Change_2 -> ?Info_None_0 ->  
+!Info_None_0 -> ?Choice_Wiener -> ?Info_Wiener_0 -> !Info_Wiener_0 -> ?Choice_Wiener -> ?Coin2 -> ?Reset -> !Change_2 ->  
+?Info_None_0 -> !Info_None_0 -> ?Choice_Double -> ?Choice_Coffee -> ?Info_Coffee_0 -> !Info_Coffee_0 -> ?Coin2 -> ?Choice_Espresso ->  
+?Coin2 -> ?Choice_French -> ?Choice_Wiener -> ?Go -> !Cup_Wiener -> ?Coin1 -> ?Choice_French -> ?Info_French_2 ->  
+!Info_French_2 -> ?Choice_Double -> ?Coin2 -> ?Choice_Espresso -> ?Choice_Coffee -> ?Reset -> !Change_4 -> ?Choice_Espresso ->  
+?Coin2 -> ?Info_Espresso_2 -> !Info_Espresso_2 -> ?Choice_Espresso -> ?Reset -> !Change_2 -> ?Choice_French -> ?Choice_Wiener ->  
+?Choice_Espresso -> ?Coin2 -> ?Coin2 -> ?Choice_Coffee -> ?Choice_Espresso -> ?Choice_French -> ?Choice_Coffee -> ?Go ->  
+!Cup_Coffee -> ?Info_None_2 -> !Info_Coffee_2 -> 
+===== END TRACE =====
+?Coin2 -> ?Coin2 -> ?Choice_Coffee -> ?Go -> !Cup_Coffee -> ?Info_None_2 -> !Info_Coffee_2 -> 

@@ -1,0 +1,910 @@
+Generated on: 2024-07-09 21:35:57.693515738 +0200
+===== SHRINKER: [Shrinking::ShortestPathShrinker] =====
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+Generated on: 2024-07-09 21:35:57.781513783 +0200
+===== SHRINKER: [Shrinking::ShortestPathLabelCount] =====
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+Generated on: 2024-07-09 21:35:57.803457788 +0200
+===== SHRINKER: [Shrinking::PartialOrderShrinker] =====
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+Generated on: 2024-07-09 21:35:57.85582085 +0200
+===== SHRINKER: [Shrinking::ShortestPathVisited] =====
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+Generated on: 2024-07-09 21:35:57.92148019 +0200
+===== SHRINKER: [Shrinking::ShortestPathLabelCountReversed] =====
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+Generated on: 2024-07-09 21:35:57.953987491 +0200
+===== SHRINKER: [Shrinking::ShortestPathStatesLabelCount] =====
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+Generated on: 2024-07-09 21:35:57.979389306 +0200
+===== SHRINKER: [Shrinking::ShortestPathStatesLabelCountReversed] =====
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+Generated on: 2024-07-09 21:35:58.02588558 +0200
+===== SHRINKER: [Shrinking::CycleShrink2] =====
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+Generated on: 2024-07-09 21:35:58.059714419 +0200
+===== SHRINKER: [Shrinking::BinaryShrink2] =====
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_17"} - {"smartdoor"=>""}
+ v ! invalid_command [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_17"} - {"smartdoor"=>""}
+ v ! invalid_command [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+Generated on: 2024-07-09 21:35:58.09792407 +0200
+===== SHRINKER: [Shrinking::CycleShrink2, Shrinking::ElemShrink2] =====
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+Generated on: 2024-07-09 21:35:58.137162452 +0200
+===== SHRINKER: [Shrinking::CycleShrink2, Shrinking::BinaryShrink2] =====
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? open [{}] v 
+  {"smartdoor"=>"_4"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  {"smartdoor"=>"opened"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_15"} - {"smartdoor"=>""}
+ v ! opened [{}] v 
+  

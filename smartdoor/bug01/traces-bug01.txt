@@ -1,0 +1,561 @@
+Generated on: 2024-07-09 21:35:57.660577583 +0200
+===== SHRINKER: [Shrinking::ShortestPathShrinker] =====
+===== START TRACE =====
+?open -> !opened -> ?lock_correct_passcode -> !invalid_command -> ?unlock_correct_passcode -> !invalid_command -> ?open -> !invalid_command ->  
+?unlock_incorrect_passcode -> !invalid_command -> ?lock_correct_passcode -> !invalid_command -> ?unlock_correct_passcode -> !invalid_command -> ?lock_correct_passcode -> !invalid_command ->  
+?unlock_correct_passcode -> !invalid_command -> ?lock_correct_passcode -> !invalid_command -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?close -> !invalid_command -> ?lock_correct_passcode -> !locked ->  
+?close -> !invalid_command -> ?close -> !invalid_command -> ?close -> !invalid_command -> ?lock_correct_passcode -> !invalid_command ->  
+?unlock_correct_passcode -> !unlocked -> ?lock_invalid_passcode -> !invalid_passcode -> ?unlock_correct_passcode -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command ->  
+?close -> !invalid_command -> ?close -> !invalid_command -> ?close -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command ->  
+?open -> !opened -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?lock_correct_passcode -> !locked -> ?lock_correct_passcode -> !invalid_command ->  
+?unlock_correct_passcode -> !unlocked -> ?unlock_correct_passcode -> !invalid_command -> ?lock_invalid_passcode -> !invalid_passcode -> ?unlock_incorrect_passcode -> !invalid_command ->  
+?open -> !opened -> ?lock_correct_passcode -> !invalid_command -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?open -> !opened -> ?lock_correct_passcode -> !invalid_command ->  
+?lock_correct_passcode -> !invalid_command -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?unlock_correct_passcode -> !invalid_command -> ?lock_correct_passcode -> !locked ->  
+?open -> !invalid_command -> ?unlock_correct_passcode -> !unlocked -> ?open -> !opened -> ?lock_correct_passcode -> !invalid_command ->  
+?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?lock_invalid_passcode -> !invalid_passcode -> ?lock_invalid_passcode -> !invalid_passcode ->  
+?open -> !opened -> ?unlock_correct_passcode -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command -> ?open -> !invalid_command ->  
+?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?open -> !opened -> ?unlock_correct_passcode -> !invalid_command ->  
+?unlock_incorrect_passcode -> !invalid_command -> ?unlock_correct_passcode -> !invalid_command -> ?open -> !invalid_command -> ?open -> !invalid_command ->  
+?unlock_correct_passcode -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?open -> !opened -> ?open -> !invalid_command ->  
+?unlock_incorrect_passcode -> !invalid_command -> ?unlock_correct_passcode -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command -> ?lock_correct_passcode -> !invalid_command ->  
+?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+Generated on: 2024-07-09 21:35:57.743450347 +0200
+===== SHRINKER: [Shrinking::ShortestPathLabelCount] =====
+===== START TRACE =====
+?open -> !opened -> ?lock_correct_passcode -> !invalid_command -> ?unlock_correct_passcode -> !invalid_command -> ?open -> !invalid_command ->  
+?unlock_incorrect_passcode -> !invalid_command -> ?lock_correct_passcode -> !invalid_command -> ?unlock_correct_passcode -> !invalid_command -> ?lock_correct_passcode -> !invalid_command ->  
+?unlock_correct_passcode -> !invalid_command -> ?lock_correct_passcode -> !invalid_command -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?close -> !invalid_command -> ?lock_correct_passcode -> !locked ->  
+?close -> !invalid_command -> ?close -> !invalid_command -> ?close -> !invalid_command -> ?lock_correct_passcode -> !invalid_command ->  
+?unlock_correct_passcode -> !unlocked -> ?lock_invalid_passcode -> !invalid_passcode -> ?unlock_correct_passcode -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command ->  
+?close -> !invalid_command -> ?close -> !invalid_command -> ?close -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command ->  
+?open -> !opened -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?lock_correct_passcode -> !locked -> ?lock_correct_passcode -> !invalid_command ->  
+?unlock_correct_passcode -> !unlocked -> ?unlock_correct_passcode -> !invalid_command -> ?lock_invalid_passcode -> !invalid_passcode -> ?unlock_incorrect_passcode -> !invalid_command ->  
+?open -> !opened -> ?lock_correct_passcode -> !invalid_command -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?open -> !opened -> ?lock_correct_passcode -> !invalid_command ->  
+?lock_correct_passcode -> !invalid_command -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?unlock_correct_passcode -> !invalid_command -> ?lock_correct_passcode -> !locked ->  
+?open -> !invalid_command -> ?unlock_correct_passcode -> !unlocked -> ?open -> !opened -> ?lock_correct_passcode -> !invalid_command ->  
+?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?lock_invalid_passcode -> !invalid_passcode -> ?lock_invalid_passcode -> !invalid_passcode ->  
+?open -> !opened -> ?unlock_correct_passcode -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command -> ?open -> !invalid_command ->  
+?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?open -> !opened -> ?unlock_correct_passcode -> !invalid_command ->  
+?unlock_incorrect_passcode -> !invalid_command -> ?unlock_correct_passcode -> !invalid_command -> ?open -> !invalid_command -> ?open -> !invalid_command ->  
+?unlock_correct_passcode -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?open -> !opened -> ?open -> !invalid_command ->  
+?unlock_incorrect_passcode -> !invalid_command -> ?unlock_correct_passcode -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command -> ?lock_correct_passcode -> !invalid_command ->  
+?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+Generated on: 2024-07-09 21:35:57.797031003 +0200
+===== SHRINKER: [Shrinking::PartialOrderShrinker] =====
+===== START TRACE =====
+?open -> !opened -> ?lock_correct_passcode -> !invalid_command -> ?unlock_correct_passcode -> !invalid_command -> ?open -> !invalid_command ->  
+?unlock_incorrect_passcode -> !invalid_command -> ?lock_correct_passcode -> !invalid_command -> ?unlock_correct_passcode -> !invalid_command -> ?lock_correct_passcode -> !invalid_command ->  
+?unlock_correct_passcode -> !invalid_command -> ?lock_correct_passcode -> !invalid_command -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?close -> !invalid_command -> ?lock_correct_passcode -> !locked ->  
+?close -> !invalid_command -> ?close -> !invalid_command -> ?close -> !invalid_command -> ?lock_correct_passcode -> !invalid_command ->  
+?unlock_correct_passcode -> !unlocked -> ?lock_invalid_passcode -> !invalid_passcode -> ?unlock_correct_passcode -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command ->  
+?close -> !invalid_command -> ?close -> !invalid_command -> ?close -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command ->  
+?open -> !opened -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?lock_correct_passcode -> !locked -> ?lock_correct_passcode -> !invalid_command ->  
+?unlock_correct_passcode -> !unlocked -> ?unlock_correct_passcode -> !invalid_command -> ?lock_invalid_passcode -> !invalid_passcode -> ?unlock_incorrect_passcode -> !invalid_command ->  
+?open -> !opened -> ?lock_correct_passcode -> !invalid_command -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?open -> !opened -> ?lock_correct_passcode -> !invalid_command ->  
+?lock_correct_passcode -> !invalid_command -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?unlock_correct_passcode -> !invalid_command -> ?lock_correct_passcode -> !locked ->  
+?open -> !invalid_command -> ?unlock_correct_passcode -> !unlocked -> ?open -> !opened -> ?lock_correct_passcode -> !invalid_command ->  
+?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?lock_invalid_passcode -> !invalid_passcode -> ?lock_invalid_passcode -> !invalid_passcode ->  
+?open -> !opened -> ?unlock_correct_passcode -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command -> ?open -> !invalid_command ->  
+?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?open -> !opened -> ?unlock_correct_passcode -> !invalid_command ->  
+?unlock_incorrect_passcode -> !invalid_command -> ?unlock_correct_passcode -> !invalid_command -> ?open -> !invalid_command -> ?open -> !invalid_command ->  
+?unlock_correct_passcode -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?open -> !opened -> ?open -> !invalid_command ->  
+?unlock_incorrect_passcode -> !invalid_command -> ?unlock_correct_passcode -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command -> ?lock_correct_passcode -> !invalid_command ->  
+?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+Generated on: 2024-07-09 21:35:57.833780576 +0200
+===== SHRINKER: [Shrinking::ShortestPathVisited] =====
+===== START TRACE =====
+?open -> !opened -> ?lock_correct_passcode -> !invalid_command -> ?unlock_correct_passcode -> !invalid_command -> ?open -> !invalid_command ->  
+?unlock_incorrect_passcode -> !invalid_command -> ?lock_correct_passcode -> !invalid_command -> ?unlock_correct_passcode -> !invalid_command -> ?lock_correct_passcode -> !invalid_command ->  
+?unlock_correct_passcode -> !invalid_command -> ?lock_correct_passcode -> !invalid_command -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?close -> !invalid_command -> ?lock_correct_passcode -> !locked ->  
+?close -> !invalid_command -> ?close -> !invalid_command -> ?close -> !invalid_command -> ?lock_correct_passcode -> !invalid_command ->  
+?unlock_correct_passcode -> !unlocked -> ?lock_invalid_passcode -> !invalid_passcode -> ?unlock_correct_passcode -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command ->  
+?close -> !invalid_command -> ?close -> !invalid_command -> ?close -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command ->  
+?open -> !opened -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?lock_correct_passcode -> !locked -> ?lock_correct_passcode -> !invalid_command ->  
+?unlock_correct_passcode -> !unlocked -> ?unlock_correct_passcode -> !invalid_command -> ?lock_invalid_passcode -> !invalid_passcode -> ?unlock_incorrect_passcode -> !invalid_command ->  
+?open -> !opened -> ?lock_correct_passcode -> !invalid_command -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?open -> !opened -> ?lock_correct_passcode -> !invalid_command ->  
+?lock_correct_passcode -> !invalid_command -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?unlock_correct_passcode -> !invalid_command -> ?lock_correct_passcode -> !locked ->  
+?open -> !invalid_command -> ?unlock_correct_passcode -> !unlocked -> ?open -> !opened -> ?lock_correct_passcode -> !invalid_command ->  
+?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?lock_invalid_passcode -> !invalid_passcode -> ?lock_invalid_passcode -> !invalid_passcode ->  
+?open -> !opened -> ?unlock_correct_passcode -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command -> ?open -> !invalid_command ->  
+?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?open -> !opened -> ?unlock_correct_passcode -> !invalid_command ->  
+?unlock_incorrect_passcode -> !invalid_command -> ?unlock_correct_passcode -> !invalid_command -> ?open -> !invalid_command -> ?open -> !invalid_command ->  
+?unlock_correct_passcode -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?open -> !opened -> ?open -> !invalid_command ->  
+?unlock_incorrect_passcode -> !invalid_command -> ?unlock_correct_passcode -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command -> ?lock_correct_passcode -> !invalid_command ->  
+?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+Generated on: 2024-07-09 21:35:57.897328185 +0200
+===== SHRINKER: [Shrinking::ShortestPathLabelCountReversed] =====
+===== START TRACE =====
+?open -> !opened -> ?lock_correct_passcode -> !invalid_command -> ?unlock_correct_passcode -> !invalid_command -> ?open -> !invalid_command ->  
+?unlock_incorrect_passcode -> !invalid_command -> ?lock_correct_passcode -> !invalid_command -> ?unlock_correct_passcode -> !invalid_command -> ?lock_correct_passcode -> !invalid_command ->  
+?unlock_correct_passcode -> !invalid_command -> ?lock_correct_passcode -> !invalid_command -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?close -> !invalid_command -> ?lock_correct_passcode -> !locked ->  
+?close -> !invalid_command -> ?close -> !invalid_command -> ?close -> !invalid_command -> ?lock_correct_passcode -> !invalid_command ->  
+?unlock_correct_passcode -> !unlocked -> ?lock_invalid_passcode -> !invalid_passcode -> ?unlock_correct_passcode -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command ->  
+?close -> !invalid_command -> ?close -> !invalid_command -> ?close -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command ->  
+?open -> !opened -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?lock_correct_passcode -> !locked -> ?lock_correct_passcode -> !invalid_command ->  
+?unlock_correct_passcode -> !unlocked -> ?unlock_correct_passcode -> !invalid_command -> ?lock_invalid_passcode -> !invalid_passcode -> ?unlock_incorrect_passcode -> !invalid_command ->  
+?open -> !opened -> ?lock_correct_passcode -> !invalid_command -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?open -> !opened -> ?lock_correct_passcode -> !invalid_command ->  
+?lock_correct_passcode -> !invalid_command -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?unlock_correct_passcode -> !invalid_command -> ?lock_correct_passcode -> !locked ->  
+?open -> !invalid_command -> ?unlock_correct_passcode -> !unlocked -> ?open -> !opened -> ?lock_correct_passcode -> !invalid_command ->  
+?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?lock_invalid_passcode -> !invalid_passcode -> ?lock_invalid_passcode -> !invalid_passcode ->  
+?open -> !opened -> ?unlock_correct_passcode -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command -> ?open -> !invalid_command ->  
+?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?open -> !opened -> ?unlock_correct_passcode -> !invalid_command ->  
+?unlock_incorrect_passcode -> !invalid_command -> ?unlock_correct_passcode -> !invalid_command -> ?open -> !invalid_command -> ?open -> !invalid_command ->  
+?unlock_correct_passcode -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?open -> !opened -> ?open -> !invalid_command ->  
+?unlock_incorrect_passcode -> !invalid_command -> ?unlock_correct_passcode -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command -> ?lock_correct_passcode -> !invalid_command ->  
+?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+Generated on: 2024-07-09 21:35:57.934677584 +0200
+===== SHRINKER: [Shrinking::ShortestPathStatesLabelCount] =====
+===== START TRACE =====
+?open -> !opened -> ?lock_correct_passcode -> !invalid_command -> ?unlock_correct_passcode -> !invalid_command -> ?open -> !invalid_command ->  
+?unlock_incorrect_passcode -> !invalid_command -> ?lock_correct_passcode -> !invalid_command -> ?unlock_correct_passcode -> !invalid_command -> ?lock_correct_passcode -> !invalid_command ->  
+?unlock_correct_passcode -> !invalid_command -> ?lock_correct_passcode -> !invalid_command -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?close -> !invalid_command -> ?lock_correct_passcode -> !locked ->  
+?close -> !invalid_command -> ?close -> !invalid_command -> ?close -> !invalid_command -> ?lock_correct_passcode -> !invalid_command ->  
+?unlock_correct_passcode -> !unlocked -> ?lock_invalid_passcode -> !invalid_passcode -> ?unlock_correct_passcode -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command ->  
+?close -> !invalid_command -> ?close -> !invalid_command -> ?close -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command ->  
+?open -> !opened -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?lock_correct_passcode -> !locked -> ?lock_correct_passcode -> !invalid_command ->  
+?unlock_correct_passcode -> !unlocked -> ?unlock_correct_passcode -> !invalid_command -> ?lock_invalid_passcode -> !invalid_passcode -> ?unlock_incorrect_passcode -> !invalid_command ->  
+?open -> !opened -> ?lock_correct_passcode -> !invalid_command -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?open -> !opened -> ?lock_correct_passcode -> !invalid_command ->  
+?lock_correct_passcode -> !invalid_command -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?unlock_correct_passcode -> !invalid_command -> ?lock_correct_passcode -> !locked ->  
+?open -> !invalid_command -> ?unlock_correct_passcode -> !unlocked -> ?open -> !opened -> ?lock_correct_passcode -> !invalid_command ->  
+?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?lock_invalid_passcode -> !invalid_passcode -> ?lock_invalid_passcode -> !invalid_passcode ->  
+?open -> !opened -> ?unlock_correct_passcode -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command -> ?open -> !invalid_command ->  
+?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?open -> !opened -> ?unlock_correct_passcode -> !invalid_command ->  
+?unlock_incorrect_passcode -> !invalid_command -> ?unlock_correct_passcode -> !invalid_command -> ?open -> !invalid_command -> ?open -> !invalid_command ->  
+?unlock_correct_passcode -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?open -> !opened -> ?open -> !invalid_command ->  
+?unlock_incorrect_passcode -> !invalid_command -> ?unlock_correct_passcode -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command -> ?lock_correct_passcode -> !invalid_command ->  
+?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+Generated on: 2024-07-09 21:35:57.964670735 +0200
+===== SHRINKER: [Shrinking::ShortestPathStatesLabelCountReversed] =====
+===== START TRACE =====
+?open -> !opened -> ?lock_correct_passcode -> !invalid_command -> ?unlock_correct_passcode -> !invalid_command -> ?open -> !invalid_command ->  
+?unlock_incorrect_passcode -> !invalid_command -> ?lock_correct_passcode -> !invalid_command -> ?unlock_correct_passcode -> !invalid_command -> ?lock_correct_passcode -> !invalid_command ->  
+?unlock_correct_passcode -> !invalid_command -> ?lock_correct_passcode -> !invalid_command -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?close -> !invalid_command -> ?lock_correct_passcode -> !locked ->  
+?close -> !invalid_command -> ?close -> !invalid_command -> ?close -> !invalid_command -> ?lock_correct_passcode -> !invalid_command ->  
+?unlock_correct_passcode -> !unlocked -> ?lock_invalid_passcode -> !invalid_passcode -> ?unlock_correct_passcode -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command ->  
+?close -> !invalid_command -> ?close -> !invalid_command -> ?close -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command ->  
+?open -> !opened -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?lock_correct_passcode -> !locked -> ?lock_correct_passcode -> !invalid_command ->  
+?unlock_correct_passcode -> !unlocked -> ?unlock_correct_passcode -> !invalid_command -> ?lock_invalid_passcode -> !invalid_passcode -> ?unlock_incorrect_passcode -> !invalid_command ->  
+?open -> !opened -> ?lock_correct_passcode -> !invalid_command -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?open -> !opened -> ?lock_correct_passcode -> !invalid_command ->  
+?lock_correct_passcode -> !invalid_command -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?unlock_correct_passcode -> !invalid_command -> ?lock_correct_passcode -> !locked ->  
+?open -> !invalid_command -> ?unlock_correct_passcode -> !unlocked -> ?open -> !opened -> ?lock_correct_passcode -> !invalid_command ->  
+?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?lock_invalid_passcode -> !invalid_passcode -> ?lock_invalid_passcode -> !invalid_passcode ->  
+?open -> !opened -> ?unlock_correct_passcode -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command -> ?open -> !invalid_command ->  
+?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?open -> !opened -> ?unlock_correct_passcode -> !invalid_command ->  
+?unlock_incorrect_passcode -> !invalid_command -> ?unlock_correct_passcode -> !invalid_command -> ?open -> !invalid_command -> ?open -> !invalid_command ->  
+?unlock_correct_passcode -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?open -> !opened -> ?open -> !invalid_command ->  
+?unlock_incorrect_passcode -> !invalid_command -> ?unlock_correct_passcode -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command -> ?lock_correct_passcode -> !invalid_command ->  
+?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+Generated on: 2024-07-09 21:35:58.007586815 +0200
+===== SHRINKER: [Shrinking::CycleShrink2] =====
+===== START TRACE =====
+?open -> !opened -> ?lock_correct_passcode -> !invalid_command -> ?unlock_correct_passcode -> !invalid_command -> ?open -> !invalid_command ->  
+?unlock_incorrect_passcode -> !invalid_command -> ?lock_correct_passcode -> !invalid_command -> ?unlock_correct_passcode -> !invalid_command -> ?lock_correct_passcode -> !invalid_command ->  
+?unlock_correct_passcode -> !invalid_command -> ?lock_correct_passcode -> !invalid_command -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?close -> !invalid_command -> ?lock_correct_passcode -> !locked ->  
+?close -> !invalid_command -> ?close -> !invalid_command -> ?close -> !invalid_command -> ?lock_correct_passcode -> !invalid_command ->  
+?unlock_correct_passcode -> !unlocked -> ?lock_invalid_passcode -> !invalid_passcode -> ?unlock_correct_passcode -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command ->  
+?close -> !invalid_command -> ?close -> !invalid_command -> ?close -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command ->  
+?open -> !opened -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?lock_correct_passcode -> !locked -> ?lock_correct_passcode -> !invalid_command ->  
+?unlock_correct_passcode -> !unlocked -> ?unlock_correct_passcode -> !invalid_command -> ?lock_invalid_passcode -> !invalid_passcode -> ?unlock_incorrect_passcode -> !invalid_command ->  
+?open -> !opened -> ?lock_correct_passcode -> !invalid_command -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?open -> !opened -> ?lock_correct_passcode -> !invalid_command ->  
+?lock_correct_passcode -> !invalid_command -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?unlock_correct_passcode -> !invalid_command -> ?lock_correct_passcode -> !locked ->  
+?open -> !invalid_command -> ?unlock_correct_passcode -> !unlocked -> ?open -> !opened -> ?lock_correct_passcode -> !invalid_command ->  
+?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?lock_invalid_passcode -> !invalid_passcode -> ?lock_invalid_passcode -> !invalid_passcode ->  
+?open -> !opened -> ?unlock_correct_passcode -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command -> ?open -> !invalid_command ->  
+?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?open -> !opened -> ?unlock_correct_passcode -> !invalid_command ->  
+?unlock_incorrect_passcode -> !invalid_command -> ?unlock_correct_passcode -> !invalid_command -> ?open -> !invalid_command -> ?open -> !invalid_command ->  
+?unlock_correct_passcode -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?open -> !opened -> ?open -> !invalid_command ->  
+?unlock_incorrect_passcode -> !invalid_command -> ?unlock_correct_passcode -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command -> ?lock_correct_passcode -> !invalid_command ->  
+?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+Generated on: 2024-07-09 21:35:58.043744306 +0200
+===== SHRINKER: [Shrinking::BinaryShrink2] =====
+===== START TRACE =====
+?open -> !opened -> ?lock_correct_passcode -> !invalid_command -> ?unlock_correct_passcode -> !invalid_command -> ?open -> !invalid_command ->  
+?unlock_incorrect_passcode -> !invalid_command -> ?lock_correct_passcode -> !invalid_command -> ?unlock_correct_passcode -> !invalid_command -> ?lock_correct_passcode -> !invalid_command ->  
+?unlock_correct_passcode -> !invalid_command -> ?lock_correct_passcode -> !invalid_command -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?lock_correct_passcode -> !invalid_command -> ?close -> !opened -> 
+===== START TRACE =====
+?close -> !invalid_command ->  
+?lock_correct_passcode -> !locked -> ?close -> !invalid_command -> ?close -> !invalid_command -> ?close -> !invalid_command ->  
+?lock_correct_passcode -> !invalid_command -> ?unlock_correct_passcode -> !unlocked -> ?lock_invalid_passcode -> !invalid_passcode -> ?unlock_correct_passcode -> !invalid_command ->  
+?unlock_incorrect_passcode -> !invalid_command -> ?close -> !invalid_command -> ?close -> !invalid_command -> ?close -> !invalid_command ->  
+?unlock_incorrect_passcode -> !invalid_command -> ?open -> !opened -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?lock_correct_passcode -> !locked -> ?lock_correct_passcode -> !invalid_command ->  
+?unlock_correct_passcode -> !unlocked -> ?unlock_correct_passcode -> !invalid_command -> ?lock_invalid_passcode -> !invalid_passcode -> ?unlock_incorrect_passcode -> !invalid_command ->  
+?open -> !opened -> ?lock_correct_passcode -> !invalid_command -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?open -> !opened -> ?lock_correct_passcode -> !invalid_command ->  
+?lock_correct_passcode -> !invalid_command -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?unlock_correct_passcode -> !invalid_command -> ?lock_correct_passcode -> !locked ->  
+?open -> !invalid_command -> ?unlock_correct_passcode -> !unlocked -> ?open -> !opened -> ?lock_correct_passcode -> !invalid_command ->  
+?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?lock_invalid_passcode -> !invalid_passcode -> ?lock_invalid_passcode -> !invalid_passcode ->  
+?open -> !opened -> ?unlock_correct_passcode -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command -> ?open -> !invalid_command ->  
+?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?open -> !opened -> ?unlock_correct_passcode -> !invalid_command ->  
+?unlock_incorrect_passcode -> !invalid_command -> ?unlock_correct_passcode -> !invalid_command -> ?open -> !invalid_command -> ?open -> !invalid_command ->  
+?unlock_correct_passcode -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?open -> !opened -> ?open -> !invalid_command ->  
+?unlock_incorrect_passcode -> !invalid_command -> ?unlock_correct_passcode -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command -> ?lock_correct_passcode -> !invalid_command ->  
+?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?lock_correct_passcode -> !invalid_command -> ?close -> !opened -> 
+Generated on: 2024-07-09 21:35:58.08039523 +0200
+===== SHRINKER: [Shrinking::CycleShrink2, Shrinking::ElemShrink2] =====
+===== START TRACE =====
+?open -> !opened -> ?lock_correct_passcode -> !invalid_command -> ?unlock_correct_passcode -> !invalid_command -> ?open -> !invalid_command ->  
+?unlock_incorrect_passcode -> !invalid_command -> ?lock_correct_passcode -> !invalid_command -> ?unlock_correct_passcode -> !invalid_command -> ?lock_correct_passcode -> !invalid_command ->  
+?unlock_correct_passcode -> !invalid_command -> ?lock_correct_passcode -> !invalid_command -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?close -> !invalid_command -> ?lock_correct_passcode -> !locked ->  
+?close -> !invalid_command -> ?close -> !invalid_command -> ?close -> !invalid_command -> ?lock_correct_passcode -> !invalid_command ->  
+?unlock_correct_passcode -> !unlocked -> ?lock_invalid_passcode -> !invalid_passcode -> ?unlock_correct_passcode -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command ->  
+?close -> !invalid_command -> ?close -> !invalid_command -> ?close -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command ->  
+?open -> !opened -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?lock_correct_passcode -> !locked -> ?lock_correct_passcode -> !invalid_command ->  
+?unlock_correct_passcode -> !unlocked -> ?unlock_correct_passcode -> !invalid_command -> ?lock_invalid_passcode -> !invalid_passcode -> ?unlock_incorrect_passcode -> !invalid_command ->  
+?open -> !opened -> ?lock_correct_passcode -> !invalid_command -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?open -> !opened -> ?lock_correct_passcode -> !invalid_command ->  
+?lock_correct_passcode -> !invalid_command -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?unlock_correct_passcode -> !invalid_command -> ?lock_correct_passcode -> !locked ->  
+?open -> !invalid_command -> ?unlock_correct_passcode -> !unlocked -> ?open -> !opened -> ?lock_correct_passcode -> !invalid_command ->  
+?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?lock_invalid_passcode -> !invalid_passcode -> ?lock_invalid_passcode -> !invalid_passcode ->  
+?open -> !opened -> ?unlock_correct_passcode -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command -> ?open -> !invalid_command ->  
+?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?open -> !opened -> ?unlock_correct_passcode -> !invalid_command ->  
+?unlock_incorrect_passcode -> !invalid_command -> ?unlock_correct_passcode -> !invalid_command -> ?open -> !invalid_command -> ?open -> !invalid_command ->  
+?unlock_correct_passcode -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?open -> !opened -> ?open -> !invalid_command ->  
+?unlock_incorrect_passcode -> !invalid_command -> ?unlock_correct_passcode -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command -> ?lock_correct_passcode -> !invalid_command ->  
+?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+Generated on: 2024-07-09 21:35:58.116277169 +0200
+===== SHRINKER: [Shrinking::CycleShrink2, Shrinking::BinaryShrink2] =====
+===== START TRACE =====
+?open -> !opened -> ?lock_correct_passcode -> !invalid_command -> ?unlock_correct_passcode -> !invalid_command -> ?open -> !invalid_command ->  
+?unlock_incorrect_passcode -> !invalid_command -> ?lock_correct_passcode -> !invalid_command -> ?unlock_correct_passcode -> !invalid_command -> ?lock_correct_passcode -> !invalid_command ->  
+?unlock_correct_passcode -> !invalid_command -> ?lock_correct_passcode -> !invalid_command -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?close -> !invalid_command -> ?lock_correct_passcode -> !locked ->  
+?close -> !invalid_command -> ?close -> !invalid_command -> ?close -> !invalid_command -> ?lock_correct_passcode -> !invalid_command ->  
+?unlock_correct_passcode -> !unlocked -> ?lock_invalid_passcode -> !invalid_passcode -> ?unlock_correct_passcode -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command ->  
+?close -> !invalid_command -> ?close -> !invalid_command -> ?close -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command ->  
+?open -> !opened -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?lock_correct_passcode -> !locked -> ?lock_correct_passcode -> !invalid_command ->  
+?unlock_correct_passcode -> !unlocked -> ?unlock_correct_passcode -> !invalid_command -> ?lock_invalid_passcode -> !invalid_passcode -> ?unlock_incorrect_passcode -> !invalid_command ->  
+?open -> !opened -> ?lock_correct_passcode -> !invalid_command -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?open -> !opened -> ?lock_correct_passcode -> !invalid_command ->  
+?lock_correct_passcode -> !invalid_command -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?unlock_correct_passcode -> !invalid_command -> ?lock_correct_passcode -> !locked ->  
+?open -> !invalid_command -> ?unlock_correct_passcode -> !unlocked -> ?open -> !opened -> ?lock_correct_passcode -> !invalid_command ->  
+?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?lock_invalid_passcode -> !invalid_passcode -> ?lock_invalid_passcode -> !invalid_passcode ->  
+?open -> !opened -> ?unlock_correct_passcode -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command -> ?open -> !invalid_command ->  
+?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?open -> !opened -> ?unlock_correct_passcode -> !invalid_command ->  
+?unlock_incorrect_passcode -> !invalid_command -> ?unlock_correct_passcode -> !invalid_command -> ?open -> !invalid_command -> ?open -> !invalid_command ->  
+?unlock_correct_passcode -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command -> ?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 
+===== START TRACE =====
+?open -> !opened -> ?open -> !invalid_command ->  
+?unlock_incorrect_passcode -> !invalid_command -> ?unlock_correct_passcode -> !invalid_command -> ?unlock_incorrect_passcode -> !invalid_command -> ?lock_correct_passcode -> !invalid_command ->  
+?close -> !opened -> 
+===== END TRACE =====
+?open -> !opened -> ?close -> !opened -> 

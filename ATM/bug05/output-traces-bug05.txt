@@ -1,0 +1,1560 @@
+Generated on: 2024-07-10 00:38:43.606146478 +0200
+===== SHRINKER: [Shrinking::ShortestPathShrinker] =====
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_250 [{}] v 
+  {"ATM"=>"Valid_card_250"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_250"} - {"ATM"=>""}
+ v ? Correct_PIN_250 [{}] v 
+  {"ATM"=>"Correct_PIN_250"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_250"} - {"ATM"=>""}
+ v ? Deposit_100 [{}] v 
+  {"ATM"=>"Balance_350, Deposit_250_100, Deposit_300_50, Deposit_330_20, Deposit_340_10, Deposit_345_5"} - {"ATM"=>""}
+ v ! Balance: 350 [{}] v 
+  {"ATM"=>"Idle_350"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_350, Deposit_250_100, Deposit_300_50, Deposit_330_20, Deposit_340_10, Deposit_345_5"} - {"ATM"=>""}
+ v ! Balance: 100 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_170 [{}] v 
+  {"ATM"=>"Valid_card_170"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_170"} - {"ATM"=>""}
+ v ? Correct_PIN_170 [{}] v 
+  {"ATM"=>"Correct_PIN_170"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_170"} - {"ATM"=>""}
+ v ? Deposit_100 [{}] v 
+  {"ATM"=>"Balance_270, Deposit_170_100, Deposit_220_50, Deposit_250_20, Deposit_260_10, Deposit_265_5"} - {"ATM"=>""}
+ v ! Balance: 270 [{}] v 
+  {"ATM"=>"Idle_270"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_270, Deposit_170_100, Deposit_220_50, Deposit_250_20, Deposit_260_10, Deposit_265_5"} - {"ATM"=>""}
+ v ! Balance: 100 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_130 [{}] v 
+  {"ATM"=>"Valid_card_130"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_130"} - {"ATM"=>""}
+ v ? Correct_PIN_130 [{}] v 
+  {"ATM"=>"Correct_PIN_130"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_130"} - {"ATM"=>""}
+ v ? Deposit_100 [{}] v 
+  {"ATM"=>"Balance_230, Deposit_130_100, Deposit_180_50, Deposit_210_20, Deposit_220_10, Deposit_225_5"} - {"ATM"=>""}
+ v ! Balance: 230 [{}] v 
+  {"ATM"=>"Idle_230"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_230, Deposit_130_100, Deposit_180_50, Deposit_210_20, Deposit_220_10, Deposit_225_5"} - {"ATM"=>""}
+ v ! Balance: 100 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_25 [{}] v 
+  {"ATM"=>"Valid_card_25"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_25"} - {"ATM"=>""}
+ v ? Correct_PIN_25 [{}] v 
+  {"ATM"=>"Correct_PIN_25"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_25"} - {"ATM"=>""}
+ v ? Deposit_20 [{}] v 
+  {"ATM"=>"Balance_45, Deposit_25_20, Deposit_35_10, Deposit_40_5"} - {"ATM"=>""}
+ v ! Balance: 45 [{}] v 
+  {"ATM"=>"Idle_45"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_45, Deposit_25_20, Deposit_35_10, Deposit_40_5"} - {"ATM"=>""}
+ v ! Balance: 20 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_25 [{}] v 
+  {"ATM"=>"Valid_card_25"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_25"} - {"ATM"=>""}
+ v ? Correct_PIN_25 [{}] v 
+  {"ATM"=>"Correct_PIN_25"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_25"} - {"ATM"=>""}
+ v ? Deposit_20 [{}] v 
+  {"ATM"=>"Balance_45, Deposit_25_20, Deposit_35_10, Deposit_40_5"} - {"ATM"=>""}
+ v ! Balance: 45 [{}] v 
+  {"ATM"=>"Idle_45"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_45, Deposit_25_20, Deposit_35_10, Deposit_40_5"} - {"ATM"=>""}
+ v ! Balance: 20 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_30 [{}] v 
+  {"ATM"=>"Valid_card_30"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_30"} - {"ATM"=>""}
+ v ? Correct_PIN_30 [{}] v 
+  {"ATM"=>"Correct_PIN_30"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_30"} - {"ATM"=>""}
+ v ? Deposit_20 [{}] v 
+  {"ATM"=>"Balance_50, Deposit_0_50, Deposit_30_20, Deposit_40_10, Deposit_45_5"} - {"ATM"=>""}
+ v ! Balance: 50 [{}] v 
+  {"ATM"=>"Idle_50"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_50, Deposit_0_50, Deposit_30_20, Deposit_40_10, Deposit_45_5"} - {"ATM"=>""}
+ v ! Balance: 20 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_30 [{}] v 
+  {"ATM"=>"Valid_card_30"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_30"} - {"ATM"=>""}
+ v ? Correct_PIN_30 [{}] v 
+  {"ATM"=>"Correct_PIN_30"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_30"} - {"ATM"=>""}
+ v ? Deposit_100 [{}] v 
+  {"ATM"=>"Balance_130, Deposit_110_20, Deposit_120_10, Deposit_125_5, Deposit_30_100, Deposit_80_50"} - {"ATM"=>""}
+ v ! Balance: 130 [{}] v 
+  {"ATM"=>"Idle_130"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_130, Deposit_110_20, Deposit_120_10, Deposit_125_5, Deposit_30_100, Deposit_80_50"} - {"ATM"=>""}
+ v ! Balance: 100 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_10 [{}] v 
+  {"ATM"=>"Valid_card_10"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_10"} - {"ATM"=>""}
+ v ? Correct_PIN_10 [{}] v 
+  {"ATM"=>"Correct_PIN_10"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_10"} - {"ATM"=>""}
+ v ? Deposit_100 [{}] v 
+  {"ATM"=>"Balance_110, Deposit_100_10, Deposit_105_5, Deposit_10_100, Deposit_60_50, Deposit_90_20"} - {"ATM"=>""}
+ v ! Balance: 110 [{}] v 
+  {"ATM"=>"Idle_110"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_110, Deposit_100_10, Deposit_105_5, Deposit_10_100, Deposit_60_50, Deposit_90_20"} - {"ATM"=>""}
+ v ! Balance: 100 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_25 [{}] v 
+  {"ATM"=>"Valid_card_25"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_25"} - {"ATM"=>""}
+ v ? Correct_PIN_25 [{}] v 
+  {"ATM"=>"Correct_PIN_25"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_25"} - {"ATM"=>""}
+ v ? Deposit_100 [{}] v 
+  {"ATM"=>"Balance_125, Deposit_105_20, Deposit_115_10, Deposit_120_5, Deposit_25_100, Deposit_75_50"} - {"ATM"=>""}
+ v ! Balance: 125 [{}] v 
+  {"ATM"=>"Idle_125"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_125, Deposit_105_20, Deposit_115_10, Deposit_120_5, Deposit_25_100, Deposit_75_50"} - {"ATM"=>""}
+ v ! Balance: 100 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_35 [{}] v 
+  {"ATM"=>"Valid_card_35"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_35"} - {"ATM"=>""}
+ v ? Correct_PIN_35 [{}] v 
+  {"ATM"=>"Correct_PIN_35"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_35"} - {"ATM"=>""}
+ v ? Deposit_100 [{}] v 
+  {"ATM"=>"Balance_135, Deposit_115_20, Deposit_125_10, Deposit_130_5, Deposit_35_100, Deposit_85_50"} - {"ATM"=>""}
+ v ! Balance: 135 [{}] v 
+  {"ATM"=>"Idle_135"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_135, Deposit_115_20, Deposit_125_10, Deposit_130_5, Deposit_35_100, Deposit_85_50"} - {"ATM"=>""}
+ v ! Balance: 100 [{}] v 
+  
+Generated on: 2024-07-10 00:38:43.649892067 +0200
+===== SHRINKER: [Shrinking::ShortestPathLabelCount] =====
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_250 [{}] v 
+  {"ATM"=>"Valid_card_250"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_250"} - {"ATM"=>""}
+ v ? Correct_PIN_250 [{}] v 
+  {"ATM"=>"Correct_PIN_250"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_250"} - {"ATM"=>""}
+ v ? Deposit_100 [{}] v 
+  {"ATM"=>"Balance_350, Deposit_250_100, Deposit_300_50, Deposit_330_20, Deposit_340_10, Deposit_345_5"} - {"ATM"=>""}
+ v ! Balance: 350 [{}] v 
+  {"ATM"=>"Idle_350"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_350, Deposit_250_100, Deposit_300_50, Deposit_330_20, Deposit_340_10, Deposit_345_5"} - {"ATM"=>""}
+ v ! Balance: 100 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_170 [{}] v 
+  {"ATM"=>"Valid_card_170"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_170"} - {"ATM"=>""}
+ v ? Correct_PIN_170 [{}] v 
+  {"ATM"=>"Correct_PIN_170"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_170"} - {"ATM"=>""}
+ v ? Deposit_100 [{}] v 
+  {"ATM"=>"Balance_270, Deposit_170_100, Deposit_220_50, Deposit_250_20, Deposit_260_10, Deposit_265_5"} - {"ATM"=>""}
+ v ! Balance: 270 [{}] v 
+  {"ATM"=>"Idle_270"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_270, Deposit_170_100, Deposit_220_50, Deposit_250_20, Deposit_260_10, Deposit_265_5"} - {"ATM"=>""}
+ v ! Balance: 100 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_130 [{}] v 
+  {"ATM"=>"Valid_card_130"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_130"} - {"ATM"=>""}
+ v ? Correct_PIN_130 [{}] v 
+  {"ATM"=>"Correct_PIN_130"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_130"} - {"ATM"=>""}
+ v ? Deposit_100 [{}] v 
+  {"ATM"=>"Balance_230, Deposit_130_100, Deposit_180_50, Deposit_210_20, Deposit_220_10, Deposit_225_5"} - {"ATM"=>""}
+ v ! Balance: 230 [{}] v 
+  {"ATM"=>"Idle_230"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_230, Deposit_130_100, Deposit_180_50, Deposit_210_20, Deposit_220_10, Deposit_225_5"} - {"ATM"=>""}
+ v ! Balance: 100 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_25 [{}] v 
+  {"ATM"=>"Valid_card_25"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_25"} - {"ATM"=>""}
+ v ? Correct_PIN_25 [{}] v 
+  {"ATM"=>"Correct_PIN_25"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_25"} - {"ATM"=>""}
+ v ? Deposit_20 [{}] v 
+  {"ATM"=>"Balance_45, Deposit_25_20, Deposit_35_10, Deposit_40_5"} - {"ATM"=>""}
+ v ! Balance: 45 [{}] v 
+  {"ATM"=>"Idle_45"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_45, Deposit_25_20, Deposit_35_10, Deposit_40_5"} - {"ATM"=>""}
+ v ! Balance: 20 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_25 [{}] v 
+  {"ATM"=>"Valid_card_25"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_25"} - {"ATM"=>""}
+ v ? Correct_PIN_25 [{}] v 
+  {"ATM"=>"Correct_PIN_25"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_25"} - {"ATM"=>""}
+ v ? Deposit_20 [{}] v 
+  {"ATM"=>"Balance_45, Deposit_25_20, Deposit_35_10, Deposit_40_5"} - {"ATM"=>""}
+ v ! Balance: 45 [{}] v 
+  {"ATM"=>"Idle_45"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_45, Deposit_25_20, Deposit_35_10, Deposit_40_5"} - {"ATM"=>""}
+ v ! Balance: 20 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_30 [{}] v 
+  {"ATM"=>"Valid_card_30"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_30"} - {"ATM"=>""}
+ v ? Correct_PIN_30 [{}] v 
+  {"ATM"=>"Correct_PIN_30"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_30"} - {"ATM"=>""}
+ v ? Deposit_20 [{}] v 
+  {"ATM"=>"Balance_50, Deposit_0_50, Deposit_30_20, Deposit_40_10, Deposit_45_5"} - {"ATM"=>""}
+ v ! Balance: 50 [{}] v 
+  {"ATM"=>"Idle_50"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_50, Deposit_0_50, Deposit_30_20, Deposit_40_10, Deposit_45_5"} - {"ATM"=>""}
+ v ! Balance: 20 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_30 [{}] v 
+  {"ATM"=>"Valid_card_30"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_30"} - {"ATM"=>""}
+ v ? Correct_PIN_30 [{}] v 
+  {"ATM"=>"Correct_PIN_30"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_30"} - {"ATM"=>""}
+ v ? Deposit_100 [{}] v 
+  {"ATM"=>"Balance_130, Deposit_110_20, Deposit_120_10, Deposit_125_5, Deposit_30_100, Deposit_80_50"} - {"ATM"=>""}
+ v ! Balance: 130 [{}] v 
+  {"ATM"=>"Idle_130"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_130, Deposit_110_20, Deposit_120_10, Deposit_125_5, Deposit_30_100, Deposit_80_50"} - {"ATM"=>""}
+ v ! Balance: 100 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_10 [{}] v 
+  {"ATM"=>"Valid_card_10"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_10"} - {"ATM"=>""}
+ v ? Correct_PIN_10 [{}] v 
+  {"ATM"=>"Correct_PIN_10"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_10"} - {"ATM"=>""}
+ v ? Deposit_100 [{}] v 
+  {"ATM"=>"Balance_110, Deposit_100_10, Deposit_105_5, Deposit_10_100, Deposit_60_50, Deposit_90_20"} - {"ATM"=>""}
+ v ! Balance: 110 [{}] v 
+  {"ATM"=>"Idle_110"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_110, Deposit_100_10, Deposit_105_5, Deposit_10_100, Deposit_60_50, Deposit_90_20"} - {"ATM"=>""}
+ v ! Balance: 100 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_25 [{}] v 
+  {"ATM"=>"Valid_card_25"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_25"} - {"ATM"=>""}
+ v ? Correct_PIN_25 [{}] v 
+  {"ATM"=>"Correct_PIN_25"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_25"} - {"ATM"=>""}
+ v ? Deposit_100 [{}] v 
+  {"ATM"=>"Balance_125, Deposit_105_20, Deposit_115_10, Deposit_120_5, Deposit_25_100, Deposit_75_50"} - {"ATM"=>""}
+ v ! Balance: 125 [{}] v 
+  {"ATM"=>"Idle_125"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_125, Deposit_105_20, Deposit_115_10, Deposit_120_5, Deposit_25_100, Deposit_75_50"} - {"ATM"=>""}
+ v ! Balance: 100 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_35 [{}] v 
+  {"ATM"=>"Valid_card_35"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_35"} - {"ATM"=>""}
+ v ? Correct_PIN_35 [{}] v 
+  {"ATM"=>"Correct_PIN_35"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_35"} - {"ATM"=>""}
+ v ? Deposit_100 [{}] v 
+  {"ATM"=>"Balance_135, Deposit_115_20, Deposit_125_10, Deposit_130_5, Deposit_35_100, Deposit_85_50"} - {"ATM"=>""}
+ v ! Balance: 135 [{}] v 
+  {"ATM"=>"Idle_135"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_135, Deposit_115_20, Deposit_125_10, Deposit_130_5, Deposit_35_100, Deposit_85_50"} - {"ATM"=>""}
+ v ! Balance: 100 [{}] v 
+  
+Generated on: 2024-07-10 00:38:43.748242858 +0200
+===== SHRINKER: [Shrinking::PartialOrderShrinker] =====
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_330 [{}] v 
+  {"ATM"=>"Valid_card_330"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_330"} - {"ATM"=>""}
+ v ? Correct_PIN_330 [{}] v 
+  {"ATM"=>"Correct_PIN_330"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_330"} - {"ATM"=>""}
+ v ? Deposit_20 [{}] v 
+  {"ATM"=>"Balance_350, Deposit_250_100, Deposit_300_50, Deposit_330_20, Deposit_340_10, Deposit_345_5"} - {"ATM"=>""}
+ v ! Balance: 350 [{}] v 
+  {"ATM"=>"Idle_350"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_350, Deposit_250_100, Deposit_300_50, Deposit_330_20, Deposit_340_10, Deposit_345_5"} - {"ATM"=>""}
+ v ! Balance: 20 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_220 [{}] v 
+  {"ATM"=>"Valid_card_220"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_220"} - {"ATM"=>""}
+ v ? Correct_PIN_220 [{}] v 
+  {"ATM"=>"Correct_PIN_220"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_220"} - {"ATM"=>""}
+ v ? Deposit_50 [{}] v 
+  {"ATM"=>"Balance_270, Deposit_170_100, Deposit_220_50, Deposit_250_20, Deposit_260_10, Deposit_265_5"} - {"ATM"=>""}
+ v ! Balance: 270 [{}] v 
+  {"ATM"=>"Idle_270"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_270, Deposit_170_100, Deposit_220_50, Deposit_250_20, Deposit_260_10, Deposit_265_5"} - {"ATM"=>""}
+ v ! Balance: 50 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_225 [{}] v 
+  {"ATM"=>"Valid_card_225"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_225"} - {"ATM"=>""}
+ v ? Correct_PIN_225 [{}] v 
+  {"ATM"=>"Correct_PIN_225"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_225"} - {"ATM"=>""}
+ v ? Deposit_5 [{}] v 
+  {"ATM"=>"Balance_230, Deposit_130_100, Deposit_180_50, Deposit_210_20, Deposit_220_10, Deposit_225_5"} - {"ATM"=>""}
+ v ! Balance: 230 [{}] v 
+  {"ATM"=>"Idle_230"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_230, Deposit_130_100, Deposit_180_50, Deposit_210_20, Deposit_220_10, Deposit_225_5"} - {"ATM"=>""}
+ v ! Balance: 5 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_40 [{}] v 
+  {"ATM"=>"Valid_card_40"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_40"} - {"ATM"=>""}
+ v ? Correct_PIN_40 [{}] v 
+  {"ATM"=>"Correct_PIN_40"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_40"} - {"ATM"=>""}
+ v ? Deposit_5 [{}] v 
+  {"ATM"=>"Balance_45, Deposit_25_20, Deposit_35_10, Deposit_40_5"} - {"ATM"=>""}
+ v ! Balance: 45 [{}] v 
+  {"ATM"=>"Idle_45"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_45, Deposit_25_20, Deposit_35_10, Deposit_40_5"} - {"ATM"=>""}
+ v ! Balance: 5 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_60 [{}] v 
+  {"ATM"=>"Valid_card_60"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_60"} - {"ATM"=>""}
+ v ? Correct_PIN_60 [{}] v 
+  {"ATM"=>"Correct_PIN_60"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_60"} - {"ATM"=>""}
+ v ? Deposit_5 [{}] v 
+  {"ATM"=>"Balance_65, Deposit_15_50, Deposit_45_20, Deposit_55_10, Deposit_60_5"} - {"ATM"=>""}
+ v ! Balance: 65 [{}] v 
+  {"ATM"=>"Idle_65"} - {"ATM"=>""}
+ v ? Withdraw_20 [{}] v 
+  {"ATM"=>"Withdraw_65_20"} - {"ATM"=>""}
+ v ! 20 [{}] v 
+  {"ATM"=>"Idle_45"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_45, Deposit_25_20, Deposit_35_10, Deposit_40_5"} - {"ATM"=>""}
+ v ! Balance: 5 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_135 [{}] v 
+  {"ATM"=>"Valid_card_135"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_135"} - {"ATM"=>""}
+ v ? Correct_PIN_135 [{}] v 
+  {"ATM"=>"Correct_PIN_135"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_135"} - {"ATM"=>""}
+ v ? Deposit_20 [{}] v 
+  {"ATM"=>"Balance_155, Deposit_105_50, Deposit_135_20, Deposit_145_10, Deposit_150_5, Deposit_55_100"} - {"ATM"=>""}
+ v ! Balance: 155 [{}] v 
+  {"ATM"=>"Idle_155"} - {"ATM"=>""}
+ v ? Withdraw_50 [{}] v 
+  {"ATM"=>"Withdraw_155_50"} - {"ATM"=>""}
+ v ! 50 [{}] v 
+  {"ATM"=>"Idle_105"} - {"ATM"=>""}
+ v ? Withdraw_5 [{}] v 
+  {"ATM"=>"Withdraw_105_5"} - {"ATM"=>""}
+ v ! 5 [{}] v 
+  {"ATM"=>"Idle_100"} - {"ATM"=>""}
+ v ? Withdraw_50 [{}] v 
+  {"ATM"=>"Withdraw_100_50"} - {"ATM"=>""}
+ v ! 50 [{}] v 
+  {"ATM"=>"Idle_50"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_50, Deposit_0_50, Deposit_30_20, Deposit_40_10, Deposit_45_5"} - {"ATM"=>""}
+ v ! Balance: 20 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_115 [{}] v 
+  {"ATM"=>"Valid_card_115"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_115"} - {"ATM"=>""}
+ v ? Correct_PIN_115 [{}] v 
+  {"ATM"=>"Correct_PIN_115"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_115"} - {"ATM"=>""}
+ v ? Deposit_20 [{}] v 
+  {"ATM"=>"Balance_135, Deposit_115_20, Deposit_125_10, Deposit_130_5, Deposit_35_100, Deposit_85_50"} - {"ATM"=>""}
+ v ! Balance: 135 [{}] v 
+  {"ATM"=>"Idle_135"} - {"ATM"=>""}
+ v ? Withdraw_5 [{}] v 
+  {"ATM"=>"Withdraw_135_5"} - {"ATM"=>""}
+ v ! 5 [{}] v 
+  {"ATM"=>"Idle_130"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_130, Deposit_110_20, Deposit_120_10, Deposit_125_5, Deposit_30_100, Deposit_80_50"} - {"ATM"=>""}
+ v ! Balance: 20 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_10 [{}] v 
+  {"ATM"=>"Valid_card_10"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_10"} - {"ATM"=>""}
+ v ? Correct_PIN_10 [{}] v 
+  {"ATM"=>"Correct_PIN_10"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_10"} - {"ATM"=>""}
+ v ? Deposit_100 [{}] v 
+  {"ATM"=>"Balance_110, Deposit_100_10, Deposit_105_5, Deposit_10_100, Deposit_60_50, Deposit_90_20"} - {"ATM"=>""}
+ v ! Balance: 110 [{}] v 
+  {"ATM"=>"Idle_110"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_110, Deposit_100_10, Deposit_105_5, Deposit_10_100, Deposit_60_50, Deposit_90_20"} - {"ATM"=>""}
+ v ! Balance: 100 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_85 [{}] v 
+  {"ATM"=>"Valid_card_85"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_85"} - {"ATM"=>""}
+ v ? Correct_PIN_85 [{}] v 
+  {"ATM"=>"Correct_PIN_85"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_85"} - {"ATM"=>""}
+ v ? Deposit_50 [{}] v 
+  {"ATM"=>"Balance_135, Deposit_115_20, Deposit_125_10, Deposit_130_5, Deposit_35_100, Deposit_85_50"} - {"ATM"=>""}
+ v ! Balance: 135 [{}] v 
+  {"ATM"=>"Idle_135"} - {"ATM"=>""}
+ v ? Withdraw_10 [{}] v 
+  {"ATM"=>"Withdraw_135_10"} - {"ATM"=>""}
+ v ! 10 [{}] v 
+  {"ATM"=>"Idle_125"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_125, Deposit_105_20, Deposit_115_10, Deposit_120_5, Deposit_25_100, Deposit_75_50"} - {"ATM"=>""}
+ v ! Balance: 50 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_130 [{}] v 
+  {"ATM"=>"Valid_card_130"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_130"} - {"ATM"=>""}
+ v ? Correct_PIN_130 [{}] v 
+  {"ATM"=>"Correct_PIN_130"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_130"} - {"ATM"=>""}
+ v ? Deposit_5 [{}] v 
+  {"ATM"=>"Balance_135, Deposit_115_20, Deposit_125_10, Deposit_130_5, Deposit_35_100, Deposit_85_50"} - {"ATM"=>""}
+ v ! Balance: 135 [{}] v 
+  {"ATM"=>"Idle_135"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_135, Deposit_115_20, Deposit_125_10, Deposit_130_5, Deposit_35_100, Deposit_85_50"} - {"ATM"=>""}
+ v ! Balance: 5 [{}] v 
+  
+Generated on: 2024-07-10 00:38:43.831331617 +0200
+===== SHRINKER: [Shrinking::CycleShrink2] =====
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_320 [{}] v 
+  {"ATM"=>"Valid_card_320"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_320"} - {"ATM"=>""}
+ v ? Correct_PIN_320 [{}] v 
+  {"ATM"=>"Correct_PIN_320"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_320"} - {"ATM"=>""}
+ v ? Withdraw_5 [{}] v 
+  {"ATM"=>"Withdraw_320_5"} - {"ATM"=>""}
+ v ! 5 [{}] v 
+  {"ATM"=>"Idle_315"} - {"ATM"=>""}
+ v ? Withdraw_5 [{}] v 
+  {"ATM"=>"Withdraw_315_5"} - {"ATM"=>""}
+ v ! 5 [{}] v 
+  {"ATM"=>"Idle_310"} - {"ATM"=>""}
+ v ? Deposit_20 [{}] v 
+  {"ATM"=>"Balance_330, Deposit_230_100, Deposit_280_50, Deposit_310_20, Deposit_320_10, Deposit_325_5"} - {"ATM"=>""}
+ v ! Balance: 330 [{}] v 
+  {"ATM"=>"Idle_330"} - {"ATM"=>""}
+ v ? Deposit_20 [{}] v 
+  {"ATM"=>"Balance_350, Deposit_250_100, Deposit_300_50, Deposit_330_20, Deposit_340_10, Deposit_345_5"} - {"ATM"=>""}
+ v ! Balance: 350 [{}] v 
+  {"ATM"=>"Idle_350"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_350, Deposit_250_100, Deposit_300_50, Deposit_330_20, Deposit_340_10, Deposit_345_5"} - {"ATM"=>""}
+ v ! Balance: 20 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_385 [{}] v 
+  {"ATM"=>"Valid_card_385"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_385"} - {"ATM"=>""}
+ v ? Correct_PIN_385 [{}] v 
+  {"ATM"=>"Correct_PIN_385"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_385"} - {"ATM"=>""}
+ v ? Withdraw_20 [{}] v 
+  {"ATM"=>"Withdraw_385_20"} - {"ATM"=>""}
+ v ! 20 [{}] v 
+  {"ATM"=>"Idle_365"} - {"ATM"=>""}
+ v ? Withdraw_100 [{}] v 
+  {"ATM"=>"Withdraw_365_100"} - {"ATM"=>""}
+ v ! 100 [{}] v 
+  {"ATM"=>"Idle_265"} - {"ATM"=>""}
+ v ? Deposit_5 [{}] v 
+  {"ATM"=>"Balance_270, Deposit_170_100, Deposit_220_50, Deposit_250_20, Deposit_260_10, Deposit_265_5"} - {"ATM"=>""}
+ v ! Balance: 270 [{}] v 
+  {"ATM"=>"Idle_270"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_270, Deposit_170_100, Deposit_220_50, Deposit_250_20, Deposit_260_10, Deposit_265_5"} - {"ATM"=>""}
+ v ! Balance: 5 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_75 [{}] v 
+  {"ATM"=>"Valid_card_75"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_75"} - {"ATM"=>""}
+ v ? Incorrect_PIN_75 [{}] v 
+  {"ATM"=>"Incorrect_PIN_75"} - {"ATM"=>""}
+ v ! PIN_incorrect [{}] v 
+  {"ATM"=>"PIN_1_75"} - {"ATM"=>""}
+ v ? Correct_PIN_75 [{}] v 
+  {"ATM"=>"Correct_PIN_75"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_75"} - {"ATM"=>""}
+ v ? Withdraw_10 [{}] v 
+  {"ATM"=>"Withdraw_75_10"} - {"ATM"=>""}
+ v ! 10 [{}] v 
+  {"ATM"=>"Idle_65"} - {"ATM"=>""}
+ v ? Deposit_50 [{}] v 
+  {"ATM"=>"Balance_115, Deposit_105_10, Deposit_110_5, Deposit_15_100, Deposit_65_50, Deposit_95_20"} - {"ATM"=>""}
+ v ! Balance: 115 [{}] v 
+  {"ATM"=>"Idle_115"} - {"ATM"=>""}
+ v ? Deposit_20 [{}] v 
+  {"ATM"=>"Balance_135, Deposit_115_20, Deposit_125_10, Deposit_130_5, Deposit_35_100, Deposit_85_50"} - {"ATM"=>""}
+ v ! Balance: 135 [{}] v 
+  {"ATM"=>"Idle_135"} - {"ATM"=>""}
+ v ? Deposit_100 [{}] v 
+  {"ATM"=>"Balance_235, Deposit_135_100, Deposit_185_50, Deposit_215_20, Deposit_225_10, Deposit_230_5"} - {"ATM"=>""}
+ v ! Balance: 235 [{}] v 
+  {"ATM"=>"Idle_235"} - {"ATM"=>""}
+ v ? Deposit_10 [{}] v 
+  {"ATM"=>"Balance_245, Deposit_145_100, Deposit_195_50, Deposit_225_20, Deposit_235_10, Deposit_240_5"} - {"ATM"=>""}
+ v ! Balance: 245 [{}] v 
+  {"ATM"=>"Idle_245"} - {"ATM"=>""}
+ v ? Withdraw_20 [{}] v 
+  {"ATM"=>"Withdraw_245_20"} - {"ATM"=>""}
+ v ! 20 [{}] v 
+  {"ATM"=>"Idle_225"} - {"ATM"=>""}
+ v ? Deposit_5 [{}] v 
+  {"ATM"=>"Balance_230, Deposit_130_100, Deposit_180_50, Deposit_210_20, Deposit_220_10, Deposit_225_5"} - {"ATM"=>""}
+ v ! Balance: 230 [{}] v 
+  {"ATM"=>"Idle_230"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_230, Deposit_130_100, Deposit_180_50, Deposit_210_20, Deposit_220_10, Deposit_225_5"} - {"ATM"=>""}
+ v ! Balance: 5 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_35 [{}] v 
+  {"ATM"=>"Valid_card_35"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_35"} - {"ATM"=>""}
+ v ? Incorrect_PIN_35 [{}] v 
+  {"ATM"=>"Incorrect_PIN_35"} - {"ATM"=>""}
+ v ! PIN_incorrect [{}] v 
+  {"ATM"=>"PIN_1_35"} - {"ATM"=>""}
+ v ? Incorrect_PIN_35 [{}] v 
+  {"ATM"=>"Incorrect_PIN_1_35"} - {"ATM"=>""}
+ v ! PIN_incorrect [{}] v 
+  {"ATM"=>"PIN_2_35"} - {"ATM"=>""}
+ v ? Correct_PIN_35 [{}] v 
+  {"ATM"=>"Correct_PIN_35"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_35"} - {"ATM"=>""}
+ v ? Deposit_5 [{}] v 
+  {"ATM"=>"Balance_40, Deposit_20_20, Deposit_30_10, Deposit_35_5"} - {"ATM"=>""}
+ v ! Balance: 40 [{}] v 
+  {"ATM"=>"Idle_40"} - {"ATM"=>""}
+ v ? Deposit_5 [{}] v 
+  {"ATM"=>"Balance_45, Deposit_25_20, Deposit_35_10, Deposit_40_5"} - {"ATM"=>""}
+ v ! Balance: 45 [{}] v 
+  {"ATM"=>"Idle_45"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_45, Deposit_25_20, Deposit_35_10, Deposit_40_5"} - {"ATM"=>""}
+ v ! Balance: 5 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_30 [{}] v 
+  {"ATM"=>"Valid_card_30"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_30"} - {"ATM"=>""}
+ v ? Correct_PIN_30 [{}] v 
+  {"ATM"=>"Correct_PIN_30"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_30"} - {"ATM"=>""}
+ v ? Withdraw_20 [{}] v 
+  {"ATM"=>"Withdraw_30_20"} - {"ATM"=>""}
+ v ! 20 [{}] v 
+  {"ATM"=>"Idle_10"} - {"ATM"=>""}
+ v ? Deposit_50 [{}] v 
+  {"ATM"=>"Balance_60, Deposit_10_50, Deposit_40_20, Deposit_50_10, Deposit_55_5"} - {"ATM"=>""}
+ v ! Balance: 60 [{}] v 
+  {"ATM"=>"Idle_60"} - {"ATM"=>""}
+ v ? Deposit_5 [{}] v 
+  {"ATM"=>"Balance_65, Deposit_15_50, Deposit_45_20, Deposit_55_10, Deposit_60_5"} - {"ATM"=>""}
+ v ! Balance: 65 [{}] v 
+  {"ATM"=>"Idle_65"} - {"ATM"=>""}
+ v ? Withdraw_20 [{}] v 
+  {"ATM"=>"Withdraw_65_20"} - {"ATM"=>""}
+ v ! 20 [{}] v 
+  {"ATM"=>"Idle_45"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_45, Deposit_25_20, Deposit_35_10, Deposit_40_5"} - {"ATM"=>""}
+ v ! Balance: 5 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_135 [{}] v 
+  {"ATM"=>"Valid_card_135"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_135"} - {"ATM"=>""}
+ v ? Correct_PIN_135 [{}] v 
+  {"ATM"=>"Correct_PIN_135"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_135"} - {"ATM"=>""}
+ v ? Deposit_20 [{}] v 
+  {"ATM"=>"Balance_155, Deposit_105_50, Deposit_135_20, Deposit_145_10, Deposit_150_5, Deposit_55_100"} - {"ATM"=>""}
+ v ! Balance: 155 [{}] v 
+  {"ATM"=>"Idle_155"} - {"ATM"=>""}
+ v ? Withdraw_50 [{}] v 
+  {"ATM"=>"Withdraw_155_50"} - {"ATM"=>""}
+ v ! 50 [{}] v 
+  {"ATM"=>"Idle_105"} - {"ATM"=>""}
+ v ? Withdraw_5 [{}] v 
+  {"ATM"=>"Withdraw_105_5"} - {"ATM"=>""}
+ v ! 5 [{}] v 
+  {"ATM"=>"Idle_100"} - {"ATM"=>""}
+ v ? Withdraw_50 [{}] v 
+  {"ATM"=>"Withdraw_100_50"} - {"ATM"=>""}
+ v ! 50 [{}] v 
+  {"ATM"=>"Idle_50"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_50, Deposit_0_50, Deposit_30_20, Deposit_40_10, Deposit_45_5"} - {"ATM"=>""}
+ v ! Balance: 20 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_370 [{}] v 
+  {"ATM"=>"Valid_card_370"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_370"} - {"ATM"=>""}
+ v ? Incorrect_PIN_370 [{}] v 
+  {"ATM"=>"Incorrect_PIN_370"} - {"ATM"=>""}
+ v ! PIN_incorrect [{}] v 
+  {"ATM"=>"PIN_1_370"} - {"ATM"=>""}
+ v ? Correct_PIN_370 [{}] v 
+  {"ATM"=>"Correct_PIN_370"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_370"} - {"ATM"=>""}
+ v ? Withdraw_20 [{}] v 
+  {"ATM"=>"Withdraw_370_20"} - {"ATM"=>""}
+ v ! 20 [{}] v 
+  {"ATM"=>"Idle_350"} - {"ATM"=>""}
+ v ? Withdraw_100 [{}] v 
+  {"ATM"=>"Withdraw_350_100"} - {"ATM"=>""}
+ v ! 100 [{}] v 
+  {"ATM"=>"Idle_250"} - {"ATM"=>""}
+ v ? Withdraw_10 [{}] v 
+  {"ATM"=>"Withdraw_250_10"} - {"ATM"=>""}
+ v ! 10 [{}] v 
+  {"ATM"=>"Idle_240"} - {"ATM"=>""}
+ v ? Deposit_5 [{}] v 
+  {"ATM"=>"Balance_245, Deposit_145_100, Deposit_195_50, Deposit_225_20, Deposit_235_10, Deposit_240_5"} - {"ATM"=>""}
+ v ! Balance: 245 [{}] v 
+  {"ATM"=>"Idle_245"} - {"ATM"=>""}
+ v ? Deposit_20 [{}] v 
+  {"ATM"=>"Balance_265, Deposit_165_100, Deposit_215_50, Deposit_245_20, Deposit_255_10, Deposit_260_5"} - {"ATM"=>""}
+ v ! Balance: 265 [{}] v 
+  {"ATM"=>"Idle_265"} - {"ATM"=>""}
+ v ? Withdraw_50 [{}] v 
+  {"ATM"=>"Withdraw_265_50"} - {"ATM"=>""}
+ v ! 50 [{}] v 
+  {"ATM"=>"Idle_215"} - {"ATM"=>""}
+ v ? Withdraw_100 [{}] v 
+  {"ATM"=>"Withdraw_215_100"} - {"ATM"=>""}
+ v ! 100 [{}] v 
+  {"ATM"=>"Idle_115"} - {"ATM"=>""}
+ v ? Deposit_20 [{}] v 
+  {"ATM"=>"Balance_135, Deposit_115_20, Deposit_125_10, Deposit_130_5, Deposit_35_100, Deposit_85_50"} - {"ATM"=>""}
+ v ! Balance: 135 [{}] v 
+  {"ATM"=>"Idle_135"} - {"ATM"=>""}
+ v ? Withdraw_5 [{}] v 
+  {"ATM"=>"Withdraw_135_5"} - {"ATM"=>""}
+ v ! 5 [{}] v 
+  {"ATM"=>"Idle_130"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_130, Deposit_110_20, Deposit_120_10, Deposit_125_5, Deposit_30_100, Deposit_80_50"} - {"ATM"=>""}
+ v ! Balance: 20 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_95 [{}] v 
+  {"ATM"=>"Valid_card_95"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_95"} - {"ATM"=>""}
+ v ? Correct_PIN_95 [{}] v 
+  {"ATM"=>"Correct_PIN_95"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_95"} - {"ATM"=>""}
+ v ? Deposit_20 [{}] v 
+  {"ATM"=>"Balance_115, Deposit_105_10, Deposit_110_5, Deposit_15_100, Deposit_65_50, Deposit_95_20"} - {"ATM"=>""}
+ v ! Balance: 115 [{}] v 
+  {"ATM"=>"Idle_115"} - {"ATM"=>""}
+ v ? Withdraw_5 [{}] v 
+  {"ATM"=>"Withdraw_115_5"} - {"ATM"=>""}
+ v ! 5 [{}] v 
+  {"ATM"=>"Idle_110"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_110, Deposit_100_10, Deposit_105_5, Deposit_10_100, Deposit_60_50, Deposit_90_20"} - {"ATM"=>""}
+ v ! Balance: 20 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_165 [{}] v 
+  {"ATM"=>"Valid_card_165"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_165"} - {"ATM"=>""}
+ v ? Correct_PIN_165 [{}] v 
+  {"ATM"=>"Correct_PIN_165"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_165"} - {"ATM"=>""}
+ v ? Deposit_20 [{}] v 
+  {"ATM"=>"Balance_185, Deposit_135_50, Deposit_165_20, Deposit_175_10, Deposit_180_5, Deposit_85_100"} - {"ATM"=>""}
+ v ! Balance: 185 [{}] v 
+  {"ATM"=>"Idle_185"} - {"ATM"=>""}
+ v ? Withdraw_100 [{}] v 
+  {"ATM"=>"Withdraw_185_100"} - {"ATM"=>""}
+ v ! 100 [{}] v 
+  {"ATM"=>"Idle_85"} - {"ATM"=>""}
+ v ? Deposit_50 [{}] v 
+  {"ATM"=>"Balance_135, Deposit_115_20, Deposit_125_10, Deposit_130_5, Deposit_35_100, Deposit_85_50"} - {"ATM"=>""}
+ v ! Balance: 135 [{}] v 
+  {"ATM"=>"Idle_135"} - {"ATM"=>""}
+ v ? Withdraw_10 [{}] v 
+  {"ATM"=>"Withdraw_135_10"} - {"ATM"=>""}
+ v ! 10 [{}] v 
+  {"ATM"=>"Idle_125"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_125, Deposit_105_20, Deposit_115_10, Deposit_120_5, Deposit_25_100, Deposit_75_50"} - {"ATM"=>""}
+ v ! Balance: 50 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_30 [{}] v 
+  {"ATM"=>"Valid_card_30"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_30"} - {"ATM"=>""}
+ v ? Incorrect_PIN_30 [{}] v 
+  {"ATM"=>"Incorrect_PIN_30"} - {"ATM"=>""}
+ v ! PIN_incorrect [{}] v 
+  {"ATM"=>"PIN_1_30"} - {"ATM"=>""}
+ v ? Incorrect_PIN_30 [{}] v 
+  {"ATM"=>"Incorrect_PIN_1_30"} - {"ATM"=>""}
+ v ! PIN_incorrect [{}] v 
+  {"ATM"=>"PIN_2_30"} - {"ATM"=>""}
+ v ? Correct_PIN_30 [{}] v 
+  {"ATM"=>"Correct_PIN_30"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_30"} - {"ATM"=>""}
+ v ? Deposit_100 [{}] v 
+  {"ATM"=>"Balance_130, Deposit_110_20, Deposit_120_10, Deposit_125_5, Deposit_30_100, Deposit_80_50"} - {"ATM"=>""}
+ v ! Balance: 130 [{}] v 
+  {"ATM"=>"Idle_130"} - {"ATM"=>""}
+ v ? Deposit_5 [{}] v 
+  {"ATM"=>"Balance_135, Deposit_115_20, Deposit_125_10, Deposit_130_5, Deposit_35_100, Deposit_85_50"} - {"ATM"=>""}
+ v ! Balance: 135 [{}] v 
+  {"ATM"=>"Idle_135"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_135, Deposit_115_20, Deposit_125_10, Deposit_130_5, Deposit_35_100, Deposit_85_50"} - {"ATM"=>""}
+ v ! Balance: 5 [{}] v 
+  
+Generated on: 2024-07-10 00:38:43.893999447 +0200
+===== SHRINKER: [Shrinking::BinaryShrink2] =====
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_320 [{}] v 
+  {"ATM"=>"Valid_card_320"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_320"} - {"ATM"=>""}
+ v ? Correct_PIN_320 [{}] v 
+  {"ATM"=>"Correct_PIN_320"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_320"} - {"ATM"=>""}
+ v ? Deposit_20 [{}] v 
+  {"ATM"=>"Balance_340, Deposit_240_100, Deposit_290_50, Deposit_320_20, Deposit_330_10, Deposit_335_5"} - {"ATM"=>""}
+ v ! Balance: 340 [{}] v 
+  {"ATM"=>"Idle_340"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_340, Deposit_240_100, Deposit_290_50, Deposit_320_20, Deposit_330_10, Deposit_335_5"} - {"ATM"=>""}
+ v ! Balance: 20 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_485 [{}] v 
+  {"ATM"=>"Valid_card_485"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_485"} - {"ATM"=>""}
+ v ? Correct_PIN_485 [{}] v 
+  {"ATM"=>"Correct_PIN_485"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_485"} - {"ATM"=>""}
+ v ? Withdraw_100 [{}] v 
+  {"ATM"=>"Withdraw_485_100"} - {"ATM"=>""}
+ v ! 100 [{}] v 
+  {"ATM"=>"Idle_385"} - {"ATM"=>""}
+ v ? Deposit_50 [{}] v 
+  {"ATM"=>"Balance_435, Deposit_335_100, Deposit_385_50, Deposit_415_20, Deposit_425_10, Deposit_430_5"} - {"ATM"=>""}
+ v ! Balance: 435 [{}] v 
+  {"ATM"=>"Idle_435"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_435, Deposit_335_100, Deposit_385_50, Deposit_415_20, Deposit_425_10, Deposit_430_5"} - {"ATM"=>""}
+ v ! Balance: 50 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_50 [{}] v 
+  {"ATM"=>"Valid_card_50"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_50"} - {"ATM"=>""}
+ v ? Correct_PIN_50 [{}] v 
+  {"ATM"=>"Correct_PIN_50"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_50"} - {"ATM"=>""}
+ v ? Deposit_5 [{}] v 
+  {"ATM"=>"Balance_55, Deposit_35_20, Deposit_45_10, Deposit_50_5, Deposit_5_50"} - {"ATM"=>""}
+ v ! Balance: 55 [{}] v 
+  {"ATM"=>"Idle_55"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_55, Deposit_35_20, Deposit_45_10, Deposit_50_5, Deposit_5_50"} - {"ATM"=>""}
+ v ! Balance: 5 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_35 [{}] v 
+  {"ATM"=>"Valid_card_35"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_35"} - {"ATM"=>""}
+ v ? Correct_PIN_35 [{}] v 
+  {"ATM"=>"Correct_PIN_35"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_35"} - {"ATM"=>""}
+ v ? Deposit_5 [{}] v 
+  {"ATM"=>"Balance_40, Deposit_20_20, Deposit_30_10, Deposit_35_5"} - {"ATM"=>""}
+ v ! Balance: 40 [{}] v 
+  {"ATM"=>"Idle_40"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_40, Deposit_20_20, Deposit_30_10, Deposit_35_5"} - {"ATM"=>""}
+ v ! Balance: 5 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_30 [{}] v 
+  {"ATM"=>"Valid_card_30"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_30"} - {"ATM"=>""}
+ v ? Correct_PIN_30 [{}] v 
+  {"ATM"=>"Correct_PIN_30"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_30"} - {"ATM"=>""}
+ v ? Deposit_5 [{}] v 
+  {"ATM"=>"Balance_35, Deposit_15_20, Deposit_25_10, Deposit_30_5"} - {"ATM"=>""}
+ v ! Balance: 35 [{}] v 
+  {"ATM"=>"Idle_35"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_35, Deposit_15_20, Deposit_25_10, Deposit_30_5"} - {"ATM"=>""}
+ v ! Balance: 5 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_105 [{}] v 
+  {"ATM"=>"Valid_card_105"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_105"} - {"ATM"=>""}
+ v ? Correct_PIN_105 [{}] v 
+  {"ATM"=>"Correct_PIN_105"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_105"} - {"ATM"=>""}
+ v ? Exit [{}] v 
+  {"ATM"=>"Exit_105"} - {"ATM"=>""}
+ v ! Card_105 [{}] v 
+  {"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_135 [{}] v 
+  {"ATM"=>"Valid_card_135"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_135"} - {"ATM"=>""}
+ v ? Correct_PIN_135 [{}] v 
+  {"ATM"=>"Correct_PIN_135"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_135"} - {"ATM"=>""}
+ v ? Deposit_20 [{}] v 
+  {"ATM"=>"Balance_155, Deposit_105_50, Deposit_135_20, Deposit_145_10, Deposit_150_5, Deposit_55_100"} - {"ATM"=>""}
+ v ! Balance: 155 [{}] v 
+  {"ATM"=>"Idle_155"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_155, Deposit_105_50, Deposit_135_20, Deposit_145_10, Deposit_150_5, Deposit_55_100"} - {"ATM"=>""}
+ v ! Balance: 20 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_65 [{}] v 
+  {"ATM"=>"Valid_card_65"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_65"} - {"ATM"=>""}
+ v ? Incorrect_PIN_65 [{}] v 
+  {"ATM"=>"Incorrect_PIN_65"} - {"ATM"=>""}
+ v ! PIN_incorrect [{}] v 
+  {"ATM"=>"PIN_1_65"} - {"ATM"=>""}
+ v ? Incorrect_PIN_65 [{}] v 
+  {"ATM"=>"Incorrect_PIN_1_65"} - {"ATM"=>""}
+ v ! PIN_incorrect [{}] v 
+  {"ATM"=>"PIN_2_65"} - {"ATM"=>""}
+ v ? Incorrect_PIN_65 [{}] v 
+  {"ATM"=>"Incorrect_PIN_2"} - {"ATM"=>""}
+ v ! PIN_incorrect [{}] v 
+  {"ATM"=>"_1922"} - {"ATM"=>""}
+ v ! Card_blocked [{}] v 
+  {"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_370 [{}] v 
+  {"ATM"=>"Valid_card_370"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_370"} - {"ATM"=>""}
+ v ? Correct_PIN_370 [{}] v 
+  {"ATM"=>"Correct_PIN_370"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_370"} - {"ATM"=>""}
+ v ? Deposit_20 [{}] v 
+  {"ATM"=>"Balance_390, Deposit_290_100, Deposit_340_50, Deposit_370_20, Deposit_380_10, Deposit_385_5"} - {"ATM"=>""}
+ v ! Balance: 390 [{}] v 
+  {"ATM"=>"Idle_390"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_390, Deposit_290_100, Deposit_340_50, Deposit_370_20, Deposit_380_10, Deposit_385_5"} - {"ATM"=>""}
+ v ! Balance: 20 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_0 [{}] v 
+  {"ATM"=>"Valid_card_0"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_0"} - {"ATM"=>""}
+ v ? Correct_PIN_0 [{}] v 
+  {"ATM"=>"Correct_PIN_0"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_0"} - {"ATM"=>""}
+ v ? Withdraw_10 [{}] v 
+  {"ATM"=>"Insufficient_0"} - {"ATM"=>""}
+ v ! Insufficient_balance [{}] v 
+  {"ATM"=>"Idle_0"} - {"ATM"=>""}
+ v ? Exit [{}] v 
+  {"ATM"=>"Exit_0"} - {"ATM"=>""}
+ v ! Card_0 [{}] v 
+  {"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_395 [{}] v 
+  {"ATM"=>"Valid_card_395"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_395"} - {"ATM"=>""}
+ v ? Correct_PIN_395 [{}] v 
+  {"ATM"=>"Correct_PIN_395"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_395"} - {"ATM"=>""}
+ v ? Exit [{}] v 
+  {"ATM"=>"Exit_395"} - {"ATM"=>""}
+ v ! Card_395 [{}] v 
+  {"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_95 [{}] v 
+  {"ATM"=>"Valid_card_95"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_95"} - {"ATM"=>""}
+ v ? Correct_PIN_95 [{}] v 
+  {"ATM"=>"Correct_PIN_95"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_95"} - {"ATM"=>""}
+ v ? Deposit_20 [{}] v 
+  {"ATM"=>"Balance_115, Deposit_105_10, Deposit_110_5, Deposit_15_100, Deposit_65_50, Deposit_95_20"} - {"ATM"=>""}
+ v ! Balance: 115 [{}] v 
+  {"ATM"=>"Idle_115"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_115, Deposit_105_10, Deposit_110_5, Deposit_15_100, Deposit_65_50, Deposit_95_20"} - {"ATM"=>""}
+ v ! Balance: 20 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_165 [{}] v 
+  {"ATM"=>"Valid_card_165"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_165"} - {"ATM"=>""}
+ v ? Correct_PIN_165 [{}] v 
+  {"ATM"=>"Correct_PIN_165"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_165"} - {"ATM"=>""}
+ v ? Deposit_50 [{}] v 
+  {"ATM"=>"Balance_215, Deposit_115_100, Deposit_165_50, Deposit_195_20, Deposit_205_10, Deposit_210_5"} - {"ATM"=>""}
+ v ! Balance: 215 [{}] v 
+  {"ATM"=>"Idle_215"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_215, Deposit_115_100, Deposit_165_50, Deposit_195_20, Deposit_205_10, Deposit_210_5"} - {"ATM"=>""}
+ v ! Balance: 50 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_500 [{}] v 
+  {"ATM"=>"Valid_card_500"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_500"} - {"ATM"=>""}
+ v ? Correct_PIN_500 [{}] v 
+  {"ATM"=>"Correct_PIN_500"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_500"} - {"ATM"=>""}
+ v ? Exit [{}] v 
+  {"ATM"=>"Exit_500"} - {"ATM"=>""}
+ v ! Card_500 [{}] v 
+  {"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_305 [{}] v 
+  {"ATM"=>"Valid_card_305"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_305"} - {"ATM"=>""}
+ v ? Correct_PIN_305 [{}] v 
+  {"ATM"=>"Correct_PIN_305"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_305"} - {"ATM"=>""}
+ v ? Exit [{}] v 
+  {"ATM"=>"Exit_305"} - {"ATM"=>""}
+ v ! Card_305 [{}] v 
+  {"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_385 [{}] v 
+  {"ATM"=>"Valid_card_385"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_385"} - {"ATM"=>""}
+ v ? Correct_PIN_385 [{}] v 
+  {"ATM"=>"Correct_PIN_385"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_385"} - {"ATM"=>""}
+ v ? Deposit_5 [{}] v 
+  {"ATM"=>"Balance_390, Deposit_290_100, Deposit_340_50, Deposit_370_20, Deposit_380_10, Deposit_385_5"} - {"ATM"=>""}
+ v ! Balance: 390 [{}] v 
+  {"ATM"=>"Idle_390"} - {"ATM"=>""}
+ v ? Exit [{}] v 
+  {"ATM"=>"Exit_390"} - {"ATM"=>""}
+ v ! Card_390 [{}] v 
+  {"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_210 [{}] v 
+  {"ATM"=>"Valid_card_210"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_210"} - {"ATM"=>""}
+ v ? Correct_PIN_210 [{}] v 
+  {"ATM"=>"Correct_PIN_210"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_210"} - {"ATM"=>""}
+ v ? Exit [{}] v 
+  {"ATM"=>"Exit_210"} - {"ATM"=>""}
+ v ! Card_210 [{}] v 
+  {"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_30 [{}] v 
+  {"ATM"=>"Valid_card_30"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_30"} - {"ATM"=>""}
+ v ? Correct_PIN_30 [{}] v 
+  {"ATM"=>"Correct_PIN_30"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_30"} - {"ATM"=>""}
+ v ? Deposit_5 [{}] v 
+  {"ATM"=>"Balance_35, Deposit_15_20, Deposit_25_10, Deposit_30_5"} - {"ATM"=>""}
+ v ! Balance: 35 [{}] v 
+  {"ATM"=>"Idle_35"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_35, Deposit_15_20, Deposit_25_10, Deposit_30_5"} - {"ATM"=>""}
+ v ! Balance: 5 [{}] v 
+  
+Generated on: 2024-07-10 00:38:43.958853149 +0200
+===== SHRINKER: [Shrinking::CycleShrink2, Shrinking::ElemShrink2] =====
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_320 [{}] v 
+  {"ATM"=>"Valid_card_320"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_320"} - {"ATM"=>""}
+ v ? Correct_PIN_320 [{}] v 
+  {"ATM"=>"Correct_PIN_320"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_320"} - {"ATM"=>""}
+ v ? Deposit_20 [{}] v 
+  {"ATM"=>"Balance_340, Deposit_240_100, Deposit_290_50, Deposit_320_20, Deposit_330_10, Deposit_335_5"} - {"ATM"=>""}
+ v ! Balance: 340 [{}] v 
+  {"ATM"=>"Idle_340"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_340, Deposit_240_100, Deposit_290_50, Deposit_320_20, Deposit_330_10, Deposit_335_5"} - {"ATM"=>""}
+ v ! Balance: 20 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_385 [{}] v 
+  {"ATM"=>"Valid_card_385"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_385"} - {"ATM"=>""}
+ v ? Correct_PIN_385 [{}] v 
+  {"ATM"=>"Correct_PIN_385"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_385"} - {"ATM"=>""}
+ v ? Deposit_5 [{}] v 
+  {"ATM"=>"Balance_390, Deposit_290_100, Deposit_340_50, Deposit_370_20, Deposit_380_10, Deposit_385_5"} - {"ATM"=>""}
+ v ! Balance: 390 [{}] v 
+  {"ATM"=>"Idle_390"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_390, Deposit_290_100, Deposit_340_50, Deposit_370_20, Deposit_380_10, Deposit_385_5"} - {"ATM"=>""}
+ v ! Balance: 5 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_75 [{}] v 
+  {"ATM"=>"Valid_card_75"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_75"} - {"ATM"=>""}
+ v ? Correct_PIN_75 [{}] v 
+  {"ATM"=>"Correct_PIN_75"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_75"} - {"ATM"=>""}
+ v ? Deposit_5 [{}] v 
+  {"ATM"=>"Balance_80, Deposit_30_50, Deposit_60_20, Deposit_70_10, Deposit_75_5"} - {"ATM"=>""}
+ v ! Balance: 80 [{}] v 
+  {"ATM"=>"Idle_80"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_80, Deposit_30_50, Deposit_60_20, Deposit_70_10, Deposit_75_5"} - {"ATM"=>""}
+ v ! Balance: 5 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_35 [{}] v 
+  {"ATM"=>"Valid_card_35"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_35"} - {"ATM"=>""}
+ v ? Correct_PIN_35 [{}] v 
+  {"ATM"=>"Correct_PIN_35"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_35"} - {"ATM"=>""}
+ v ? Deposit_5 [{}] v 
+  {"ATM"=>"Balance_40, Deposit_20_20, Deposit_30_10, Deposit_35_5"} - {"ATM"=>""}
+ v ! Balance: 40 [{}] v 
+  {"ATM"=>"Idle_40"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_40, Deposit_20_20, Deposit_30_10, Deposit_35_5"} - {"ATM"=>""}
+ v ! Balance: 5 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_30 [{}] v 
+  {"ATM"=>"Valid_card_30"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_30"} - {"ATM"=>""}
+ v ? Correct_PIN_30 [{}] v 
+  {"ATM"=>"Correct_PIN_30"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_30"} - {"ATM"=>""}
+ v ? Deposit_5 [{}] v 
+  {"ATM"=>"Balance_35, Deposit_15_20, Deposit_25_10, Deposit_30_5"} - {"ATM"=>""}
+ v ! Balance: 35 [{}] v 
+  {"ATM"=>"Idle_35"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_35, Deposit_15_20, Deposit_25_10, Deposit_30_5"} - {"ATM"=>""}
+ v ! Balance: 5 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_135 [{}] v 
+  {"ATM"=>"Valid_card_135"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_135"} - {"ATM"=>""}
+ v ? Correct_PIN_135 [{}] v 
+  {"ATM"=>"Correct_PIN_135"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_135"} - {"ATM"=>""}
+ v ? Deposit_20 [{}] v 
+  {"ATM"=>"Balance_155, Deposit_105_50, Deposit_135_20, Deposit_145_10, Deposit_150_5, Deposit_55_100"} - {"ATM"=>""}
+ v ! Balance: 155 [{}] v 
+  {"ATM"=>"Idle_155"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_155, Deposit_105_50, Deposit_135_20, Deposit_145_10, Deposit_150_5, Deposit_55_100"} - {"ATM"=>""}
+ v ! Balance: 20 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_370 [{}] v 
+  {"ATM"=>"Valid_card_370"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_370"} - {"ATM"=>""}
+ v ? Correct_PIN_370 [{}] v 
+  {"ATM"=>"Correct_PIN_370"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_370"} - {"ATM"=>""}
+ v ? Deposit_20 [{}] v 
+  {"ATM"=>"Balance_390, Deposit_290_100, Deposit_340_50, Deposit_370_20, Deposit_380_10, Deposit_385_5"} - {"ATM"=>""}
+ v ! Balance: 390 [{}] v 
+  {"ATM"=>"Idle_390"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_390, Deposit_290_100, Deposit_340_50, Deposit_370_20, Deposit_380_10, Deposit_385_5"} - {"ATM"=>""}
+ v ! Balance: 20 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_95 [{}] v 
+  {"ATM"=>"Valid_card_95"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_95"} - {"ATM"=>""}
+ v ? Correct_PIN_95 [{}] v 
+  {"ATM"=>"Correct_PIN_95"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_95"} - {"ATM"=>""}
+ v ? Deposit_20 [{}] v 
+  {"ATM"=>"Balance_115, Deposit_105_10, Deposit_110_5, Deposit_15_100, Deposit_65_50, Deposit_95_20"} - {"ATM"=>""}
+ v ! Balance: 115 [{}] v 
+  {"ATM"=>"Idle_115"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_115, Deposit_105_10, Deposit_110_5, Deposit_15_100, Deposit_65_50, Deposit_95_20"} - {"ATM"=>""}
+ v ! Balance: 20 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_165 [{}] v 
+  {"ATM"=>"Valid_card_165"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_165"} - {"ATM"=>""}
+ v ? Correct_PIN_165 [{}] v 
+  {"ATM"=>"Correct_PIN_165"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_165"} - {"ATM"=>""}
+ v ? Deposit_50 [{}] v 
+  {"ATM"=>"Balance_215, Deposit_115_100, Deposit_165_50, Deposit_195_20, Deposit_205_10, Deposit_210_5"} - {"ATM"=>""}
+ v ! Balance: 215 [{}] v 
+  {"ATM"=>"Idle_215"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_215, Deposit_115_100, Deposit_165_50, Deposit_195_20, Deposit_205_10, Deposit_210_5"} - {"ATM"=>""}
+ v ! Balance: 50 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_30 [{}] v 
+  {"ATM"=>"Valid_card_30"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_30"} - {"ATM"=>""}
+ v ? Correct_PIN_30 [{}] v 
+  {"ATM"=>"Correct_PIN_30"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_30"} - {"ATM"=>""}
+ v ? Deposit_5 [{}] v 
+  {"ATM"=>"Balance_35, Deposit_15_20, Deposit_25_10, Deposit_30_5"} - {"ATM"=>""}
+ v ! Balance: 35 [{}] v 
+  {"ATM"=>"Idle_35"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_35, Deposit_15_20, Deposit_25_10, Deposit_30_5"} - {"ATM"=>""}
+ v ! Balance: 5 [{}] v 
+  
+Generated on: 2024-07-10 00:38:44.004173314 +0200
+===== SHRINKER: [Shrinking::CycleShrink2, Shrinking::BinaryShrink2] =====
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_320 [{}] v 
+  {"ATM"=>"Valid_card_320"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_320"} - {"ATM"=>""}
+ v ? Correct_PIN_320 [{}] v 
+  {"ATM"=>"Correct_PIN_320"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_320"} - {"ATM"=>""}
+ v ? Deposit_20 [{}] v 
+  {"ATM"=>"Balance_340, Deposit_240_100, Deposit_290_50, Deposit_320_20, Deposit_330_10, Deposit_335_5"} - {"ATM"=>""}
+ v ! Balance: 340 [{}] v 
+  {"ATM"=>"Idle_340"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_340, Deposit_240_100, Deposit_290_50, Deposit_320_20, Deposit_330_10, Deposit_335_5"} - {"ATM"=>""}
+ v ! Balance: 20 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_385 [{}] v 
+  {"ATM"=>"Valid_card_385"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_385"} - {"ATM"=>""}
+ v ? Correct_PIN_385 [{}] v 
+  {"ATM"=>"Correct_PIN_385"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_385"} - {"ATM"=>""}
+ v ? Deposit_5 [{}] v 
+  {"ATM"=>"Balance_390, Deposit_290_100, Deposit_340_50, Deposit_370_20, Deposit_380_10, Deposit_385_5"} - {"ATM"=>""}
+ v ! Balance: 390 [{}] v 
+  {"ATM"=>"Idle_390"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_390, Deposit_290_100, Deposit_340_50, Deposit_370_20, Deposit_380_10, Deposit_385_5"} - {"ATM"=>""}
+ v ! Balance: 5 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_75 [{}] v 
+  {"ATM"=>"Valid_card_75"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_75"} - {"ATM"=>""}
+ v ? Correct_PIN_75 [{}] v 
+  {"ATM"=>"Correct_PIN_75"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_75"} - {"ATM"=>""}
+ v ? Deposit_5 [{}] v 
+  {"ATM"=>"Balance_80, Deposit_30_50, Deposit_60_20, Deposit_70_10, Deposit_75_5"} - {"ATM"=>""}
+ v ! Balance: 80 [{}] v 
+  {"ATM"=>"Idle_80"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_80, Deposit_30_50, Deposit_60_20, Deposit_70_10, Deposit_75_5"} - {"ATM"=>""}
+ v ! Balance: 5 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_35 [{}] v 
+  {"ATM"=>"Valid_card_35"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_35"} - {"ATM"=>""}
+ v ? Correct_PIN_35 [{}] v 
+  {"ATM"=>"Correct_PIN_35"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_35"} - {"ATM"=>""}
+ v ? Deposit_5 [{}] v 
+  {"ATM"=>"Balance_40, Deposit_20_20, Deposit_30_10, Deposit_35_5"} - {"ATM"=>""}
+ v ! Balance: 40 [{}] v 
+  {"ATM"=>"Idle_40"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_40, Deposit_20_20, Deposit_30_10, Deposit_35_5"} - {"ATM"=>""}
+ v ! Balance: 5 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_30 [{}] v 
+  {"ATM"=>"Valid_card_30"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_30"} - {"ATM"=>""}
+ v ? Correct_PIN_30 [{}] v 
+  {"ATM"=>"Correct_PIN_30"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_30"} - {"ATM"=>""}
+ v ? Deposit_5 [{}] v 
+  {"ATM"=>"Balance_35, Deposit_15_20, Deposit_25_10, Deposit_30_5"} - {"ATM"=>""}
+ v ! Balance: 35 [{}] v 
+  {"ATM"=>"Idle_35"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_35, Deposit_15_20, Deposit_25_10, Deposit_30_5"} - {"ATM"=>""}
+ v ! Balance: 5 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_135 [{}] v 
+  {"ATM"=>"Valid_card_135"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_135"} - {"ATM"=>""}
+ v ? Correct_PIN_135 [{}] v 
+  {"ATM"=>"Correct_PIN_135"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_135"} - {"ATM"=>""}
+ v ? Deposit_20 [{}] v 
+  {"ATM"=>"Balance_155, Deposit_105_50, Deposit_135_20, Deposit_145_10, Deposit_150_5, Deposit_55_100"} - {"ATM"=>""}
+ v ! Balance: 155 [{}] v 
+  {"ATM"=>"Idle_155"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_155, Deposit_105_50, Deposit_135_20, Deposit_145_10, Deposit_150_5, Deposit_55_100"} - {"ATM"=>""}
+ v ! Balance: 20 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_370 [{}] v 
+  {"ATM"=>"Valid_card_370"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_370"} - {"ATM"=>""}
+ v ? Correct_PIN_370 [{}] v 
+  {"ATM"=>"Correct_PIN_370"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_370"} - {"ATM"=>""}
+ v ? Deposit_20 [{}] v 
+  {"ATM"=>"Balance_390, Deposit_290_100, Deposit_340_50, Deposit_370_20, Deposit_380_10, Deposit_385_5"} - {"ATM"=>""}
+ v ! Balance: 390 [{}] v 
+  {"ATM"=>"Idle_390"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_390, Deposit_290_100, Deposit_340_50, Deposit_370_20, Deposit_380_10, Deposit_385_5"} - {"ATM"=>""}
+ v ! Balance: 20 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_95 [{}] v 
+  {"ATM"=>"Valid_card_95"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_95"} - {"ATM"=>""}
+ v ? Correct_PIN_95 [{}] v 
+  {"ATM"=>"Correct_PIN_95"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_95"} - {"ATM"=>""}
+ v ? Deposit_20 [{}] v 
+  {"ATM"=>"Balance_115, Deposit_105_10, Deposit_110_5, Deposit_15_100, Deposit_65_50, Deposit_95_20"} - {"ATM"=>""}
+ v ! Balance: 115 [{}] v 
+  {"ATM"=>"Idle_115"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_115, Deposit_105_10, Deposit_110_5, Deposit_15_100, Deposit_65_50, Deposit_95_20"} - {"ATM"=>""}
+ v ! Balance: 20 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_165 [{}] v 
+  {"ATM"=>"Valid_card_165"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_165"} - {"ATM"=>""}
+ v ? Correct_PIN_165 [{}] v 
+  {"ATM"=>"Correct_PIN_165"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_165"} - {"ATM"=>""}
+ v ? Deposit_50 [{}] v 
+  {"ATM"=>"Balance_215, Deposit_115_100, Deposit_165_50, Deposit_195_20, Deposit_205_10, Deposit_210_5"} - {"ATM"=>""}
+ v ! Balance: 215 [{}] v 
+  {"ATM"=>"Idle_215"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_215, Deposit_115_100, Deposit_165_50, Deposit_195_20, Deposit_205_10, Deposit_210_5"} - {"ATM"=>""}
+ v ! Balance: 50 [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_30 [{}] v 
+  {"ATM"=>"Valid_card_30"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_30"} - {"ATM"=>""}
+ v ? Correct_PIN_30 [{}] v 
+  {"ATM"=>"Correct_PIN_30"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_30"} - {"ATM"=>""}
+ v ? Deposit_5 [{}] v 
+  {"ATM"=>"Balance_35, Deposit_15_20, Deposit_25_10, Deposit_30_5"} - {"ATM"=>""}
+ v ! Balance: 35 [{}] v 
+  {"ATM"=>"Idle_35"} - {"ATM"=>""}
+ v ? Balance [{}] v 
+  {"ATM"=>"Balance_35, Deposit_15_20, Deposit_25_10, Deposit_30_5"} - {"ATM"=>""}
+ v ! Balance: 5 [{}] v 
+  

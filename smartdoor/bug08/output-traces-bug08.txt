@@ -1,0 +1,1426 @@
+Generated on: 2024-07-09 21:57:03.97616978 +0200
+===== SHRINKER: [Shrinking::ShortestPathShrinker] =====
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_51"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_69"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_51"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_69"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_53"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_53"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_51"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_69"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_53"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_53"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_53"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_53"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_51"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_69"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_51"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_69"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_51"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_69"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+Generated on: 2024-07-09 21:57:04.814527618 +0200
+===== SHRINKER: [Shrinking::ShortestPathLabelCount] =====
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_51"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_69"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_51"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_69"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_53"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_53"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_51"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_69"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_53"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_53"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_53"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_53"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_51"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_69"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_51"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_69"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_51"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_69"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+Generated on: 2024-07-09 21:57:05.03986431 +0200
+===== SHRINKER: [Shrinking::PartialOrderShrinker] =====
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_53"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_51"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_53"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_51"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_53"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_53"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_53"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_51"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_53"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_53"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_51"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_69"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_51"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_69"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_51"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+Generated on: 2024-07-09 21:57:05.216718032 +0200
+===== SHRINKER: [Shrinking::CycleShrink2] =====
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_53"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_51"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_53"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_51"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_53"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_53"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_51"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_53"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_53"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_51"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_69"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_51"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_69"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_51"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+Generated on: 2024-07-09 21:57:06.216423379 +0200
+===== SHRINKER: [Shrinking::BinaryShrink2] =====
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_53"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_51"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_53"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_51"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_53"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_53"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_51"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? close [{}] v 
+  {"smartdoor"=>"_26"} - {"smartdoor"=>""}
+ v ! invalid_command [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_53"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_53"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_51"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_69"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_51"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_56"} - {"smartdoor"=>""}
+ v ! invalid_command [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_69"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? lock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_41"} - {"smartdoor"=>""}
+ v ! invalid_command [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_51"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+Generated on: 2024-07-09 21:57:06.415948478 +0200
+===== SHRINKER: [Shrinking::CycleShrink2, Shrinking::ElemShrink2] =====
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_53"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_51"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_53"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_51"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_53"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_53"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_51"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_53"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_53"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_51"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_69"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_51"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_69"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_51"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+Generated on: 2024-07-09 21:57:06.573070657 +0200
+===== SHRINKER: [Shrinking::CycleShrink2, Shrinking::BinaryShrink2] =====
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_53"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_51"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_53"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_51"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_53"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_53"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_51"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_53"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_53"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_51"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_69"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_51"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_69"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  
+===== END TRACE =====
+{"smartdoor"=>"closed"} - {"smartdoor"=>""}
+ v ? lock_correct_passcode [{}] v 
+  {"smartdoor"=>"_6"} - {"smartdoor"=>""}
+ v ! locked [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_invalid_passcode [{}] v 
+  {"smartdoor"=>"_38"} - {"smartdoor"=>""}
+ v ! invalid_passcode [{}] v 
+  {"smartdoor"=>"locked"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_36"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_1"} - {"smartdoor"=>""}
+ v ? unlock_incorrect_passcode [{}] v 
+  {"smartdoor"=>"_51"} - {"smartdoor"=>""}
+ v ! incorrect_passcode [{}] v 
+  {"smartdoor"=>"locked_2"} - {"smartdoor"=>""}
+ v ! shut_off [{}] v 
+  

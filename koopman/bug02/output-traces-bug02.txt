@@ -1,0 +1,372 @@
+Generated on: 2024-07-09 22:13:22.725554741 +0200
+===== SHRINKER: [Shrinking::ShortestPathLabelCount] =====
+===== END TRACE =====
+{"Koopmans Machine"=>"None_0"} - {"Koopmans Machine"=>""}
+ v ? Coin2 [{}] v 
+  {"Koopmans Machine"=>"None_2"} - {"Koopmans Machine"=>""}
+ v ? Coin2 [{}] v 
+  {"Koopmans Machine"=>"None_4"} - {"Koopmans Machine"=>""}
+ v ? Choice_Coffee [{}] v 
+  {"Koopmans Machine"=>"Coffee_4"} - {"Koopmans Machine"=>""}
+ v ? Go [{}] v 
+  {"Koopmans Machine"=>"Cup_Coffee_4"} - {"Koopmans Machine"=>""}
+ v ! Cup_Coffee [{}] v 
+  {"Koopmans Machine"=>"None_2"} - {"Koopmans Machine"=>""}
+ v ? Info_None_2 [{}] v 
+  {"Koopmans Machine"=>"Info_None_2"} - {"Koopmans Machine"=>""}
+ v ! Info_None_0 [{}] v 
+  
+===== END TRACE =====
+{"Koopmans Machine"=>"None_0"} - {"Koopmans Machine"=>""}
+ v ? Coin1 [{}] v 
+  {"Koopmans Machine"=>"None_1"} - {"Koopmans Machine"=>""}
+ v ? Coin2 [{}] v 
+  {"Koopmans Machine"=>"None_3"} - {"Koopmans Machine"=>""}
+ v ? Coin2 [{}] v 
+  {"Koopmans Machine"=>"None_5"} - {"Koopmans Machine"=>""}
+ v ? Choice_Coffee [{}] v 
+  {"Koopmans Machine"=>"Coffee_5"} - {"Koopmans Machine"=>""}
+ v ? Go [{}] v 
+  {"Koopmans Machine"=>"Cup_Coffee_5"} - {"Koopmans Machine"=>""}
+ v ! Cup_Coffee [{}] v 
+  {"Koopmans Machine"=>"None_3"} - {"Koopmans Machine"=>""}
+ v ? Reset [{}] v 
+  
+===== END TRACE =====
+{"Koopmans Machine"=>"None_0"} - {"Koopmans Machine"=>""}
+ v ? Coin2 [{}] v 
+  {"Koopmans Machine"=>"None_2"} - {"Koopmans Machine"=>""}
+ v ? Coin2 [{}] v 
+  {"Koopmans Machine"=>"None_4"} - {"Koopmans Machine"=>""}
+ v ? Go [{}] v 
+  {"Koopmans Machine"=>"None_4"} - {"Koopmans Machine"=>""}
+ v ? Go [{}] v 
+  {"Koopmans Machine"=>"None_4"} - {"Koopmans Machine"=>""}
+ v ? Choice_Wiener [{}] v 
+  {"Koopmans Machine"=>"Wiener_4"} - {"Koopmans Machine"=>""}
+ v ? Choice_Wiener [{}] v 
+  {"Koopmans Machine"=>"Wiener_4"} - {"Koopmans Machine"=>""}
+ v ? Info_Wiener_4 [{}] v 
+  {"Koopmans Machine"=>"Info_Wiener_4"} - {"Koopmans Machine"=>""}
+ v ! Info_Wiener_4 [{}] v 
+  
+Generated on: 2024-07-09 22:13:22.839853929 +0200
+===== SHRINKER: [Shrinking::PartialOrderShrinker] =====
+===== END TRACE =====
+{"Koopmans Machine"=>"None_0"} - {"Koopmans Machine"=>""}
+ v ? Coin1 [{}] v 
+  {"Koopmans Machine"=>"None_1"} - {"Koopmans Machine"=>""}
+ v ? Coin2 [{}] v 
+  {"Koopmans Machine"=>"None_3"} - {"Koopmans Machine"=>""}
+ v ? Coin2 [{}] v 
+  {"Koopmans Machine"=>"None_5"} - {"Koopmans Machine"=>""}
+ v ? Choice_Double [{}] v 
+  {"Koopmans Machine"=>"Double_5"} - {"Koopmans Machine"=>""}
+ v ? Go [{}] v 
+  {"Koopmans Machine"=>"Cup_Double_5"} - {"Koopmans Machine"=>""}
+ v ! Cup_Double [{}] v 
+  {"Koopmans Machine"=>"None_2"} - {"Koopmans Machine"=>""}
+ v ? Info_None_2 [{}] v 
+  {"Koopmans Machine"=>"Info_None_2"} - {"Koopmans Machine"=>""}
+ v ! Info_None_0 [{}] v 
+  
+===== END TRACE =====
+{"Koopmans Machine"=>"None_0"} - {"Koopmans Machine"=>""}
+ v ? Coin2 [{}] v 
+  {"Koopmans Machine"=>"None_2"} - {"Koopmans Machine"=>""}
+ v ? Coin2 [{}] v 
+  {"Koopmans Machine"=>"None_4"} - {"Koopmans Machine"=>""}
+ v ? Choice_Espresso [{}] v 
+  {"Koopmans Machine"=>"Espresso_4"} - {"Koopmans Machine"=>""}
+ v ? Coin2 [{}] v 
+  {"Koopmans Machine"=>"Espresso_6"} - {"Koopmans Machine"=>""}
+ v ? Go [{}] v 
+  {"Koopmans Machine"=>"Cup_Espresso_6"} - {"Koopmans Machine"=>""}
+ v ! Cup_Espresso [{}] v 
+  {"Koopmans Machine"=>"None_3"} - {"Koopmans Machine"=>""}
+ v ? Choice_French [{}] v 
+  {"Koopmans Machine"=>"French_3"} - {"Koopmans Machine"=>""}
+ v ? Choice_Coffee [{}] v 
+  {"Koopmans Machine"=>"Coffee_3"} - {"Koopmans Machine"=>""}
+ v ? Reset [{}] v 
+  
+===== END TRACE =====
+{"Koopmans Machine"=>"None_0"} - {"Koopmans Machine"=>""}
+ v ? Coin2 [{}] v 
+  {"Koopmans Machine"=>"None_2"} - {"Koopmans Machine"=>""}
+ v ? Coin2 [{}] v 
+  {"Koopmans Machine"=>"None_4"} - {"Koopmans Machine"=>""}
+ v ? Coin2 [{}] v 
+  {"Koopmans Machine"=>"None_6"} - {"Koopmans Machine"=>""}
+ v ? Choice_Coffee [{}] v 
+  {"Koopmans Machine"=>"Coffee_6"} - {"Koopmans Machine"=>""}
+ v ? Go [{}] v 
+  {"Koopmans Machine"=>"Cup_Coffee_6"} - {"Koopmans Machine"=>""}
+ v ! Cup_Coffee [{}] v 
+  {"Koopmans Machine"=>"None_4"} - {"Koopmans Machine"=>""}
+ v ? Choice_Wiener [{}] v 
+  {"Koopmans Machine"=>"Wiener_4"} - {"Koopmans Machine"=>""}
+ v ? Info_Wiener_4 [{}] v 
+  {"Koopmans Machine"=>"Info_Wiener_4"} - {"Koopmans Machine"=>""}
+ v ! Info_Wiener_0 [{}] v 
+  
+Generated on: 2024-07-09 22:13:22.958388508 +0200
+===== SHRINKER: [Shrinking::CycleShrink2] =====
+===== END TRACE =====
+{"Koopmans Machine"=>"None_0"} - {"Koopmans Machine"=>""}
+ v ? Choice_French [{}] v 
+  {"Koopmans Machine"=>"French_0"} - {"Koopmans Machine"=>""}
+ v ? Coin1 [{}] v 
+  {"Koopmans Machine"=>"French_1"} - {"Koopmans Machine"=>""}
+ v ? Coin2 [{}] v 
+  {"Koopmans Machine"=>"French_3"} - {"Koopmans Machine"=>""}
+ v ? Coin1 [{}] v 
+  {"Koopmans Machine"=>"French_4"} - {"Koopmans Machine"=>""}
+ v ? Choice_Espresso [{}] v 
+  {"Koopmans Machine"=>"Espresso_4"} - {"Koopmans Machine"=>""}
+ v ? Choice_Coffee [{}] v 
+  {"Koopmans Machine"=>"Coffee_4"} - {"Koopmans Machine"=>""}
+ v ? Choice_Double [{}] v 
+  {"Koopmans Machine"=>"Double_4"} - {"Koopmans Machine"=>""}
+ v ? Choice_Wiener [{}] v 
+  {"Koopmans Machine"=>"Wiener_4"} - {"Koopmans Machine"=>""}
+ v ? Coin1 [{}] v 
+  {"Koopmans Machine"=>"Wiener_5"} - {"Koopmans Machine"=>""}
+ v ? Choice_Double [{}] v 
+  {"Koopmans Machine"=>"Double_5"} - {"Koopmans Machine"=>""}
+ v ? Go [{}] v 
+  {"Koopmans Machine"=>"Cup_Double_5"} - {"Koopmans Machine"=>""}
+ v ! Cup_Double [{}] v 
+  {"Koopmans Machine"=>"None_2"} - {"Koopmans Machine"=>""}
+ v ? Info_None_2 [{}] v 
+  {"Koopmans Machine"=>"Info_None_2"} - {"Koopmans Machine"=>""}
+ v ! Info_None_0 [{}] v 
+  
+===== END TRACE =====
+{"Koopmans Machine"=>"None_0"} - {"Koopmans Machine"=>""}
+ v ? Choice_Wiener [{}] v 
+  {"Koopmans Machine"=>"Wiener_0"} - {"Koopmans Machine"=>""}
+ v ? Coin2 [{}] v 
+  {"Koopmans Machine"=>"Wiener_2"} - {"Koopmans Machine"=>""}
+ v ? Choice_Double [{}] v 
+  {"Koopmans Machine"=>"Double_2"} - {"Koopmans Machine"=>""}
+ v ? Coin2 [{}] v 
+  {"Koopmans Machine"=>"Double_4"} - {"Koopmans Machine"=>""}
+ v ? Choice_Espresso [{}] v 
+  {"Koopmans Machine"=>"Espresso_4"} - {"Koopmans Machine"=>""}
+ v ? Coin2 [{}] v 
+  {"Koopmans Machine"=>"Espresso_6"} - {"Koopmans Machine"=>""}
+ v ? Go [{}] v 
+  {"Koopmans Machine"=>"Cup_Espresso_6"} - {"Koopmans Machine"=>""}
+ v ! Cup_Espresso [{}] v 
+  {"Koopmans Machine"=>"None_3"} - {"Koopmans Machine"=>""}
+ v ? Choice_French [{}] v 
+  {"Koopmans Machine"=>"French_3"} - {"Koopmans Machine"=>""}
+ v ? Choice_Coffee [{}] v 
+  {"Koopmans Machine"=>"Coffee_3"} - {"Koopmans Machine"=>""}
+ v ? Reset [{}] v 
+  
+===== END TRACE =====
+{"Koopmans Machine"=>"None_0"} - {"Koopmans Machine"=>""}
+ v ? Choice_Wiener [{}] v 
+  {"Koopmans Machine"=>"Wiener_0"} - {"Koopmans Machine"=>""}
+ v ? Coin2 [{}] v 
+  {"Koopmans Machine"=>"Wiener_2"} - {"Koopmans Machine"=>""}
+ v ? Coin2 [{}] v 
+  {"Koopmans Machine"=>"Wiener_4"} - {"Koopmans Machine"=>""}
+ v ? Choice_Espresso [{}] v 
+  {"Koopmans Machine"=>"Espresso_4"} - {"Koopmans Machine"=>""}
+ v ? Coin1 [{}] v 
+  {"Koopmans Machine"=>"Espresso_5"} - {"Koopmans Machine"=>""}
+ v ? Choice_Wiener [{}] v 
+  {"Koopmans Machine"=>"Wiener_5"} - {"Koopmans Machine"=>""}
+ v ? Coin2 [{}] v 
+  {"Koopmans Machine"=>"Wiener_7"} - {"Koopmans Machine"=>""}
+ v ? Choice_Double [{}] v 
+  {"Koopmans Machine"=>"Double_7"} - {"Koopmans Machine"=>""}
+ v ? Go [{}] v 
+  {"Koopmans Machine"=>"Cup_Double_7"} - {"Koopmans Machine"=>""}
+ v ! Cup_Double [{}] v 
+  {"Koopmans Machine"=>"None_4"} - {"Koopmans Machine"=>""}
+ v ? Choice_Wiener [{}] v 
+  {"Koopmans Machine"=>"Wiener_4"} - {"Koopmans Machine"=>""}
+ v ? Info_Wiener_4 [{}] v 
+  {"Koopmans Machine"=>"Info_Wiener_4"} - {"Koopmans Machine"=>""}
+ v ! Info_Wiener_0 [{}] v 
+  
+Generated on: 2024-07-09 22:13:23.055785662 +0200
+===== SHRINKER: [Shrinking::BinaryShrink2] =====
+===== END TRACE =====
+{"Koopmans Machine"=>"None_0"} - {"Koopmans Machine"=>""}
+ v ? Coin1 [{}] v 
+  {"Koopmans Machine"=>"None_1"} - {"Koopmans Machine"=>""}
+ v ? Coin2 [{}] v 
+  {"Koopmans Machine"=>"None_3"} - {"Koopmans Machine"=>""}
+ v ? Coin1 [{}] v 
+  {"Koopmans Machine"=>"None_4"} - {"Koopmans Machine"=>""}
+ v ? Coin1 [{}] v 
+  {"Koopmans Machine"=>"None_5"} - {"Koopmans Machine"=>""}
+ v ? Choice_Double [{}] v 
+  {"Koopmans Machine"=>"Double_5"} - {"Koopmans Machine"=>""}
+ v ? Go [{}] v 
+  {"Koopmans Machine"=>"Cup_Double_5"} - {"Koopmans Machine"=>""}
+ v ! Cup_Double [{}] v 
+  {"Koopmans Machine"=>"None_2"} - {"Koopmans Machine"=>""}
+ v ? Info_None_2 [{}] v 
+  {"Koopmans Machine"=>"Info_None_2"} - {"Koopmans Machine"=>""}
+ v ! Info_None_0 [{}] v 
+  
+===== END TRACE =====
+{"Koopmans Machine"=>"None_0"} - {"Koopmans Machine"=>""}
+ v ? Coin2 [{}] v 
+  {"Koopmans Machine"=>"None_2"} - {"Koopmans Machine"=>""}
+ v ? Choice_Espresso [{}] v 
+  {"Koopmans Machine"=>"Espresso_2"} - {"Koopmans Machine"=>""}
+ v ? Coin2 [{}] v 
+  {"Koopmans Machine"=>"Espresso_4"} - {"Koopmans Machine"=>""}
+ v ? Go [{}] v 
+  {"Koopmans Machine"=>"Cup_Espresso_4"} - {"Koopmans Machine"=>""}
+ v ! Cup_Espresso [{}] v 
+  {"Koopmans Machine"=>"None_1"} - {"Koopmans Machine"=>""}
+ v ? Choice_Coffee [{}] v 
+  {"Koopmans Machine"=>"Coffee_1"} - {"Koopmans Machine"=>""}
+ v ? Reset [{}] v 
+  
+===== END TRACE =====
+{"Koopmans Machine"=>"None_0"} - {"Koopmans Machine"=>""}
+ v ? Coin2 [{}] v 
+  {"Koopmans Machine"=>"None_2"} - {"Koopmans Machine"=>""}
+ v ? Coin2 [{}] v 
+  {"Koopmans Machine"=>"None_4"} - {"Koopmans Machine"=>""}
+ v ? Coin1 [{}] v 
+  {"Koopmans Machine"=>"None_5"} - {"Koopmans Machine"=>""}
+ v ? Coin2 [{}] v 
+  {"Koopmans Machine"=>"None_7"} - {"Koopmans Machine"=>""}
+ v ? Choice_Double [{}] v 
+  {"Koopmans Machine"=>"Double_7"} - {"Koopmans Machine"=>""}
+ v ? Go [{}] v 
+  {"Koopmans Machine"=>"Cup_Double_7"} - {"Koopmans Machine"=>""}
+ v ! Cup_Double [{}] v 
+  {"Koopmans Machine"=>"None_4"} - {"Koopmans Machine"=>""}
+ v ? Choice_Wiener [{}] v 
+  {"Koopmans Machine"=>"Wiener_4"} - {"Koopmans Machine"=>""}
+ v ? Info_Wiener_4 [{}] v 
+  {"Koopmans Machine"=>"Info_Wiener_4"} - {"Koopmans Machine"=>""}
+ v ! Info_Wiener_0 [{}] v 
+  
+Generated on: 2024-07-09 22:13:23.118932773 +0200
+===== SHRINKER: [Shrinking::CycleShrink2, Shrinking::ElemShrink2] =====
+===== END TRACE =====
+{"Koopmans Machine"=>"None_0"} - {"Koopmans Machine"=>""}
+ v ? Coin1 [{}] v 
+  {"Koopmans Machine"=>"None_1"} - {"Koopmans Machine"=>""}
+ v ? Coin2 [{}] v 
+  {"Koopmans Machine"=>"None_3"} - {"Koopmans Machine"=>""}
+ v ? Coin1 [{}] v 
+  {"Koopmans Machine"=>"None_4"} - {"Koopmans Machine"=>""}
+ v ? Coin1 [{}] v 
+  {"Koopmans Machine"=>"None_5"} - {"Koopmans Machine"=>""}
+ v ? Choice_Double [{}] v 
+  {"Koopmans Machine"=>"Double_5"} - {"Koopmans Machine"=>""}
+ v ? Go [{}] v 
+  {"Koopmans Machine"=>"Cup_Double_5"} - {"Koopmans Machine"=>""}
+ v ! Cup_Double [{}] v 
+  {"Koopmans Machine"=>"None_2"} - {"Koopmans Machine"=>""}
+ v ? Info_None_2 [{}] v 
+  {"Koopmans Machine"=>"Info_None_2"} - {"Koopmans Machine"=>""}
+ v ! Info_None_0 [{}] v 
+  
+===== END TRACE =====
+{"Koopmans Machine"=>"None_0"} - {"Koopmans Machine"=>""}
+ v ? Coin2 [{}] v 
+  {"Koopmans Machine"=>"None_2"} - {"Koopmans Machine"=>""}
+ v ? Choice_Espresso [{}] v 
+  {"Koopmans Machine"=>"Espresso_2"} - {"Koopmans Machine"=>""}
+ v ? Coin2 [{}] v 
+  {"Koopmans Machine"=>"Espresso_4"} - {"Koopmans Machine"=>""}
+ v ? Go [{}] v 
+  {"Koopmans Machine"=>"Cup_Espresso_4"} - {"Koopmans Machine"=>""}
+ v ! Cup_Espresso [{}] v 
+  {"Koopmans Machine"=>"None_1"} - {"Koopmans Machine"=>""}
+ v ? Reset [{}] v 
+  
+===== END TRACE =====
+{"Koopmans Machine"=>"None_0"} - {"Koopmans Machine"=>""}
+ v ? Coin2 [{}] v 
+  {"Koopmans Machine"=>"None_2"} - {"Koopmans Machine"=>""}
+ v ? Coin2 [{}] v 
+  {"Koopmans Machine"=>"None_4"} - {"Koopmans Machine"=>""}
+ v ? Coin1 [{}] v 
+  {"Koopmans Machine"=>"None_5"} - {"Koopmans Machine"=>""}
+ v ? Coin2 [{}] v 
+  {"Koopmans Machine"=>"None_7"} - {"Koopmans Machine"=>""}
+ v ? Choice_Double [{}] v 
+  {"Koopmans Machine"=>"Double_7"} - {"Koopmans Machine"=>""}
+ v ? Go [{}] v 
+  {"Koopmans Machine"=>"Cup_Double_7"} - {"Koopmans Machine"=>""}
+ v ! Cup_Double [{}] v 
+  {"Koopmans Machine"=>"None_4"} - {"Koopmans Machine"=>""}
+ v ? Choice_Wiener [{}] v 
+  {"Koopmans Machine"=>"Wiener_4"} - {"Koopmans Machine"=>""}
+ v ? Info_Wiener_4 [{}] v 
+  {"Koopmans Machine"=>"Info_Wiener_4"} - {"Koopmans Machine"=>""}
+ v ! Info_Wiener_0 [{}] v 
+  
+Generated on: 2024-07-09 22:13:23.237379953 +0200
+===== SHRINKER: [Shrinking::CycleShrink2, Shrinking::BinaryShrink2] =====
+===== END TRACE =====
+{"Koopmans Machine"=>"None_0"} - {"Koopmans Machine"=>""}
+ v ? Coin1 [{}] v 
+  {"Koopmans Machine"=>"None_1"} - {"Koopmans Machine"=>""}
+ v ? Coin2 [{}] v 
+  {"Koopmans Machine"=>"None_3"} - {"Koopmans Machine"=>""}
+ v ? Coin1 [{}] v 
+  {"Koopmans Machine"=>"None_4"} - {"Koopmans Machine"=>""}
+ v ? Coin1 [{}] v 
+  {"Koopmans Machine"=>"None_5"} - {"Koopmans Machine"=>""}
+ v ? Choice_Double [{}] v 
+  {"Koopmans Machine"=>"Double_5"} - {"Koopmans Machine"=>""}
+ v ? Go [{}] v 
+  {"Koopmans Machine"=>"Cup_Double_5"} - {"Koopmans Machine"=>""}
+ v ! Cup_Double [{}] v 
+  {"Koopmans Machine"=>"None_2"} - {"Koopmans Machine"=>""}
+ v ? Info_None_2 [{}] v 
+  {"Koopmans Machine"=>"Info_None_2"} - {"Koopmans Machine"=>""}
+ v ! Info_None_0 [{}] v 
+  
+===== END TRACE =====
+{"Koopmans Machine"=>"None_0"} - {"Koopmans Machine"=>""}
+ v ? Coin2 [{}] v 
+  {"Koopmans Machine"=>"None_2"} - {"Koopmans Machine"=>""}
+ v ? Choice_Espresso [{}] v 
+  {"Koopmans Machine"=>"Espresso_2"} - {"Koopmans Machine"=>""}
+ v ? Coin2 [{}] v 
+  {"Koopmans Machine"=>"Espresso_4"} - {"Koopmans Machine"=>""}
+ v ? Go [{}] v 
+  {"Koopmans Machine"=>"Cup_Espresso_4"} - {"Koopmans Machine"=>""}
+ v ! Cup_Espresso [{}] v 
+  {"Koopmans Machine"=>"None_1"} - {"Koopmans Machine"=>""}
+ v ? Reset [{}] v 
+  
+===== END TRACE =====
+{"Koopmans Machine"=>"None_0"} - {"Koopmans Machine"=>""}
+ v ? Coin2 [{}] v 
+  {"Koopmans Machine"=>"None_2"} - {"Koopmans Machine"=>""}
+ v ? Coin2 [{}] v 
+  {"Koopmans Machine"=>"None_4"} - {"Koopmans Machine"=>""}
+ v ? Coin1 [{}] v 
+  {"Koopmans Machine"=>"None_5"} - {"Koopmans Machine"=>""}
+ v ? Coin2 [{}] v 
+  {"Koopmans Machine"=>"None_7"} - {"Koopmans Machine"=>""}
+ v ? Choice_Double [{}] v 
+  {"Koopmans Machine"=>"Double_7"} - {"Koopmans Machine"=>""}
+ v ? Go [{}] v 
+  {"Koopmans Machine"=>"Cup_Double_7"} - {"Koopmans Machine"=>""}
+ v ! Cup_Double [{}] v 
+  {"Koopmans Machine"=>"None_4"} - {"Koopmans Machine"=>""}
+ v ? Choice_Wiener [{}] v 
+  {"Koopmans Machine"=>"Wiener_4"} - {"Koopmans Machine"=>""}
+ v ? Info_Wiener_4 [{}] v 
+  {"Koopmans Machine"=>"Info_Wiener_4"} - {"Koopmans Machine"=>""}
+ v ! Info_Wiener_0 [{}] v 
+  

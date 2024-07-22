@@ -1,0 +1,838 @@
+Generated on: 2024-07-10 00:27:22.283829181 +0200
+===== SHRINKER: [Shrinking::ShortestPathShrinker] =====
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_145 [{}] v 
+  {"ATM"=>"Valid_card_145"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_145"} - {"ATM"=>""}
+ v ? Incorrect_PIN_145 [{}] v 
+  {"ATM"=>"Incorrect_PIN_145"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_170 [{}] v 
+  {"ATM"=>"Valid_card_170"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_170"} - {"ATM"=>""}
+ v ? Incorrect_PIN_170 [{}] v 
+  {"ATM"=>"Incorrect_PIN_170"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_80 [{}] v 
+  {"ATM"=>"Valid_card_80"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_80"} - {"ATM"=>""}
+ v ? Incorrect_PIN_80 [{}] v 
+  {"ATM"=>"Incorrect_PIN_80"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_70 [{}] v 
+  {"ATM"=>"Valid_card_70"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_70"} - {"ATM"=>""}
+ v ? Incorrect_PIN_70 [{}] v 
+  {"ATM"=>"Incorrect_PIN_70"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_80 [{}] v 
+  {"ATM"=>"Valid_card_80"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_80"} - {"ATM"=>""}
+ v ? Incorrect_PIN_80 [{}] v 
+  {"ATM"=>"Incorrect_PIN_80"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_175 [{}] v 
+  {"ATM"=>"Valid_card_175"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_175"} - {"ATM"=>""}
+ v ? Incorrect_PIN_175 [{}] v 
+  {"ATM"=>"Incorrect_PIN_175"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_60 [{}] v 
+  {"ATM"=>"Valid_card_60"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_60"} - {"ATM"=>""}
+ v ? Incorrect_PIN_60 [{}] v 
+  {"ATM"=>"Incorrect_PIN_60"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_415 [{}] v 
+  {"ATM"=>"Valid_card_415"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_415"} - {"ATM"=>""}
+ v ? Incorrect_PIN_415 [{}] v 
+  {"ATM"=>"Incorrect_PIN_415"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_250 [{}] v 
+  {"ATM"=>"Valid_card_250"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_250"} - {"ATM"=>""}
+ v ? Incorrect_PIN_250 [{}] v 
+  {"ATM"=>"Incorrect_PIN_250"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_490 [{}] v 
+  {"ATM"=>"Valid_card_490"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_490"} - {"ATM"=>""}
+ v ? Incorrect_PIN_490 [{}] v 
+  {"ATM"=>"Incorrect_PIN_490"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+Generated on: 2024-07-10 00:27:22.386797007 +0200
+===== SHRINKER: [Shrinking::ShortestPathLabelCount] =====
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_145 [{}] v 
+  {"ATM"=>"Valid_card_145"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_145"} - {"ATM"=>""}
+ v ? Incorrect_PIN_145 [{}] v 
+  {"ATM"=>"Incorrect_PIN_145"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_170 [{}] v 
+  {"ATM"=>"Valid_card_170"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_170"} - {"ATM"=>""}
+ v ? Incorrect_PIN_170 [{}] v 
+  {"ATM"=>"Incorrect_PIN_170"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_80 [{}] v 
+  {"ATM"=>"Valid_card_80"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_80"} - {"ATM"=>""}
+ v ? Incorrect_PIN_80 [{}] v 
+  {"ATM"=>"Incorrect_PIN_80"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_70 [{}] v 
+  {"ATM"=>"Valid_card_70"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_70"} - {"ATM"=>""}
+ v ? Incorrect_PIN_70 [{}] v 
+  {"ATM"=>"Incorrect_PIN_70"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_80 [{}] v 
+  {"ATM"=>"Valid_card_80"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_80"} - {"ATM"=>""}
+ v ? Incorrect_PIN_80 [{}] v 
+  {"ATM"=>"Incorrect_PIN_80"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_175 [{}] v 
+  {"ATM"=>"Valid_card_175"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_175"} - {"ATM"=>""}
+ v ? Incorrect_PIN_175 [{}] v 
+  {"ATM"=>"Incorrect_PIN_175"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_60 [{}] v 
+  {"ATM"=>"Valid_card_60"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_60"} - {"ATM"=>""}
+ v ? Incorrect_PIN_60 [{}] v 
+  {"ATM"=>"Incorrect_PIN_60"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_415 [{}] v 
+  {"ATM"=>"Valid_card_415"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_415"} - {"ATM"=>""}
+ v ? Incorrect_PIN_415 [{}] v 
+  {"ATM"=>"Incorrect_PIN_415"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_250 [{}] v 
+  {"ATM"=>"Valid_card_250"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_250"} - {"ATM"=>""}
+ v ? Incorrect_PIN_250 [{}] v 
+  {"ATM"=>"Incorrect_PIN_250"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_490 [{}] v 
+  {"ATM"=>"Valid_card_490"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_490"} - {"ATM"=>""}
+ v ? Incorrect_PIN_490 [{}] v 
+  {"ATM"=>"Incorrect_PIN_490"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+Generated on: 2024-07-10 00:27:22.452367875 +0200
+===== SHRINKER: [Shrinking::PartialOrderShrinker] =====
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_145 [{}] v 
+  {"ATM"=>"Valid_card_145"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_145"} - {"ATM"=>""}
+ v ? Incorrect_PIN_145 [{}] v 
+  {"ATM"=>"Incorrect_PIN_145"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_170 [{}] v 
+  {"ATM"=>"Valid_card_170"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_170"} - {"ATM"=>""}
+ v ? Incorrect_PIN_170 [{}] v 
+  {"ATM"=>"Incorrect_PIN_170"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_80 [{}] v 
+  {"ATM"=>"Valid_card_80"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_80"} - {"ATM"=>""}
+ v ? Incorrect_PIN_80 [{}] v 
+  {"ATM"=>"Incorrect_PIN_80"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_70 [{}] v 
+  {"ATM"=>"Valid_card_70"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_70"} - {"ATM"=>""}
+ v ? Incorrect_PIN_70 [{}] v 
+  {"ATM"=>"Incorrect_PIN_70"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_80 [{}] v 
+  {"ATM"=>"Valid_card_80"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_80"} - {"ATM"=>""}
+ v ? Incorrect_PIN_80 [{}] v 
+  {"ATM"=>"Incorrect_PIN_80"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_175 [{}] v 
+  {"ATM"=>"Valid_card_175"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_175"} - {"ATM"=>""}
+ v ? Incorrect_PIN_175 [{}] v 
+  {"ATM"=>"Incorrect_PIN_175"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_60 [{}] v 
+  {"ATM"=>"Valid_card_60"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_60"} - {"ATM"=>""}
+ v ? Incorrect_PIN_60 [{}] v 
+  {"ATM"=>"Incorrect_PIN_60"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_415 [{}] v 
+  {"ATM"=>"Valid_card_415"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_415"} - {"ATM"=>""}
+ v ? Incorrect_PIN_415 [{}] v 
+  {"ATM"=>"Incorrect_PIN_415"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_250 [{}] v 
+  {"ATM"=>"Valid_card_250"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_250"} - {"ATM"=>""}
+ v ? Incorrect_PIN_250 [{}] v 
+  {"ATM"=>"Incorrect_PIN_250"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_490 [{}] v 
+  {"ATM"=>"Valid_card_490"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_490"} - {"ATM"=>""}
+ v ? Incorrect_PIN_490 [{}] v 
+  {"ATM"=>"Incorrect_PIN_490"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+Generated on: 2024-07-10 00:27:22.540873172 +0200
+===== SHRINKER: [Shrinking::CycleShrink2] =====
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_145 [{}] v 
+  {"ATM"=>"Valid_card_145"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_145"} - {"ATM"=>""}
+ v ? Incorrect_PIN_145 [{}] v 
+  {"ATM"=>"Incorrect_PIN_145"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_170 [{}] v 
+  {"ATM"=>"Valid_card_170"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_170"} - {"ATM"=>""}
+ v ? Incorrect_PIN_170 [{}] v 
+  {"ATM"=>"Incorrect_PIN_170"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_80 [{}] v 
+  {"ATM"=>"Valid_card_80"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_80"} - {"ATM"=>""}
+ v ? Incorrect_PIN_80 [{}] v 
+  {"ATM"=>"Incorrect_PIN_80"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_70 [{}] v 
+  {"ATM"=>"Valid_card_70"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_70"} - {"ATM"=>""}
+ v ? Incorrect_PIN_70 [{}] v 
+  {"ATM"=>"Incorrect_PIN_70"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_80 [{}] v 
+  {"ATM"=>"Valid_card_80"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_80"} - {"ATM"=>""}
+ v ? Incorrect_PIN_80 [{}] v 
+  {"ATM"=>"Incorrect_PIN_80"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_175 [{}] v 
+  {"ATM"=>"Valid_card_175"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_175"} - {"ATM"=>""}
+ v ? Incorrect_PIN_175 [{}] v 
+  {"ATM"=>"Incorrect_PIN_175"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_60 [{}] v 
+  {"ATM"=>"Valid_card_60"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_60"} - {"ATM"=>""}
+ v ? Incorrect_PIN_60 [{}] v 
+  {"ATM"=>"Incorrect_PIN_60"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_415 [{}] v 
+  {"ATM"=>"Valid_card_415"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_415"} - {"ATM"=>""}
+ v ? Incorrect_PIN_415 [{}] v 
+  {"ATM"=>"Incorrect_PIN_415"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_250 [{}] v 
+  {"ATM"=>"Valid_card_250"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_250"} - {"ATM"=>""}
+ v ? Incorrect_PIN_250 [{}] v 
+  {"ATM"=>"Incorrect_PIN_250"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_490 [{}] v 
+  {"ATM"=>"Valid_card_490"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_490"} - {"ATM"=>""}
+ v ? Incorrect_PIN_490 [{}] v 
+  {"ATM"=>"Incorrect_PIN_490"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+Generated on: 2024-07-10 00:27:22.677964286 +0200
+===== SHRINKER: [Shrinking::BinaryShrink2] =====
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_50 [{}] v 
+  {"ATM"=>"Valid_card_50"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_50"} - {"ATM"=>""}
+ v ? Correct_PIN_50 [{}] v 
+  {"ATM"=>"Correct_PIN_50"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_50"} - {"ATM"=>""}
+ v ? Withdraw_10 [{}] v 
+  {"ATM"=>"Withdraw_50_10"} - {"ATM"=>""}
+ v ! 10 [{}] v 
+  {"ATM"=>"Idle_40"} - {"ATM"=>""}
+ v ? Exit [{}] v 
+  {"ATM"=>"Exit_40"} - {"ATM"=>""}
+ v ! Card_40 [{}] v 
+  {"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_145 [{}] v 
+  {"ATM"=>"Valid_card_145"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_145"} - {"ATM"=>""}
+ v ? Incorrect_PIN_145 [{}] v 
+  {"ATM"=>"Incorrect_PIN_145"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_90 [{}] v 
+  {"ATM"=>"Valid_card_90"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_90"} - {"ATM"=>""}
+ v ? Correct_PIN_90 [{}] v 
+  {"ATM"=>"Correct_PIN_90"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_90"} - {"ATM"=>""}
+ v ? Exit [{}] v 
+  {"ATM"=>"Exit_90"} - {"ATM"=>""}
+ v ! Card_90 [{}] v 
+  {"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_170 [{}] v 
+  {"ATM"=>"Valid_card_170"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_170"} - {"ATM"=>""}
+ v ? Incorrect_PIN_170 [{}] v 
+  {"ATM"=>"Incorrect_PIN_170"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_80 [{}] v 
+  {"ATM"=>"Valid_card_80"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_80"} - {"ATM"=>""}
+{"ATM"=>"PIN_80"} - {"ATM"=>""}
+ v ? Incorrect_PIN_80 [{}] v 
+  {"ATM"=>"Incorrect_PIN_80"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_15 [{}] v 
+  {"ATM"=>"Valid_card_15"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_15"} - {"ATM"=>""}
+ v ? Correct_PIN_15 [{}] v 
+  {"ATM"=>"Correct_PIN_15"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_15"} - {"ATM"=>""}
+ v ? Withdraw_50 [{}] v 
+  {"ATM"=>"Insufficient_15"} - {"ATM"=>""}
+ v ! Insufficient_balance [{}] v 
+  {"ATM"=>"Idle_15"} - {"ATM"=>""}
+ v ? Exit [{}] v 
+  {"ATM"=>"Exit_15"} - {"ATM"=>""}
+ v ! Card_15 [{}] v 
+  {"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_70 [{}] v 
+  {"ATM"=>"Valid_card_70"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_70"} - {"ATM"=>""}
+ v ? Incorrect_PIN_70 [{}] v 
+  {"ATM"=>"Incorrect_PIN_70"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_80 [{}] v 
+  {"ATM"=>"Valid_card_80"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_80"} - {"ATM"=>""}
+{"ATM"=>"PIN_80"} - {"ATM"=>""}
+ v ? Incorrect_PIN_80 [{}] v 
+  {"ATM"=>"Incorrect_PIN_80"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_380 [{}] v 
+  {"ATM"=>"Valid_card_380"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_380"} - {"ATM"=>""}
+ v ? Correct_PIN_380 [{}] v 
+  {"ATM"=>"Correct_PIN_380"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_380"} - {"ATM"=>""}
+ v ? Withdraw_50 [{}] v 
+  {"ATM"=>"Withdraw_380_50"} - {"ATM"=>""}
+ v ! 50 [{}] v 
+  {"ATM"=>"Idle_330"} - {"ATM"=>""}
+ v ? Exit [{}] v 
+  {"ATM"=>"Exit_330"} - {"ATM"=>""}
+ v ! Card_330 [{}] v 
+  {"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_175 [{}] v 
+  {"ATM"=>"Valid_card_175"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_175"} - {"ATM"=>""}
+ v ? Incorrect_PIN_175 [{}] v 
+  {"ATM"=>"Incorrect_PIN_175"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_120 [{}] v 
+  {"ATM"=>"Valid_card_120"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_120"} - {"ATM"=>""}
+ v ? Correct_PIN_120 [{}] v 
+  {"ATM"=>"Correct_PIN_120"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_120"} - {"ATM"=>""}
+ v ? Withdraw_100 [{}] v 
+  {"ATM"=>"Withdraw_120_100"} - {"ATM"=>""}
+ v ! 100 [{}] v 
+  {"ATM"=>"Idle_20"} - {"ATM"=>""}
+ v ? Withdraw_50 [{}] v 
+  {"ATM"=>"Insufficient_20"} - {"ATM"=>""}
+ v ! Insufficient_balance [{}] v 
+  {"ATM"=>"Idle_20"} - {"ATM"=>""}
+ v ? Exit [{}] v 
+  {"ATM"=>"Exit_20"} - {"ATM"=>""}
+ v ! Card_20 [{}] v 
+  {"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_420 [{}] v 
+  {"ATM"=>"Valid_card_420"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_420"} - {"ATM"=>""}
+ v ? Correct_PIN_420 [{}] v 
+  {"ATM"=>"Correct_PIN_420"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_420"} - {"ATM"=>""}
+ v ? Exit [{}] v 
+  {"ATM"=>"Exit_420"} - {"ATM"=>""}
+ v ! Card_420 [{}] v 
+  {"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_60 [{}] v 
+  {"ATM"=>"Valid_card_60"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_60"} - {"ATM"=>""}
+ v ? Incorrect_PIN_60 [{}] v 
+  {"ATM"=>"Incorrect_PIN_60"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_35 [{}] v 
+  {"ATM"=>"Valid_card_35"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_35"} - {"ATM"=>""}
+ v ? Correct_PIN_35 [{}] v 
+  {"ATM"=>"Correct_PIN_35"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_35"} - {"ATM"=>""}
+ v ? Withdraw_50 [{}] v 
+  {"ATM"=>"Insufficient_35"} - {"ATM"=>""}
+ v ! Insufficient_balance [{}] v 
+  {"ATM"=>"Idle_35"} - {"ATM"=>""}
+ v ? Exit [{}] v 
+  {"ATM"=>"Exit_35"} - {"ATM"=>""}
+ v ! Card_35 [{}] v 
+  {"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_415 [{}] v 
+  {"ATM"=>"Valid_card_415"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_415"} - {"ATM"=>""}
+ v ? Incorrect_PIN_415 [{}] v 
+  {"ATM"=>"Incorrect_PIN_415"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_250 [{}] v 
+  {"ATM"=>"Valid_card_250"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_250"} - {"ATM"=>""}
+ v ? Incorrect_PIN_250 [{}] v 
+  {"ATM"=>"Incorrect_PIN_250"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_375 [{}] v 
+  {"ATM"=>"Valid_card_375"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_375"} - {"ATM"=>""}
+ v ? Correct_PIN_375 [{}] v 
+  {"ATM"=>"Correct_PIN_375"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  {"ATM"=>"Idle_375"} - {"ATM"=>""}
+ v ? Exit [{}] v 
+  {"ATM"=>"Exit_375"} - {"ATM"=>""}
+ v ! Card_375 [{}] v 
+  {"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_490 [{}] v 
+  {"ATM"=>"Valid_card_490"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_490"} - {"ATM"=>""}
+ v ? Incorrect_PIN_490 [{}] v 
+  {"ATM"=>"Incorrect_PIN_490"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+Generated on: 2024-07-10 00:27:22.794928794 +0200
+===== SHRINKER: [Shrinking::CycleShrink2, Shrinking::ElemShrink2] =====
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_145 [{}] v 
+  {"ATM"=>"Valid_card_145"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_145"} - {"ATM"=>""}
+ v ? Incorrect_PIN_145 [{}] v 
+  {"ATM"=>"Incorrect_PIN_145"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_170 [{}] v 
+  {"ATM"=>"Valid_card_170"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_170"} - {"ATM"=>""}
+ v ? Incorrect_PIN_170 [{}] v 
+  {"ATM"=>"Incorrect_PIN_170"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_80 [{}] v 
+  {"ATM"=>"Valid_card_80"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_80"} - {"ATM"=>""}
+ v ? Incorrect_PIN_80 [{}] v 
+  {"ATM"=>"Incorrect_PIN_80"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_70 [{}] v 
+  {"ATM"=>"Valid_card_70"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_70"} - {"ATM"=>""}
+ v ? Incorrect_PIN_70 [{}] v 
+  {"ATM"=>"Incorrect_PIN_70"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_80 [{}] v 
+  {"ATM"=>"Valid_card_80"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_80"} - {"ATM"=>""}
+ v ? Incorrect_PIN_80 [{}] v 
+  {"ATM"=>"Incorrect_PIN_80"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_175 [{}] v 
+  {"ATM"=>"Valid_card_175"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_175"} - {"ATM"=>""}
+ v ? Incorrect_PIN_175 [{}] v 
+  {"ATM"=>"Incorrect_PIN_175"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_60 [{}] v 
+  {"ATM"=>"Valid_card_60"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_60"} - {"ATM"=>""}
+ v ? Incorrect_PIN_60 [{}] v 
+  {"ATM"=>"Incorrect_PIN_60"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_415 [{}] v 
+  {"ATM"=>"Valid_card_415"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_415"} - {"ATM"=>""}
+ v ? Incorrect_PIN_415 [{}] v 
+  {"ATM"=>"Incorrect_PIN_415"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_250 [{}] v 
+  {"ATM"=>"Valid_card_250"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_250"} - {"ATM"=>""}
+ v ? Incorrect_PIN_250 [{}] v 
+  {"ATM"=>"Incorrect_PIN_250"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_490 [{}] v 
+  {"ATM"=>"Valid_card_490"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_490"} - {"ATM"=>""}
+ v ? Incorrect_PIN_490 [{}] v 
+  {"ATM"=>"Incorrect_PIN_490"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+Generated on: 2024-07-10 00:27:22.902682515 +0200
+===== SHRINKER: [Shrinking::CycleShrink2, Shrinking::BinaryShrink2] =====
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_145 [{}] v 
+  {"ATM"=>"Valid_card_145"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_145"} - {"ATM"=>""}
+ v ? Incorrect_PIN_145 [{}] v 
+  {"ATM"=>"Incorrect_PIN_145"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_170 [{}] v 
+  {"ATM"=>"Valid_card_170"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_170"} - {"ATM"=>""}
+ v ? Incorrect_PIN_170 [{}] v 
+  {"ATM"=>"Incorrect_PIN_170"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_80 [{}] v 
+  {"ATM"=>"Valid_card_80"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_80"} - {"ATM"=>""}
+ v ? Incorrect_PIN_80 [{}] v 
+  {"ATM"=>"Incorrect_PIN_80"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_70 [{}] v 
+  {"ATM"=>"Valid_card_70"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_70"} - {"ATM"=>""}
+ v ? Incorrect_PIN_70 [{}] v 
+  {"ATM"=>"Incorrect_PIN_70"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_80 [{}] v 
+  {"ATM"=>"Valid_card_80"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_80"} - {"ATM"=>""}
+ v ? Incorrect_PIN_80 [{}] v 
+  {"ATM"=>"Incorrect_PIN_80"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_175 [{}] v 
+  {"ATM"=>"Valid_card_175"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_175"} - {"ATM"=>""}
+ v ? Incorrect_PIN_175 [{}] v 
+  {"ATM"=>"Incorrect_PIN_175"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_60 [{}] v 
+  {"ATM"=>"Valid_card_60"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_60"} - {"ATM"=>""}
+ v ? Incorrect_PIN_60 [{}] v 
+  {"ATM"=>"Incorrect_PIN_60"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_415 [{}] v 
+  {"ATM"=>"Valid_card_415"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_415"} - {"ATM"=>""}
+ v ? Incorrect_PIN_415 [{}] v 
+  {"ATM"=>"Incorrect_PIN_415"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_250 [{}] v 
+  {"ATM"=>"Valid_card_250"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_250"} - {"ATM"=>""}
+ v ? Incorrect_PIN_250 [{}] v 
+  {"ATM"=>"Incorrect_PIN_250"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  
+===== END TRACE =====
+{"ATM"=>"Idle"} - {"ATM"=>""}
+ v ? Insert_card_valid_490 [{}] v 
+  {"ATM"=>"Valid_card_490"} - {"ATM"=>""}
+ v ! Card_valid [{}] v 
+  {"ATM"=>"PIN_490"} - {"ATM"=>""}
+ v ? Incorrect_PIN_490 [{}] v 
+  {"ATM"=>"Incorrect_PIN_490"} - {"ATM"=>""}
+ v ! PIN_correct [{}] v 
+  

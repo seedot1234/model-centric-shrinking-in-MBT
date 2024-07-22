@@ -1,0 +1,774 @@
+Generated on: 2024-07-10 00:38:43.544851194 +0200
+===== SHRINKER: [Shrinking::ShortestPathShrinker] =====
+===== START TRACE =====
+?Insert_card_invalid_485 -> !Card_invalid -> ?Insert_card_invalid_90 -> !Card_invalid -> ?Insert_card_invalid_485 -> !Card_invalid -> ?Insert_card_valid_320 -> !Card_valid ->  
+?Correct_PIN_320 -> !PIN_correct -> ?Withdraw_5 -> !5 -> ?Withdraw_5 -> !5 -> ?Deposit_20 -> !Balance: 330 ->  
+?Deposit_20 -> !Balance: 350 -> ?Balance -> !Balance: 20 -> 
+===== END TRACE =====
+?Insert_card_valid_250 -> !Card_valid -> ?Correct_PIN_250 -> !PIN_correct -> ?Deposit_100 -> !Balance: 350 -> ?Balance -> !Balance: 100 ->  
+
+===== START TRACE =====
+?Insert_card_invalid_370 -> !Card_invalid -> ?Insert_card_invalid_125 -> !Card_invalid -> ?Insert_card_valid_485 -> !Card_valid -> ?Incorrect_PIN_485 -> !PIN_incorrect ->  
+?Correct_PIN_485 -> !PIN_correct -> ?Withdraw_50 -> !50 -> ?Withdraw_100 -> !100 -> ?Deposit_20 -> !Balance: 355 ->  
+?Withdraw_100 -> !100 -> ?Deposit_5 -> !Balance: 260 -> ?Deposit_50 -> !Balance: 310 -> ?Withdraw_100 -> !100 ->  
+?Deposit_10 -> !Balance: 220 -> ?Deposit_5 -> !Balance: 225 -> ?Withdraw_50 -> !50 -> ?Withdraw_5 -> !5 ->  
+?Exit -> !Card_170 -> ?Insert_card_invalid_245 -> !Card_invalid -> ?Insert_card_invalid_370 -> !Card_invalid -> ?Insert_card_valid_385 -> !Card_valid ->  
+?Correct_PIN_385 -> !PIN_correct -> ?Withdraw_20 -> !20 -> ?Withdraw_100 -> !100 -> ?Withdraw_5 -> !5 ->  
+?Deposit_5 -> !Balance: 265 -> ?Deposit_50 -> !Balance: 315 -> ?Withdraw_50 -> !50 -> ?Deposit_5 -> !Balance: 270 ->  
+?Withdraw_50 -> !50 -> ?Deposit_50 -> !Balance: 270 -> ?Balance -> !Balance: 50 -> 
+===== END TRACE =====
+?Insert_card_valid_170 -> !Card_valid -> ?Correct_PIN_170 -> !PIN_correct -> ?Deposit_100 -> !Balance: 270 -> ?Balance -> !Balance: 100 ->  
+
+===== START TRACE =====
+?Insert_card_invalid_345 -> !Card_invalid -> ?Insert_card_invalid_485 -> !Card_invalid -> ?Insert_card_invalid_480 -> !Card_invalid -> ?Insert_card_valid_50 -> !Card_valid ->  
+?Correct_PIN_50 -> !PIN_correct -> ?Withdraw_100 -> !Insufficient_balance -> ?Exit -> !Card_50 -> ?Insert_card_valid_75 -> !Card_valid ->  
+?Incorrect_PIN_75 -> !PIN_incorrect -> ?Correct_PIN_75 -> !PIN_correct -> ?Withdraw_10 -> !10 -> ?Withdraw_20 -> !20 ->  
+?Withdraw_50 -> !Insufficient_balance -> ?Withdraw_50 -> !Insufficient_balance -> ?Withdraw_100 -> !Insufficient_balance -> ?Deposit_20 -> !Balance: 65 ->  
+?Deposit_50 -> !Balance: 115 -> ?Deposit_20 -> !Balance: 135 -> ?Deposit_100 -> !Balance: 235 -> ?Deposit_10 -> !Balance: 245 ->  
+?Withdraw_20 -> !20 -> ?Deposit_5 -> !Balance: 230 -> ?Balance -> !Balance: 5 -> 
+===== END TRACE =====
+?Insert_card_valid_130 -> !Card_valid -> ?Correct_PIN_130 -> !PIN_correct -> ?Deposit_100 -> !Balance: 230 -> ?Balance -> !Balance: 100 ->  
+
+===== START TRACE =====
+?Insert_card_valid_5 -> !Card_valid -> ?Correct_PIN_5 -> !PIN_correct -> ?Withdraw_50 -> !Insufficient_balance -> ?Balance -> !Balance: 5 ->  
+?Withdraw_100 -> !Insufficient_balance -> ?Deposit_5 -> !Balance: 10 -> ?Withdraw_50 -> !Insufficient_balance -> ?Deposit_5 -> !Balance: 15 ->  
+?Exit -> !Card_15 -> ?Insert_card_valid_75 -> !Card_valid -> ?Correct_PIN_75 -> !PIN_correct -> ?Exit -> !Card_75 ->  
+?Insert_card_invalid_25 -> !Card_invalid -> ?Insert_card_valid_175 -> !Card_valid -> ?Correct_PIN_175 -> !PIN_correct -> ?Deposit_20 -> !Balance: 195 ->  
+?Deposit_50 -> !Balance: 245 -> ?Exit -> !Card_245 -> ?Insert_card_valid_35 -> !Card_valid -> ?Incorrect_PIN_35 -> !PIN_incorrect ->  
+?Incorrect_PIN_35 -> !PIN_incorrect -> ?Correct_PIN_35 -> !PIN_correct -> ?Deposit_5 -> !Balance: 40 -> ?Withdraw_50 -> !Insufficient_balance ->  
+?Deposit_5 -> !Balance: 45 -> ?Balance -> !Balance: 5 -> 
+===== END TRACE =====
+?Insert_card_valid_25 -> !Card_valid -> ?Correct_PIN_25 -> !PIN_correct -> ?Deposit_20 -> !Balance: 45 -> ?Balance -> !Balance: 20 ->  
+
+===== START TRACE =====
+?Insert_card_invalid_495 -> !Card_invalid -> ?Insert_card_invalid_270 -> !Card_invalid -> ?Insert_card_invalid_200 -> !Card_invalid -> ?Insert_card_invalid_450 -> !Card_invalid ->  
+?Insert_card_invalid_350 -> !Card_invalid -> ?Insert_card_invalid_100 -> !Card_invalid -> ?Insert_card_valid_190 -> !Card_valid -> ?Incorrect_PIN_190 -> !PIN_incorrect ->  
+?Incorrect_PIN_190 -> !PIN_incorrect -> ?Incorrect_PIN_190 -> !PIN_incorrect -> !Card_blocked -> ?Insert_card_invalid_260 -> !Card_invalid -> ?Insert_card_invalid_310 ->  
+!Card_invalid -> ?Insert_card_valid_30 -> !Card_valid -> ?Correct_PIN_30 -> !PIN_correct -> ?Withdraw_20 -> !20 -> ?Deposit_100 ->  
+!Balance: 110 -> ?Withdraw_100 -> !100 -> ?Deposit_20 -> !Balance: 30 -> ?Withdraw_20 -> !20 -> ?Deposit_50 ->  
+!Balance: 60 -> ?Deposit_5 -> !Balance: 65 -> ?Withdraw_20 -> !20 -> ?Balance -> !Balance: 5 -> 
+===== END TRACE =====
+?Insert_card_valid_25 -> !Card_valid -> ?Correct_PIN_25 -> !PIN_correct -> ?Deposit_20 -> !Balance: 45 -> ?Balance -> !Balance: 20 ->  
+
+===== START TRACE =====
+?Insert_card_valid_105 -> !Card_valid -> ?Correct_PIN_105 -> !PIN_correct -> ?Exit -> !Card_105 -> ?Insert_card_valid_135 -> !Card_valid ->  
+?Correct_PIN_135 -> !PIN_correct -> ?Deposit_20 -> !Balance: 155 -> ?Withdraw_50 -> !50 -> ?Withdraw_5 -> !5 ->  
+?Withdraw_50 -> !50 -> ?Balance -> !Balance: 20 -> 
+===== END TRACE =====
+?Insert_card_valid_30 -> !Card_valid -> ?Correct_PIN_30 -> !PIN_correct -> ?Deposit_20 -> !Balance: 50 -> ?Balance -> !Balance: 20 ->  
+
+===== START TRACE =====
+?Insert_card_invalid_145 -> !Card_invalid -> ?Insert_card_valid_65 -> !Card_valid -> ?Incorrect_PIN_65 -> !PIN_incorrect -> ?Incorrect_PIN_65 -> !PIN_incorrect ->  
+?Incorrect_PIN_65 -> !PIN_incorrect -> !Card_blocked -> ?Insert_card_valid_370 -> !Card_valid -> ?Incorrect_PIN_370 -> !PIN_incorrect -> ?Correct_PIN_370 ->  
+!PIN_correct -> ?Withdraw_20 -> !20 -> ?Withdraw_100 -> !100 -> ?Withdraw_10 -> !10 -> ?Deposit_5 ->  
+!Balance: 245 -> ?Deposit_20 -> !Balance: 265 -> ?Withdraw_50 -> !50 -> ?Withdraw_100 -> !100 -> ?Deposit_20 ->  
+!Balance: 135 -> ?Withdraw_5 -> !5 -> ?Balance -> !Balance: 20 -> 
+===== END TRACE =====
+?Insert_card_valid_30 -> !Card_valid -> ?Correct_PIN_30 -> !PIN_correct -> ?Deposit_100 -> !Balance: 130 -> ?Balance -> !Balance: 100 ->  
+
+===== START TRACE =====
+?Insert_card_invalid_90 -> !Card_invalid -> ?Insert_card_valid_0 -> !Card_valid -> ?Correct_PIN_0 -> !PIN_correct -> ?Deposit_100 -> !Balance: 100 ->  
+?Deposit_10 -> !Balance: 110 -> ?Withdraw_100 -> !100 -> ?Deposit_100 -> !Balance: 110 -> ?Withdraw_100 -> !100 ->  
+?Deposit_100 -> !Balance: 110 -> ?Deposit_10 -> !Balance: 120 -> ?Withdraw_50 -> !50 -> ?Withdraw_10 -> !10 ->  
+?Exit -> !Card_60 -> ?Insert_card_invalid_450 -> !Card_invalid -> ?Insert_card_invalid_260 -> !Card_invalid -> ?Insert_card_valid_395 -> !Card_valid ->  
+?Correct_PIN_395 -> !PIN_correct -> ?Exit -> !Card_395 -> ?Insert_card_invalid_230 -> !Card_invalid -> ?Insert_card_invalid_180 -> !Card_invalid ->  
+?Insert_card_valid_95 -> !Card_valid -> ?Correct_PIN_95 -> !PIN_correct -> ?Deposit_20 -> !Balance: 115 -> ?Withdraw_5 -> !5 ->  
+?Balance -> !Balance: 20 -> 
+===== END TRACE =====
+?Insert_card_valid_10 -> !Card_valid -> ?Correct_PIN_10 -> !PIN_correct -> ?Deposit_100 -> !Balance: 110 -> ?Balance -> !Balance: 100 ->  
+
+===== START TRACE =====
+?Insert_card_invalid_355 -> !Card_invalid -> ?Insert_card_valid_165 -> !Card_valid -> ?Correct_PIN_165 -> !PIN_correct -> ?Deposit_50 -> !Balance: 215 ->  
+?Withdraw_50 -> !50 -> ?Deposit_20 -> !Balance: 185 -> ?Withdraw_100 -> !100 -> ?Deposit_50 -> !Balance: 135 ->  
+?Withdraw_10 -> !10 -> ?Balance -> !Balance: 50 -> 
+===== END TRACE =====
+?Insert_card_valid_25 -> !Card_valid -> ?Correct_PIN_25 -> !PIN_correct -> ?Deposit_100 -> !Balance: 125 -> ?Balance -> !Balance: 100 ->  
+
+===== START TRACE =====
+?Insert_card_valid_500 -> !Card_valid -> ?Correct_PIN_500 -> !PIN_correct -> ?Withdraw_20 -> !20 -> ?Withdraw_50 -> !50 ->  
+?Withdraw_10 -> !10 -> ?Exit -> !Card_420 -> ?Insert_card_valid_305 -> !Card_valid -> ?Correct_PIN_305 -> !PIN_correct ->  
+?Deposit_10 -> !Balance: 315 -> ?Deposit_100 -> !Balance: 415 -> ?Exit -> !Card_415 -> ?Insert_card_valid_475 -> !Card_valid ->  
+?Correct_PIN_475 -> !PIN_correct -> ?Exit -> !Card_475 -> ?Insert_card_valid_145 -> !Card_valid -> ?Correct_PIN_145 -> !PIN_correct ->  
+?Deposit_50 -> !Balance: 195 -> ?Withdraw_50 -> !50 -> ?Deposit_20 -> !Balance: 165 -> ?Exit -> !Card_165 ->  
+?Insert_card_invalid_480 -> !Card_invalid -> ?Insert_card_invalid_275 -> !Card_invalid -> ?Insert_card_invalid_220 -> !Card_invalid -> ?Insert_card_valid_385 -> !Card_valid ->  
+?Correct_PIN_385 -> !PIN_correct -> ?Deposit_5 -> !Balance: 390 -> ?Deposit_10 -> !Balance: 400 -> ?Deposit_5 -> !Balance: 405 ->  
+?Deposit_10 -> !Balance: 415 -> ?Exit -> !Card_415 -> ?Insert_card_valid_300 -> !Card_valid -> ?Correct_PIN_300 -> !PIN_correct ->  
+?Deposit_20 -> !Balance: 320 -> ?Deposit_20 -> !Balance: 340 -> ?Deposit_10 -> !Balance: 350 -> ?Exit -> !Card_350 ->  
+?Insert_card_valid_50 -> !Card_valid -> ?Incorrect_PIN_50 -> !PIN_incorrect -> ?Incorrect_PIN_50 -> !PIN_incorrect -> ?Correct_PIN_50 -> !PIN_correct ->  
+?Deposit_100 -> !Balance: 150 -> ?Deposit_50 -> !Balance: 200 -> ?Deposit_20 -> !Balance: 220 -> ?Deposit_20 -> !Balance: 240 ->  
+?Exit -> !Card_240 -> ?Insert_card_invalid_470 -> !Card_invalid -> ?Insert_card_invalid_195 -> !Card_invalid -> ?Insert_card_valid_125 -> !Card_valid ->  
+?Correct_PIN_125 -> !PIN_correct -> ?Withdraw_100 -> !100 -> ?Withdraw_10 -> !10 -> ?Exit -> !Card_15 ->  
+?Insert_card_invalid_405 -> !Card_invalid -> ?Insert_card_invalid_70 -> !Card_invalid -> ?Insert_card_valid_210 -> !Card_valid -> ?Correct_PIN_210 -> !PIN_correct ->  
+?Withdraw_10 -> !10 -> ?Exit -> !Card_200 -> ?Insert_card_invalid_255 -> !Card_invalid -> ?Insert_card_invalid_495 -> !Card_invalid ->  
+?Insert_card_valid_30 -> !Card_valid -> ?Incorrect_PIN_30 -> !PIN_incorrect -> ?Incorrect_PIN_30 -> !PIN_incorrect -> ?Correct_PIN_30 -> !PIN_correct ->  
+?Balance -> !Balance: 30 -> ?Deposit_100 -> !Balance: 130 -> ?Deposit_5 -> !Balance: 135 -> ?Balance -> !Balance: 5 ->  
+
+===== END TRACE =====
+?Insert_card_valid_35 -> !Card_valid -> ?Correct_PIN_35 -> !PIN_correct -> ?Deposit_100 -> !Balance: 135 -> ?Balance -> !Balance: 100 ->  
+
+Generated on: 2024-07-10 00:38:43.627879009 +0200
+===== SHRINKER: [Shrinking::ShortestPathLabelCount] =====
+===== START TRACE =====
+?Insert_card_invalid_485 -> !Card_invalid -> ?Insert_card_invalid_90 -> !Card_invalid -> ?Insert_card_invalid_485 -> !Card_invalid -> ?Insert_card_valid_320 -> !Card_valid ->  
+?Correct_PIN_320 -> !PIN_correct -> ?Withdraw_5 -> !5 -> ?Withdraw_5 -> !5 -> ?Deposit_20 -> !Balance: 330 ->  
+?Deposit_20 -> !Balance: 350 -> ?Balance -> !Balance: 20 -> 
+===== END TRACE =====
+?Insert_card_valid_250 -> !Card_valid -> ?Correct_PIN_250 -> !PIN_correct -> ?Deposit_100 -> !Balance: 350 -> ?Balance -> !Balance: 100 ->  
+
+===== START TRACE =====
+?Insert_card_invalid_370 -> !Card_invalid -> ?Insert_card_invalid_125 -> !Card_invalid -> ?Insert_card_valid_485 -> !Card_valid -> ?Incorrect_PIN_485 -> !PIN_incorrect ->  
+?Correct_PIN_485 -> !PIN_correct -> ?Withdraw_50 -> !50 -> ?Withdraw_100 -> !100 -> ?Deposit_20 -> !Balance: 355 ->  
+?Withdraw_100 -> !100 -> ?Deposit_5 -> !Balance: 260 -> ?Deposit_50 -> !Balance: 310 -> ?Withdraw_100 -> !100 ->  
+?Deposit_10 -> !Balance: 220 -> ?Deposit_5 -> !Balance: 225 -> ?Withdraw_50 -> !50 -> ?Withdraw_5 -> !5 ->  
+?Exit -> !Card_170 -> ?Insert_card_invalid_245 -> !Card_invalid -> ?Insert_card_invalid_370 -> !Card_invalid -> ?Insert_card_valid_385 -> !Card_valid ->  
+?Correct_PIN_385 -> !PIN_correct -> ?Withdraw_20 -> !20 -> ?Withdraw_100 -> !100 -> ?Withdraw_5 -> !5 ->  
+?Deposit_5 -> !Balance: 265 -> ?Deposit_50 -> !Balance: 315 -> ?Withdraw_50 -> !50 -> ?Deposit_5 -> !Balance: 270 ->  
+?Withdraw_50 -> !50 -> ?Deposit_50 -> !Balance: 270 -> ?Balance -> !Balance: 50 -> 
+===== END TRACE =====
+?Insert_card_valid_170 -> !Card_valid -> ?Correct_PIN_170 -> !PIN_correct -> ?Deposit_100 -> !Balance: 270 -> ?Balance -> !Balance: 100 ->  
+
+===== START TRACE =====
+?Insert_card_invalid_345 -> !Card_invalid -> ?Insert_card_invalid_485 -> !Card_invalid -> ?Insert_card_invalid_480 -> !Card_invalid -> ?Insert_card_valid_50 -> !Card_valid ->  
+?Correct_PIN_50 -> !PIN_correct -> ?Withdraw_100 -> !Insufficient_balance -> ?Exit -> !Card_50 -> ?Insert_card_valid_75 -> !Card_valid ->  
+?Incorrect_PIN_75 -> !PIN_incorrect -> ?Correct_PIN_75 -> !PIN_correct -> ?Withdraw_10 -> !10 -> ?Withdraw_20 -> !20 ->  
+?Withdraw_50 -> !Insufficient_balance -> ?Withdraw_50 -> !Insufficient_balance -> ?Withdraw_100 -> !Insufficient_balance -> ?Deposit_20 -> !Balance: 65 ->  
+?Deposit_50 -> !Balance: 115 -> ?Deposit_20 -> !Balance: 135 -> ?Deposit_100 -> !Balance: 235 -> ?Deposit_10 -> !Balance: 245 ->  
+?Withdraw_20 -> !20 -> ?Deposit_5 -> !Balance: 230 -> ?Balance -> !Balance: 5 -> 
+===== END TRACE =====
+?Insert_card_valid_130 -> !Card_valid -> ?Correct_PIN_130 -> !PIN_correct -> ?Deposit_100 -> !Balance: 230 -> ?Balance -> !Balance: 100 ->  
+
+===== START TRACE =====
+?Insert_card_valid_5 -> !Card_valid -> ?Correct_PIN_5 -> !PIN_correct -> ?Withdraw_50 -> !Insufficient_balance -> ?Balance -> !Balance: 5 ->  
+?Withdraw_100 -> !Insufficient_balance -> ?Deposit_5 -> !Balance: 10 -> ?Withdraw_50 -> !Insufficient_balance -> ?Deposit_5 -> !Balance: 15 ->  
+?Exit -> !Card_15 -> ?Insert_card_valid_75 -> !Card_valid -> ?Correct_PIN_75 -> !PIN_correct -> ?Exit -> !Card_75 ->  
+?Insert_card_invalid_25 -> !Card_invalid -> ?Insert_card_valid_175 -> !Card_valid -> ?Correct_PIN_175 -> !PIN_correct -> ?Deposit_20 -> !Balance: 195 ->  
+?Deposit_50 -> !Balance: 245 -> ?Exit -> !Card_245 -> ?Insert_card_valid_35 -> !Card_valid -> ?Incorrect_PIN_35 -> !PIN_incorrect ->  
+?Incorrect_PIN_35 -> !PIN_incorrect -> ?Correct_PIN_35 -> !PIN_correct -> ?Deposit_5 -> !Balance: 40 -> ?Withdraw_50 -> !Insufficient_balance ->  
+?Deposit_5 -> !Balance: 45 -> ?Balance -> !Balance: 5 -> 
+===== END TRACE =====
+?Insert_card_valid_25 -> !Card_valid -> ?Correct_PIN_25 -> !PIN_correct -> ?Deposit_20 -> !Balance: 45 -> ?Balance -> !Balance: 20 ->  
+
+===== START TRACE =====
+?Insert_card_invalid_495 -> !Card_invalid -> ?Insert_card_invalid_270 -> !Card_invalid -> ?Insert_card_invalid_200 -> !Card_invalid -> ?Insert_card_invalid_450 -> !Card_invalid ->  
+?Insert_card_invalid_350 -> !Card_invalid -> ?Insert_card_invalid_100 -> !Card_invalid -> ?Insert_card_valid_190 -> !Card_valid -> ?Incorrect_PIN_190 -> !PIN_incorrect ->  
+?Incorrect_PIN_190 -> !PIN_incorrect -> ?Incorrect_PIN_190 -> !PIN_incorrect -> !Card_blocked -> ?Insert_card_invalid_260 -> !Card_invalid -> ?Insert_card_invalid_310 ->  
+!Card_invalid -> ?Insert_card_valid_30 -> !Card_valid -> ?Correct_PIN_30 -> !PIN_correct -> ?Withdraw_20 -> !20 -> ?Deposit_100 ->  
+!Balance: 110 -> ?Withdraw_100 -> !100 -> ?Deposit_20 -> !Balance: 30 -> ?Withdraw_20 -> !20 -> ?Deposit_50 ->  
+!Balance: 60 -> ?Deposit_5 -> !Balance: 65 -> ?Withdraw_20 -> !20 -> ?Balance -> !Balance: 5 -> 
+===== END TRACE =====
+?Insert_card_valid_25 -> !Card_valid -> ?Correct_PIN_25 -> !PIN_correct -> ?Deposit_20 -> !Balance: 45 -> ?Balance -> !Balance: 20 ->  
+
+===== START TRACE =====
+?Insert_card_valid_105 -> !Card_valid -> ?Correct_PIN_105 -> !PIN_correct -> ?Exit -> !Card_105 -> ?Insert_card_valid_135 -> !Card_valid ->  
+?Correct_PIN_135 -> !PIN_correct -> ?Deposit_20 -> !Balance: 155 -> ?Withdraw_50 -> !50 -> ?Withdraw_5 -> !5 ->  
+?Withdraw_50 -> !50 -> ?Balance -> !Balance: 20 -> 
+===== END TRACE =====
+?Insert_card_valid_30 -> !Card_valid -> ?Correct_PIN_30 -> !PIN_correct -> ?Deposit_20 -> !Balance: 50 -> ?Balance -> !Balance: 20 ->  
+
+===== START TRACE =====
+?Insert_card_invalid_145 -> !Card_invalid -> ?Insert_card_valid_65 -> !Card_valid -> ?Incorrect_PIN_65 -> !PIN_incorrect -> ?Incorrect_PIN_65 -> !PIN_incorrect ->  
+?Incorrect_PIN_65 -> !PIN_incorrect -> !Card_blocked -> ?Insert_card_valid_370 -> !Card_valid -> ?Incorrect_PIN_370 -> !PIN_incorrect -> ?Correct_PIN_370 ->  
+!PIN_correct -> ?Withdraw_20 -> !20 -> ?Withdraw_100 -> !100 -> ?Withdraw_10 -> !10 -> ?Deposit_5 ->  
+!Balance: 245 -> ?Deposit_20 -> !Balance: 265 -> ?Withdraw_50 -> !50 -> ?Withdraw_100 -> !100 -> ?Deposit_20 ->  
+!Balance: 135 -> ?Withdraw_5 -> !5 -> ?Balance -> !Balance: 20 -> 
+===== END TRACE =====
+?Insert_card_valid_30 -> !Card_valid -> ?Correct_PIN_30 -> !PIN_correct -> ?Deposit_100 -> !Balance: 130 -> ?Balance -> !Balance: 100 ->  
+
+===== START TRACE =====
+?Insert_card_invalid_90 -> !Card_invalid -> ?Insert_card_valid_0 -> !Card_valid -> ?Correct_PIN_0 -> !PIN_correct -> ?Deposit_100 -> !Balance: 100 ->  
+?Deposit_10 -> !Balance: 110 -> ?Withdraw_100 -> !100 -> ?Deposit_100 -> !Balance: 110 -> ?Withdraw_100 -> !100 ->  
+?Deposit_100 -> !Balance: 110 -> ?Deposit_10 -> !Balance: 120 -> ?Withdraw_50 -> !50 -> ?Withdraw_10 -> !10 ->  
+?Exit -> !Card_60 -> ?Insert_card_invalid_450 -> !Card_invalid -> ?Insert_card_invalid_260 -> !Card_invalid -> ?Insert_card_valid_395 -> !Card_valid ->  
+?Correct_PIN_395 -> !PIN_correct -> ?Exit -> !Card_395 -> ?Insert_card_invalid_230 -> !Card_invalid -> ?Insert_card_invalid_180 -> !Card_invalid ->  
+?Insert_card_valid_95 -> !Card_valid -> ?Correct_PIN_95 -> !PIN_correct -> ?Deposit_20 -> !Balance: 115 -> ?Withdraw_5 -> !5 ->  
+?Balance -> !Balance: 20 -> 
+===== END TRACE =====
+?Insert_card_valid_10 -> !Card_valid -> ?Correct_PIN_10 -> !PIN_correct -> ?Deposit_100 -> !Balance: 110 -> ?Balance -> !Balance: 100 ->  
+
+===== START TRACE =====
+?Insert_card_invalid_355 -> !Card_invalid -> ?Insert_card_valid_165 -> !Card_valid -> ?Correct_PIN_165 -> !PIN_correct -> ?Deposit_50 -> !Balance: 215 ->  
+?Withdraw_50 -> !50 -> ?Deposit_20 -> !Balance: 185 -> ?Withdraw_100 -> !100 -> ?Deposit_50 -> !Balance: 135 ->  
+?Withdraw_10 -> !10 -> ?Balance -> !Balance: 50 -> 
+===== END TRACE =====
+?Insert_card_valid_25 -> !Card_valid -> ?Correct_PIN_25 -> !PIN_correct -> ?Deposit_100 -> !Balance: 125 -> ?Balance -> !Balance: 100 ->  
+
+===== START TRACE =====
+?Insert_card_valid_500 -> !Card_valid -> ?Correct_PIN_500 -> !PIN_correct -> ?Withdraw_20 -> !20 -> ?Withdraw_50 -> !50 ->  
+?Withdraw_10 -> !10 -> ?Exit -> !Card_420 -> ?Insert_card_valid_305 -> !Card_valid -> ?Correct_PIN_305 -> !PIN_correct ->  
+?Deposit_10 -> !Balance: 315 -> ?Deposit_100 -> !Balance: 415 -> ?Exit -> !Card_415 -> ?Insert_card_valid_475 -> !Card_valid ->  
+?Correct_PIN_475 -> !PIN_correct -> ?Exit -> !Card_475 -> ?Insert_card_valid_145 -> !Card_valid -> ?Correct_PIN_145 -> !PIN_correct ->  
+?Deposit_50 -> !Balance: 195 -> ?Withdraw_50 -> !50 -> ?Deposit_20 -> !Balance: 165 -> ?Exit -> !Card_165 ->  
+?Insert_card_invalid_480 -> !Card_invalid -> ?Insert_card_invalid_275 -> !Card_invalid -> ?Insert_card_invalid_220 -> !Card_invalid -> ?Insert_card_valid_385 -> !Card_valid ->  
+?Correct_PIN_385 -> !PIN_correct -> ?Deposit_5 -> !Balance: 390 -> ?Deposit_10 -> !Balance: 400 -> ?Deposit_5 -> !Balance: 405 ->  
+?Deposit_10 -> !Balance: 415 -> ?Exit -> !Card_415 -> ?Insert_card_valid_300 -> !Card_valid -> ?Correct_PIN_300 -> !PIN_correct ->  
+?Deposit_20 -> !Balance: 320 -> ?Deposit_20 -> !Balance: 340 -> ?Deposit_10 -> !Balance: 350 -> ?Exit -> !Card_350 ->  
+?Insert_card_valid_50 -> !Card_valid -> ?Incorrect_PIN_50 -> !PIN_incorrect -> ?Incorrect_PIN_50 -> !PIN_incorrect -> ?Correct_PIN_50 -> !PIN_correct ->  
+?Deposit_100 -> !Balance: 150 -> ?Deposit_50 -> !Balance: 200 -> ?Deposit_20 -> !Balance: 220 -> ?Deposit_20 -> !Balance: 240 ->  
+?Exit -> !Card_240 -> ?Insert_card_invalid_470 -> !Card_invalid -> ?Insert_card_invalid_195 -> !Card_invalid -> ?Insert_card_valid_125 -> !Card_valid ->  
+?Correct_PIN_125 -> !PIN_correct -> ?Withdraw_100 -> !100 -> ?Withdraw_10 -> !10 -> ?Exit -> !Card_15 ->  
+?Insert_card_invalid_405 -> !Card_invalid -> ?Insert_card_invalid_70 -> !Card_invalid -> ?Insert_card_valid_210 -> !Card_valid -> ?Correct_PIN_210 -> !PIN_correct ->  
+?Withdraw_10 -> !10 -> ?Exit -> !Card_200 -> ?Insert_card_invalid_255 -> !Card_invalid -> ?Insert_card_invalid_495 -> !Card_invalid ->  
+?Insert_card_valid_30 -> !Card_valid -> ?Incorrect_PIN_30 -> !PIN_incorrect -> ?Incorrect_PIN_30 -> !PIN_incorrect -> ?Correct_PIN_30 -> !PIN_correct ->  
+?Balance -> !Balance: 30 -> ?Deposit_100 -> !Balance: 130 -> ?Deposit_5 -> !Balance: 135 -> ?Balance -> !Balance: 5 ->  
+
+===== END TRACE =====
+?Insert_card_valid_35 -> !Card_valid -> ?Correct_PIN_35 -> !PIN_correct -> ?Deposit_100 -> !Balance: 135 -> ?Balance -> !Balance: 100 ->  
+
+Generated on: 2024-07-10 00:38:43.663995113 +0200
+===== SHRINKER: [Shrinking::PartialOrderShrinker] =====
+===== START TRACE =====
+?Insert_card_invalid_485 -> !Card_invalid -> ?Insert_card_invalid_90 -> !Card_invalid -> ?Insert_card_invalid_485 -> !Card_invalid -> ?Insert_card_valid_320 -> !Card_valid ->  
+?Correct_PIN_320 -> !PIN_correct -> ?Withdraw_5 -> !5 -> ?Withdraw_5 -> !5 -> ?Deposit_20 -> !Balance: 330 ->  
+?Deposit_20 -> !Balance: 350 -> ?Balance -> !Balance: 20 -> 
+===== END TRACE =====
+?Insert_card_valid_330 -> !Card_valid -> ?Correct_PIN_330 -> !PIN_correct -> ?Deposit_20 -> !Balance: 350 -> ?Balance -> !Balance: 20 ->  
+
+===== START TRACE =====
+?Insert_card_invalid_370 -> !Card_invalid -> ?Insert_card_invalid_125 -> !Card_invalid -> ?Insert_card_valid_485 -> !Card_valid -> ?Incorrect_PIN_485 -> !PIN_incorrect ->  
+?Correct_PIN_485 -> !PIN_correct -> ?Withdraw_50 -> !50 -> ?Withdraw_100 -> !100 -> ?Deposit_20 -> !Balance: 355 ->  
+?Withdraw_100 -> !100 -> ?Deposit_5 -> !Balance: 260 -> ?Deposit_50 -> !Balance: 310 -> ?Withdraw_100 -> !100 ->  
+?Deposit_10 -> !Balance: 220 -> ?Deposit_5 -> !Balance: 225 -> ?Withdraw_50 -> !50 -> ?Withdraw_5 -> !5 ->  
+?Exit -> !Card_170 -> ?Insert_card_invalid_245 -> !Card_invalid -> ?Insert_card_invalid_370 -> !Card_invalid -> ?Insert_card_valid_385 -> !Card_valid ->  
+?Correct_PIN_385 -> !PIN_correct -> ?Withdraw_20 -> !20 -> ?Withdraw_100 -> !100 -> ?Withdraw_5 -> !5 ->  
+?Deposit_5 -> !Balance: 265 -> ?Deposit_50 -> !Balance: 315 -> ?Withdraw_50 -> !50 -> ?Deposit_5 -> !Balance: 270 ->  
+?Withdraw_50 -> !50 -> ?Deposit_50 -> !Balance: 270 -> ?Balance -> !Balance: 50 -> 
+===== END TRACE =====
+?Insert_card_valid_220 -> !Card_valid -> ?Correct_PIN_220 -> !PIN_correct -> ?Deposit_50 -> !Balance: 270 -> ?Balance -> !Balance: 50 ->  
+
+===== START TRACE =====
+?Insert_card_invalid_345 -> !Card_invalid -> ?Insert_card_invalid_485 -> !Card_invalid -> ?Insert_card_invalid_480 -> !Card_invalid -> ?Insert_card_valid_50 -> !Card_valid ->  
+?Correct_PIN_50 -> !PIN_correct -> ?Withdraw_100 -> !Insufficient_balance -> ?Exit -> !Card_50 -> ?Insert_card_valid_75 -> !Card_valid ->  
+?Incorrect_PIN_75 -> !PIN_incorrect -> ?Correct_PIN_75 -> !PIN_correct -> ?Withdraw_10 -> !10 -> ?Withdraw_20 -> !20 ->  
+?Withdraw_50 -> !Insufficient_balance -> ?Withdraw_50 -> !Insufficient_balance -> ?Withdraw_100 -> !Insufficient_balance -> ?Deposit_20 -> !Balance: 65 ->  
+?Deposit_50 -> !Balance: 115 -> ?Deposit_20 -> !Balance: 135 -> ?Deposit_100 -> !Balance: 235 -> ?Deposit_10 -> !Balance: 245 ->  
+?Withdraw_20 -> !20 -> ?Deposit_5 -> !Balance: 230 -> ?Balance -> !Balance: 5 -> 
+===== END TRACE =====
+?Insert_card_valid_225 -> !Card_valid -> ?Correct_PIN_225 -> !PIN_correct -> ?Deposit_5 -> !Balance: 230 -> ?Balance -> !Balance: 5 ->  
+
+===== START TRACE =====
+?Insert_card_valid_5 -> !Card_valid -> ?Correct_PIN_5 -> !PIN_correct -> ?Withdraw_50 -> !Insufficient_balance -> ?Balance -> !Balance: 5 ->  
+?Withdraw_100 -> !Insufficient_balance -> ?Deposit_5 -> !Balance: 10 -> ?Withdraw_50 -> !Insufficient_balance -> ?Deposit_5 -> !Balance: 15 ->  
+?Exit -> !Card_15 -> ?Insert_card_valid_75 -> !Card_valid -> ?Correct_PIN_75 -> !PIN_correct -> ?Exit -> !Card_75 ->  
+?Insert_card_invalid_25 -> !Card_invalid -> ?Insert_card_valid_175 -> !Card_valid -> ?Correct_PIN_175 -> !PIN_correct -> ?Deposit_20 -> !Balance: 195 ->  
+?Deposit_50 -> !Balance: 245 -> ?Exit -> !Card_245 -> ?Insert_card_valid_35 -> !Card_valid -> ?Incorrect_PIN_35 -> !PIN_incorrect ->  
+?Incorrect_PIN_35 -> !PIN_incorrect -> ?Correct_PIN_35 -> !PIN_correct -> ?Deposit_5 -> !Balance: 40 -> ?Withdraw_50 -> !Insufficient_balance ->  
+?Deposit_5 -> !Balance: 45 -> ?Balance -> !Balance: 5 -> 
+===== END TRACE =====
+?Insert_card_valid_40 -> !Card_valid -> ?Correct_PIN_40 -> !PIN_correct -> ?Deposit_5 -> !Balance: 45 -> ?Balance -> !Balance: 5 ->  
+
+===== START TRACE =====
+?Insert_card_invalid_495 -> !Card_invalid -> ?Insert_card_invalid_270 -> !Card_invalid -> ?Insert_card_invalid_200 -> !Card_invalid -> ?Insert_card_invalid_450 -> !Card_invalid ->  
+?Insert_card_invalid_350 -> !Card_invalid -> ?Insert_card_invalid_100 -> !Card_invalid -> ?Insert_card_valid_190 -> !Card_valid -> ?Incorrect_PIN_190 -> !PIN_incorrect ->  
+?Incorrect_PIN_190 -> !PIN_incorrect -> ?Incorrect_PIN_190 -> !PIN_incorrect -> !Card_blocked -> ?Insert_card_invalid_260 -> !Card_invalid -> ?Insert_card_invalid_310 ->  
+!Card_invalid -> ?Insert_card_valid_30 -> !Card_valid -> ?Correct_PIN_30 -> !PIN_correct -> ?Withdraw_20 -> !20 -> ?Deposit_100 ->  
+!Balance: 110 -> ?Withdraw_100 -> !100 -> ?Deposit_20 -> !Balance: 30 -> ?Withdraw_20 -> !20 -> ?Deposit_50 ->  
+!Balance: 60 -> ?Deposit_5 -> !Balance: 65 -> ?Withdraw_20 -> !20 -> ?Balance -> !Balance: 5 -> 
+===== END TRACE =====
+?Insert_card_valid_60 -> !Card_valid -> ?Correct_PIN_60 -> !PIN_correct -> ?Deposit_5 -> !Balance: 65 -> ?Withdraw_20 -> !20 ->  
+?Balance -> !Balance: 5 -> 
+===== START TRACE =====
+?Insert_card_valid_105 -> !Card_valid -> ?Correct_PIN_105 -> !PIN_correct -> ?Exit -> !Card_105 ->  
+?Insert_card_valid_135 -> !Card_valid -> ?Correct_PIN_135 -> !PIN_correct -> ?Deposit_20 -> !Balance: 155 -> ?Withdraw_50 -> !50 ->  
+?Withdraw_5 -> !5 -> ?Withdraw_50 -> !50 -> ?Balance -> !Balance: 20 -> 
+===== END TRACE =====
+?Insert_card_valid_135 -> !Card_valid -> ?Correct_PIN_135 -> !PIN_correct -> ?Deposit_20 -> !Balance: 155 -> ?Withdraw_50 -> !50 ->  
+?Withdraw_5 -> !5 -> ?Withdraw_50 -> !50 -> ?Balance -> !Balance: 20 -> 
+===== START TRACE =====
+?Insert_card_invalid_145 -> !Card_invalid ->  
+?Insert_card_valid_65 -> !Card_valid -> ?Incorrect_PIN_65 -> !PIN_incorrect -> ?Incorrect_PIN_65 -> !PIN_incorrect -> ?Incorrect_PIN_65 -> !PIN_incorrect ->  
+!Card_blocked -> ?Insert_card_valid_370 -> !Card_valid -> ?Incorrect_PIN_370 -> !PIN_incorrect -> ?Correct_PIN_370 -> !PIN_correct -> ?Withdraw_20 ->  
+!20 -> ?Withdraw_100 -> !100 -> ?Withdraw_10 -> !10 -> ?Deposit_5 -> !Balance: 245 -> ?Deposit_20 ->  
+!Balance: 265 -> ?Withdraw_50 -> !50 -> ?Withdraw_100 -> !100 -> ?Deposit_20 -> !Balance: 135 -> ?Withdraw_5 ->  
+!5 -> ?Balance -> !Balance: 20 -> 
+===== END TRACE =====
+?Insert_card_valid_115 -> !Card_valid -> ?Correct_PIN_115 -> !PIN_correct -> ?Deposit_20 -> !Balance: 135 -> ?Withdraw_5 -> !5 ->  
+?Balance -> !Balance: 20 -> 
+===== START TRACE =====
+?Insert_card_invalid_90 -> !Card_invalid -> ?Insert_card_valid_0 -> !Card_valid -> ?Correct_PIN_0 -> !PIN_correct ->  
+?Deposit_100 -> !Balance: 100 -> ?Deposit_10 -> !Balance: 110 -> ?Withdraw_100 -> !100 -> ?Deposit_100 -> !Balance: 110 ->  
+?Withdraw_100 -> !100 -> ?Deposit_100 -> !Balance: 110 -> ?Deposit_10 -> !Balance: 120 -> ?Withdraw_50 -> !50 ->  
+?Withdraw_10 -> !10 -> ?Exit -> !Card_60 -> ?Insert_card_invalid_450 -> !Card_invalid -> ?Insert_card_invalid_260 -> !Card_invalid ->  
+?Insert_card_valid_395 -> !Card_valid -> ?Correct_PIN_395 -> !PIN_correct -> ?Exit -> !Card_395 -> ?Insert_card_invalid_230 -> !Card_invalid ->  
+?Insert_card_invalid_180 -> !Card_invalid -> ?Insert_card_valid_95 -> !Card_valid -> ?Correct_PIN_95 -> !PIN_correct -> ?Deposit_20 -> !Balance: 115 ->  
+?Withdraw_5 -> !5 -> ?Balance -> !Balance: 20 -> 
+===== END TRACE =====
+?Insert_card_valid_10 -> !Card_valid -> ?Correct_PIN_10 -> !PIN_correct -> ?Deposit_100 -> !Balance: 110 -> ?Balance -> !Balance: 100 ->  
+
+===== START TRACE =====
+?Insert_card_invalid_355 -> !Card_invalid -> ?Insert_card_valid_165 -> !Card_valid -> ?Correct_PIN_165 -> !PIN_correct -> ?Deposit_50 -> !Balance: 215 ->  
+?Withdraw_50 -> !50 -> ?Deposit_20 -> !Balance: 185 -> ?Withdraw_100 -> !100 -> ?Deposit_50 -> !Balance: 135 ->  
+?Withdraw_10 -> !10 -> ?Balance -> !Balance: 50 -> 
+===== END TRACE =====
+?Insert_card_valid_85 -> !Card_valid -> ?Correct_PIN_85 -> !PIN_correct -> ?Deposit_50 -> !Balance: 135 -> ?Withdraw_10 -> !10 ->  
+?Balance -> !Balance: 50 -> 
+===== START TRACE =====
+?Insert_card_valid_500 -> !Card_valid -> ?Correct_PIN_500 -> !PIN_correct -> ?Withdraw_20 -> !20 ->  
+?Withdraw_50 -> !50 -> ?Withdraw_10 -> !10 -> ?Exit -> !Card_420 -> ?Insert_card_valid_305 -> !Card_valid ->  
+?Correct_PIN_305 -> !PIN_correct -> ?Deposit_10 -> !Balance: 315 -> ?Deposit_100 -> !Balance: 415 -> ?Exit -> !Card_415 ->  
+?Insert_card_valid_475 -> !Card_valid -> ?Correct_PIN_475 -> !PIN_correct -> ?Exit -> !Card_475 -> ?Insert_card_valid_145 -> !Card_valid ->  
+?Correct_PIN_145 -> !PIN_correct -> ?Deposit_50 -> !Balance: 195 -> ?Withdraw_50 -> !50 -> ?Deposit_20 -> !Balance: 165 ->  
+?Exit -> !Card_165 -> ?Insert_card_invalid_480 -> !Card_invalid -> ?Insert_card_invalid_275 -> !Card_invalid -> ?Insert_card_invalid_220 -> !Card_invalid ->  
+?Insert_card_valid_385 -> !Card_valid -> ?Correct_PIN_385 -> !PIN_correct -> ?Deposit_5 -> !Balance: 390 -> ?Deposit_10 -> !Balance: 400 ->  
+?Deposit_5 -> !Balance: 405 -> ?Deposit_10 -> !Balance: 415 -> ?Exit -> !Card_415 -> ?Insert_card_valid_300 -> !Card_valid ->  
+?Correct_PIN_300 -> !PIN_correct -> ?Deposit_20 -> !Balance: 320 -> ?Deposit_20 -> !Balance: 340 -> ?Deposit_10 -> !Balance: 350 ->  
+?Exit -> !Card_350 -> ?Insert_card_valid_50 -> !Card_valid -> ?Incorrect_PIN_50 -> !PIN_incorrect -> ?Incorrect_PIN_50 -> !PIN_incorrect ->  
+?Correct_PIN_50 -> !PIN_correct -> ?Deposit_100 -> !Balance: 150 -> ?Deposit_50 -> !Balance: 200 -> ?Deposit_20 -> !Balance: 220 ->  
+?Deposit_20 -> !Balance: 240 -> ?Exit -> !Card_240 -> ?Insert_card_invalid_470 -> !Card_invalid -> ?Insert_card_invalid_195 -> !Card_invalid ->  
+?Insert_card_valid_125 -> !Card_valid -> ?Correct_PIN_125 -> !PIN_correct -> ?Withdraw_100 -> !100 -> ?Withdraw_10 -> !10 ->  
+?Exit -> !Card_15 -> ?Insert_card_invalid_405 -> !Card_invalid -> ?Insert_card_invalid_70 -> !Card_invalid -> ?Insert_card_valid_210 -> !Card_valid ->  
+?Correct_PIN_210 -> !PIN_correct -> ?Withdraw_10 -> !10 -> ?Exit -> !Card_200 -> ?Insert_card_invalid_255 -> !Card_invalid ->  
+?Insert_card_invalid_495 -> !Card_invalid -> ?Insert_card_valid_30 -> !Card_valid -> ?Incorrect_PIN_30 -> !PIN_incorrect -> ?Incorrect_PIN_30 -> !PIN_incorrect ->  
+?Correct_PIN_30 -> !PIN_correct -> ?Balance -> !Balance: 30 -> ?Deposit_100 -> !Balance: 130 -> ?Deposit_5 -> !Balance: 135 ->  
+?Balance -> !Balance: 5 -> 
+===== END TRACE =====
+?Insert_card_valid_130 -> !Card_valid -> ?Correct_PIN_130 -> !PIN_correct -> ?Deposit_5 -> !Balance: 135 -> ?Balance -> !Balance: 5 ->  
+
+Generated on: 2024-07-10 00:38:43.769621638 +0200
+===== SHRINKER: [Shrinking::CycleShrink2] =====
+===== START TRACE =====
+?Insert_card_invalid_485 -> !Card_invalid -> ?Insert_card_invalid_90 -> !Card_invalid -> ?Insert_card_invalid_485 -> !Card_invalid -> ?Insert_card_valid_320 -> !Card_valid ->  
+?Correct_PIN_320 -> !PIN_correct -> ?Withdraw_5 -> !5 -> ?Withdraw_5 -> !5 -> ?Deposit_20 -> !Balance: 330 ->  
+?Deposit_20 -> !Balance: 350 -> ?Balance -> !Balance: 20 -> 
+===== END TRACE =====
+?Insert_card_valid_320 -> !Card_valid -> ?Correct_PIN_320 -> !PIN_correct -> ?Withdraw_5 -> !5 -> ?Withdraw_5 -> !5 ->  
+?Deposit_20 -> !Balance: 330 -> ?Deposit_20 -> !Balance: 350 -> ?Balance -> !Balance: 20 -> 
+===== START TRACE =====
+?Insert_card_invalid_370 -> !Card_invalid ->  
+?Insert_card_invalid_125 -> !Card_invalid -> ?Insert_card_valid_485 -> !Card_valid -> ?Incorrect_PIN_485 -> !PIN_incorrect -> ?Correct_PIN_485 -> !PIN_correct ->  
+?Withdraw_50 -> !50 -> ?Withdraw_100 -> !100 -> ?Deposit_20 -> !Balance: 355 -> ?Withdraw_100 -> !100 ->  
+?Deposit_5 -> !Balance: 260 -> ?Deposit_50 -> !Balance: 310 -> ?Withdraw_100 -> !100 -> ?Deposit_10 -> !Balance: 220 ->  
+?Deposit_5 -> !Balance: 225 -> ?Withdraw_50 -> !50 -> ?Withdraw_5 -> !5 -> ?Exit -> !Card_170 ->  
+?Insert_card_invalid_245 -> !Card_invalid -> ?Insert_card_invalid_370 -> !Card_invalid -> ?Insert_card_valid_385 -> !Card_valid -> ?Correct_PIN_385 -> !PIN_correct ->  
+?Withdraw_20 -> !20 -> ?Withdraw_100 -> !100 -> ?Withdraw_5 -> !5 -> ?Deposit_5 -> !Balance: 265 ->  
+?Deposit_50 -> !Balance: 315 -> ?Withdraw_50 -> !50 -> ?Deposit_5 -> !Balance: 270 -> ?Withdraw_50 -> !50 ->  
+?Deposit_50 -> !Balance: 270 -> ?Balance -> !Balance: 50 -> 
+===== END TRACE =====
+?Insert_card_valid_385 -> !Card_valid -> ?Correct_PIN_385 -> !PIN_correct -> ?Withdraw_20 -> !20 -> ?Withdraw_100 -> !100 ->  
+?Deposit_5 -> !Balance: 270 -> ?Balance -> !Balance: 5 -> 
+===== START TRACE =====
+?Insert_card_invalid_345 -> !Card_invalid -> ?Insert_card_invalid_485 -> !Card_invalid ->  
+?Insert_card_invalid_480 -> !Card_invalid -> ?Insert_card_valid_50 -> !Card_valid -> ?Correct_PIN_50 -> !PIN_correct -> ?Withdraw_100 -> !Insufficient_balance ->  
+?Exit -> !Card_50 -> ?Insert_card_valid_75 -> !Card_valid -> ?Incorrect_PIN_75 -> !PIN_incorrect -> ?Correct_PIN_75 -> !PIN_correct ->  
+?Withdraw_10 -> !10 -> ?Withdraw_20 -> !20 -> ?Withdraw_50 -> !Insufficient_balance -> ?Withdraw_50 -> !Insufficient_balance ->  
+?Withdraw_100 -> !Insufficient_balance -> ?Deposit_20 -> !Balance: 65 -> ?Deposit_50 -> !Balance: 115 -> ?Deposit_20 -> !Balance: 135 ->  
+?Deposit_100 -> !Balance: 235 -> ?Deposit_10 -> !Balance: 245 -> ?Withdraw_20 -> !20 -> ?Deposit_5 -> !Balance: 230 ->  
+?Balance -> !Balance: 5 -> 
+===== END TRACE =====
+?Insert_card_valid_75 -> !Card_valid -> ?Incorrect_PIN_75 -> !PIN_incorrect -> ?Correct_PIN_75 -> !PIN_correct -> ?Withdraw_10 -> !10 ->  
+?Deposit_50 -> !Balance: 115 -> ?Deposit_20 -> !Balance: 135 -> ?Deposit_100 -> !Balance: 235 -> ?Deposit_10 -> !Balance: 245 ->  
+?Withdraw_20 -> !20 -> ?Deposit_5 -> !Balance: 230 -> ?Balance -> !Balance: 5 -> 
+===== START TRACE =====
+?Insert_card_valid_5 -> !Card_valid ->  
+?Correct_PIN_5 -> !PIN_correct -> ?Withdraw_50 -> !Insufficient_balance -> ?Balance -> !Balance: 5 -> ?Withdraw_100 -> !Insufficient_balance ->  
+?Deposit_5 -> !Balance: 10 -> ?Withdraw_50 -> !Insufficient_balance -> ?Deposit_5 -> !Balance: 15 -> ?Exit -> !Card_15 ->  
+?Insert_card_valid_75 -> !Card_valid -> ?Correct_PIN_75 -> !PIN_correct -> ?Exit -> !Card_75 -> ?Insert_card_invalid_25 -> !Card_invalid ->  
+?Insert_card_valid_175 -> !Card_valid -> ?Correct_PIN_175 -> !PIN_correct -> ?Deposit_20 -> !Balance: 195 -> ?Deposit_50 -> !Balance: 245 ->  
+?Exit -> !Card_245 -> ?Insert_card_valid_35 -> !Card_valid -> ?Incorrect_PIN_35 -> !PIN_incorrect -> ?Incorrect_PIN_35 -> !PIN_incorrect ->  
+?Correct_PIN_35 -> !PIN_correct -> ?Deposit_5 -> !Balance: 40 -> ?Withdraw_50 -> !Insufficient_balance -> ?Deposit_5 -> !Balance: 45 ->  
+?Balance -> !Balance: 5 -> 
+===== END TRACE =====
+?Insert_card_valid_35 -> !Card_valid -> ?Incorrect_PIN_35 -> !PIN_incorrect -> ?Incorrect_PIN_35 -> !PIN_incorrect -> ?Correct_PIN_35 -> !PIN_correct ->  
+?Deposit_5 -> !Balance: 40 -> ?Deposit_5 -> !Balance: 45 -> ?Balance -> !Balance: 5 -> 
+===== START TRACE =====
+?Insert_card_invalid_495 -> !Card_invalid ->  
+?Insert_card_invalid_270 -> !Card_invalid -> ?Insert_card_invalid_200 -> !Card_invalid -> ?Insert_card_invalid_450 -> !Card_invalid -> ?Insert_card_invalid_350 -> !Card_invalid ->  
+?Insert_card_invalid_100 -> !Card_invalid -> ?Insert_card_valid_190 -> !Card_valid -> ?Incorrect_PIN_190 -> !PIN_incorrect -> ?Incorrect_PIN_190 -> !PIN_incorrect ->  
+?Incorrect_PIN_190 -> !PIN_incorrect -> !Card_blocked -> ?Insert_card_invalid_260 -> !Card_invalid -> ?Insert_card_invalid_310 -> !Card_invalid -> ?Insert_card_valid_30 ->  
+!Card_valid -> ?Correct_PIN_30 -> !PIN_correct -> ?Withdraw_20 -> !20 -> ?Deposit_100 -> !Balance: 110 -> ?Withdraw_100 ->  
+!100 -> ?Deposit_20 -> !Balance: 30 -> ?Withdraw_20 -> !20 -> ?Deposit_50 -> !Balance: 60 -> ?Deposit_5 ->  
+!Balance: 65 -> ?Withdraw_20 -> !20 -> ?Balance -> !Balance: 5 -> 
+===== END TRACE =====
+?Insert_card_valid_30 -> !Card_valid -> ?Correct_PIN_30 -> !PIN_correct -> ?Withdraw_20 -> !20 -> ?Deposit_50 -> !Balance: 60 ->  
+?Deposit_5 -> !Balance: 65 -> ?Withdraw_20 -> !20 -> ?Balance -> !Balance: 5 -> 
+===== START TRACE =====
+?Insert_card_valid_105 -> !Card_valid ->  
+?Correct_PIN_105 -> !PIN_correct -> ?Exit -> !Card_105 -> ?Insert_card_valid_135 -> !Card_valid -> ?Correct_PIN_135 -> !PIN_correct ->  
+?Deposit_20 -> !Balance: 155 -> ?Withdraw_50 -> !50 -> ?Withdraw_5 -> !5 -> ?Withdraw_50 -> !50 ->  
+?Balance -> !Balance: 20 -> 
+===== END TRACE =====
+?Insert_card_valid_135 -> !Card_valid -> ?Correct_PIN_135 -> !PIN_correct -> ?Deposit_20 -> !Balance: 155 -> ?Withdraw_50 -> !50 ->  
+?Withdraw_5 -> !5 -> ?Withdraw_50 -> !50 -> ?Balance -> !Balance: 20 -> 
+===== START TRACE =====
+?Insert_card_invalid_145 -> !Card_invalid ->  
+?Insert_card_valid_65 -> !Card_valid -> ?Incorrect_PIN_65 -> !PIN_incorrect -> ?Incorrect_PIN_65 -> !PIN_incorrect -> ?Incorrect_PIN_65 -> !PIN_incorrect ->  
+!Card_blocked -> ?Insert_card_valid_370 -> !Card_valid -> ?Incorrect_PIN_370 -> !PIN_incorrect -> ?Correct_PIN_370 -> !PIN_correct -> ?Withdraw_20 ->  
+!20 -> ?Withdraw_100 -> !100 -> ?Withdraw_10 -> !10 -> ?Deposit_5 -> !Balance: 245 -> ?Deposit_20 ->  
+!Balance: 265 -> ?Withdraw_50 -> !50 -> ?Withdraw_100 -> !100 -> ?Deposit_20 -> !Balance: 135 -> ?Withdraw_5 ->  
+!5 -> ?Balance -> !Balance: 20 -> 
+===== END TRACE =====
+?Insert_card_valid_370 -> !Card_valid -> ?Incorrect_PIN_370 -> !PIN_incorrect -> ?Correct_PIN_370 -> !PIN_correct -> ?Withdraw_20 -> !20 ->  
+?Withdraw_100 -> !100 -> ?Withdraw_10 -> !10 -> ?Deposit_5 -> !Balance: 245 -> ?Deposit_20 -> !Balance: 265 ->  
+?Withdraw_50 -> !50 -> ?Withdraw_100 -> !100 -> ?Deposit_20 -> !Balance: 135 -> ?Withdraw_5 -> !5 ->  
+?Balance -> !Balance: 20 -> 
+===== START TRACE =====
+?Insert_card_invalid_90 -> !Card_invalid -> ?Insert_card_valid_0 -> !Card_valid -> ?Correct_PIN_0 -> !PIN_correct ->  
+?Deposit_100 -> !Balance: 100 -> ?Deposit_10 -> !Balance: 110 -> ?Withdraw_100 -> !100 -> ?Deposit_100 -> !Balance: 110 ->  
+?Withdraw_100 -> !100 -> ?Deposit_100 -> !Balance: 110 -> ?Deposit_10 -> !Balance: 120 -> ?Withdraw_50 -> !50 ->  
+?Withdraw_10 -> !10 -> ?Exit -> !Card_60 -> ?Insert_card_invalid_450 -> !Card_invalid -> ?Insert_card_invalid_260 -> !Card_invalid ->  
+?Insert_card_valid_395 -> !Card_valid -> ?Correct_PIN_395 -> !PIN_correct -> ?Exit -> !Card_395 -> ?Insert_card_invalid_230 -> !Card_invalid ->  
+?Insert_card_invalid_180 -> !Card_invalid -> ?Insert_card_valid_95 -> !Card_valid -> ?Correct_PIN_95 -> !PIN_correct -> ?Deposit_20 -> !Balance: 115 ->  
+?Withdraw_5 -> !5 -> ?Balance -> !Balance: 20 -> 
+===== END TRACE =====
+?Insert_card_valid_95 -> !Card_valid -> ?Correct_PIN_95 -> !PIN_correct -> ?Deposit_20 -> !Balance: 115 -> ?Withdraw_5 -> !5 ->  
+?Balance -> !Balance: 20 -> 
+===== START TRACE =====
+?Insert_card_invalid_355 -> !Card_invalid -> ?Insert_card_valid_165 -> !Card_valid -> ?Correct_PIN_165 -> !PIN_correct ->  
+?Deposit_50 -> !Balance: 215 -> ?Withdraw_50 -> !50 -> ?Deposit_20 -> !Balance: 185 -> ?Withdraw_100 -> !100 ->  
+?Deposit_50 -> !Balance: 135 -> ?Withdraw_10 -> !10 -> ?Balance -> !Balance: 50 -> 
+===== END TRACE =====
+?Insert_card_valid_165 -> !Card_valid -> ?Correct_PIN_165 -> !PIN_correct -> ?Deposit_20 -> !Balance: 185 -> ?Withdraw_100 -> !100 ->  
+?Deposit_50 -> !Balance: 135 -> ?Withdraw_10 -> !10 -> ?Balance -> !Balance: 50 -> 
+===== START TRACE =====
+?Insert_card_valid_500 -> !Card_valid ->  
+?Correct_PIN_500 -> !PIN_correct -> ?Withdraw_20 -> !20 -> ?Withdraw_50 -> !50 -> ?Withdraw_10 -> !10 ->  
+?Exit -> !Card_420 -> ?Insert_card_valid_305 -> !Card_valid -> ?Correct_PIN_305 -> !PIN_correct -> ?Deposit_10 -> !Balance: 315 ->  
+?Deposit_100 -> !Balance: 415 -> ?Exit -> !Card_415 -> ?Insert_card_valid_475 -> !Card_valid -> ?Correct_PIN_475 -> !PIN_correct ->  
+?Exit -> !Card_475 -> ?Insert_card_valid_145 -> !Card_valid -> ?Correct_PIN_145 -> !PIN_correct -> ?Deposit_50 -> !Balance: 195 ->  
+?Withdraw_50 -> !50 -> ?Deposit_20 -> !Balance: 165 -> ?Exit -> !Card_165 -> ?Insert_card_invalid_480 -> !Card_invalid ->  
+?Insert_card_invalid_275 -> !Card_invalid -> ?Insert_card_invalid_220 -> !Card_invalid -> ?Insert_card_valid_385 -> !Card_valid -> ?Correct_PIN_385 -> !PIN_correct ->  
+?Deposit_5 -> !Balance: 390 -> ?Deposit_10 -> !Balance: 400 -> ?Deposit_5 -> !Balance: 405 -> ?Deposit_10 -> !Balance: 415 ->  
+?Exit -> !Card_415 -> ?Insert_card_valid_300 -> !Card_valid -> ?Correct_PIN_300 -> !PIN_correct -> ?Deposit_20 -> !Balance: 320 ->  
+?Deposit_20 -> !Balance: 340 -> ?Deposit_10 -> !Balance: 350 -> ?Exit -> !Card_350 -> ?Insert_card_valid_50 -> !Card_valid ->  
+?Incorrect_PIN_50 -> !PIN_incorrect -> ?Incorrect_PIN_50 -> !PIN_incorrect -> ?Correct_PIN_50 -> !PIN_correct -> ?Deposit_100 -> !Balance: 150 ->  
+?Deposit_50 -> !Balance: 200 -> ?Deposit_20 -> !Balance: 220 -> ?Deposit_20 -> !Balance: 240 -> ?Exit -> !Card_240 ->  
+?Insert_card_invalid_470 -> !Card_invalid -> ?Insert_card_invalid_195 -> !Card_invalid -> ?Insert_card_valid_125 -> !Card_valid -> ?Correct_PIN_125 -> !PIN_correct ->  
+?Withdraw_100 -> !100 -> ?Withdraw_10 -> !10 -> ?Exit -> !Card_15 -> ?Insert_card_invalid_405 -> !Card_invalid ->  
+?Insert_card_invalid_70 -> !Card_invalid -> ?Insert_card_valid_210 -> !Card_valid -> ?Correct_PIN_210 -> !PIN_correct -> ?Withdraw_10 -> !10 ->  
+?Exit -> !Card_200 -> ?Insert_card_invalid_255 -> !Card_invalid -> ?Insert_card_invalid_495 -> !Card_invalid -> ?Insert_card_valid_30 -> !Card_valid ->  
+?Incorrect_PIN_30 -> !PIN_incorrect -> ?Incorrect_PIN_30 -> !PIN_incorrect -> ?Correct_PIN_30 -> !PIN_correct -> ?Balance -> !Balance: 30 ->  
+?Deposit_100 -> !Balance: 130 -> ?Deposit_5 -> !Balance: 135 -> ?Balance -> !Balance: 5 -> 
+===== END TRACE =====
+?Insert_card_valid_30 -> !Card_valid -> ?Incorrect_PIN_30 -> !PIN_incorrect -> ?Incorrect_PIN_30 -> !PIN_incorrect -> ?Correct_PIN_30 -> !PIN_correct ->  
+?Deposit_100 -> !Balance: 130 -> ?Deposit_5 -> !Balance: 135 -> ?Balance -> !Balance: 5 -> 
+Generated on: 2024-07-10 00:38:43.868362188 +0200
+===== SHRINKER: [Shrinking::BinaryShrink2] =====
+===== START TRACE =====
+?Insert_card_invalid_485 -> !Card_invalid -> ?Insert_card_invalid_90 -> !Card_invalid -> ?Insert_card_invalid_485 -> !Card_invalid -> ?Insert_card_valid_320 -> !Card_valid ->  
+?Correct_PIN_320 -> !PIN_correct -> ?Withdraw_5 -> !5 -> ?Withdraw_5 -> !5 -> ?Deposit_20 -> !Balance: 330 ->  
+?Deposit_20 -> !Balance: 350 -> ?Balance -> !Balance: 20 -> 
+===== END TRACE =====
+?Insert_card_valid_320 -> !Card_valid -> ?Correct_PIN_320 -> !PIN_correct -> ?Deposit_20 -> !Balance: 340 -> ?Balance -> !Balance: 20 ->  
+
+===== START TRACE =====
+?Insert_card_invalid_370 -> !Card_invalid -> ?Insert_card_invalid_125 -> !Card_invalid -> ?Insert_card_valid_485 -> !Card_valid -> ?Incorrect_PIN_485 -> !PIN_incorrect ->  
+?Correct_PIN_485 -> !PIN_correct -> ?Withdraw_50 -> !50 -> ?Withdraw_100 -> !100 -> ?Deposit_20 -> !Balance: 355 ->  
+?Withdraw_100 -> !100 -> ?Deposit_5 -> !Balance: 260 -> ?Deposit_50 -> !Balance: 310 -> ?Withdraw_100 -> !100 ->  
+?Deposit_10 -> !Balance: 220 -> ?Deposit_5 -> !Balance: 225 -> ?Withdraw_50 -> !50 -> ?Withdraw_5 -> !5 ->  
+?Exit -> !Card_170 -> ?Insert_card_invalid_245 -> !Card_invalid -> ?Insert_card_invalid_370 -> !Card_invalid -> ?Insert_card_valid_385 -> !Card_valid ->  
+?Correct_PIN_385 -> !PIN_correct -> ?Withdraw_20 -> !20 -> ?Withdraw_100 -> !100 -> ?Withdraw_5 -> !5 ->  
+?Deposit_5 -> !Balance: 265 -> ?Deposit_50 -> !Balance: 315 -> ?Withdraw_50 -> !50 -> ?Deposit_5 -> !Balance: 270 ->  
+?Withdraw_50 -> !50 -> ?Deposit_50 -> !Balance: 270 -> ?Balance -> !Balance: 50 -> 
+===== END TRACE =====
+?Insert_card_valid_485 -> !Card_valid -> ?Correct_PIN_485 -> !PIN_correct -> ?Withdraw_100 -> !100 -> ?Deposit_50 -> !Balance: 435 ->  
+?Balance -> !Balance: 50 -> 
+===== START TRACE =====
+?Insert_card_invalid_345 -> !Card_invalid -> ?Insert_card_invalid_485 -> !Card_invalid -> ?Insert_card_invalid_480 -> !Card_invalid ->  
+?Insert_card_valid_50 -> !Card_valid -> ?Correct_PIN_50 -> !PIN_correct -> ?Withdraw_100 -> !Insufficient_balance -> ?Exit -> !Card_50 ->  
+?Insert_card_valid_75 -> !Card_valid -> ?Incorrect_PIN_75 -> !PIN_incorrect -> ?Correct_PIN_75 -> !PIN_correct -> ?Withdraw_10 -> !10 ->  
+?Withdraw_20 -> !20 -> ?Withdraw_50 -> !Insufficient_balance -> ?Withdraw_50 -> !Insufficient_balance -> ?Withdraw_100 -> !Insufficient_balance ->  
+?Deposit_20 -> !Balance: 65 -> ?Deposit_50 -> !Balance: 115 -> ?Deposit_20 -> !Balance: 135 -> ?Deposit_100 -> !Balance: 235 ->  
+?Deposit_10 -> !Balance: 245 -> ?Withdraw_20 -> !20 -> ?Deposit_5 -> !Balance: 230 -> ?Balance -> !Balance: 5 ->  
+
+===== END TRACE =====
+?Insert_card_valid_50 -> !Card_valid -> ?Correct_PIN_50 -> !PIN_correct -> ?Deposit_5 -> !Balance: 55 -> ?Balance -> !Balance: 5 ->  
+
+===== START TRACE =====
+?Insert_card_valid_5 -> !Card_valid -> ?Correct_PIN_5 -> !PIN_correct -> ?Withdraw_50 -> !Insufficient_balance -> ?Balance -> !Balance: 5 ->  
+?Withdraw_100 -> !Insufficient_balance -> ?Deposit_5 -> !Balance: 10 -> ?Withdraw_50 -> !Insufficient_balance -> ?Deposit_5 -> !Balance: 15 ->  
+?Exit -> !Card_15 -> ?Insert_card_valid_75 -> !Card_valid -> ?Correct_PIN_75 -> !PIN_correct -> ?Exit -> !Card_75 ->  
+?Insert_card_invalid_25 -> !Card_invalid -> ?Insert_card_valid_175 -> !Card_valid -> ?Correct_PIN_175 -> !PIN_correct -> ?Deposit_20 -> !Balance: 195 ->  
+?Deposit_50 -> !Balance: 245 -> ?Exit -> !Card_245 -> ?Insert_card_valid_35 -> !Card_valid -> ?Incorrect_PIN_35 -> !PIN_incorrect ->  
+?Incorrect_PIN_35 -> !PIN_incorrect -> ?Correct_PIN_35 -> !PIN_correct -> ?Deposit_5 -> !Balance: 40 -> ?Withdraw_50 -> !Insufficient_balance ->  
+?Deposit_5 -> !Balance: 45 -> ?Balance -> !Balance: 5 -> 
+===== END TRACE =====
+?Insert_card_valid_35 -> !Card_valid -> ?Correct_PIN_35 -> !PIN_correct -> ?Deposit_5 -> !Balance: 40 -> ?Balance -> !Balance: 5 ->  
+
+===== START TRACE =====
+?Insert_card_invalid_495 -> !Card_invalid -> ?Insert_card_invalid_270 -> !Card_invalid -> ?Insert_card_invalid_200 -> !Card_invalid -> ?Insert_card_invalid_450 -> !Card_invalid ->  
+?Insert_card_invalid_350 -> !Card_invalid -> ?Insert_card_invalid_100 -> !Card_invalid -> ?Insert_card_valid_190 -> !Card_valid -> ?Incorrect_PIN_190 -> !PIN_incorrect ->  
+?Incorrect_PIN_190 -> !PIN_incorrect -> ?Incorrect_PIN_190 -> !PIN_incorrect -> !Card_blocked -> ?Insert_card_invalid_260 -> !Card_invalid -> ?Insert_card_invalid_310 ->  
+!Card_invalid -> ?Insert_card_valid_30 -> !Card_valid -> ?Correct_PIN_30 -> !PIN_correct -> ?Withdraw_20 -> !20 -> ?Deposit_100 ->  
+!Balance: 110 -> ?Withdraw_100 -> !100 -> ?Deposit_20 -> !Balance: 30 -> ?Withdraw_20 -> !20 -> ?Deposit_50 ->  
+!Balance: 60 -> ?Deposit_5 -> !Balance: 65 -> ?Withdraw_20 -> !20 -> ?Balance -> !Balance: 5 -> 
+===== END TRACE =====
+?Insert_card_valid_30 -> !Card_valid -> ?Correct_PIN_30 -> !PIN_correct -> ?Deposit_5 -> !Balance: 35 -> ?Balance -> !Balance: 5 ->  
+
+===== START TRACE =====
+?Insert_card_valid_105 -> !Card_valid -> ?Correct_PIN_105 -> !PIN_correct -> ?Exit -> !Card_105 -> ?Insert_card_valid_135 -> !Card_valid ->  
+?Correct_PIN_135 -> !PIN_correct -> ?Deposit_20 -> !Balance: 155 -> ?Withdraw_50 -> !50 -> ?Withdraw_5 -> !5 ->  
+?Withdraw_50 -> !50 -> ?Balance -> !Balance: 20 -> 
+===== END TRACE =====
+?Insert_card_valid_105 -> !Card_valid -> ?Correct_PIN_105 -> !PIN_correct -> ?Exit -> !Card_105 -> ?Insert_card_valid_135 -> !Card_valid ->  
+?Correct_PIN_135 -> !PIN_correct -> ?Deposit_20 -> !Balance: 155 -> ?Balance -> !Balance: 20 -> 
+===== START TRACE =====
+?Insert_card_invalid_145 -> !Card_invalid ->  
+?Insert_card_valid_65 -> !Card_valid -> ?Incorrect_PIN_65 -> !PIN_incorrect -> ?Incorrect_PIN_65 -> !PIN_incorrect -> ?Incorrect_PIN_65 -> !PIN_incorrect ->  
+!Card_blocked -> ?Insert_card_valid_370 -> !Card_valid -> ?Incorrect_PIN_370 -> !PIN_incorrect -> ?Correct_PIN_370 -> !PIN_correct -> ?Withdraw_20 ->  
+!20 -> ?Withdraw_100 -> !100 -> ?Withdraw_10 -> !10 -> ?Deposit_5 -> !Balance: 245 -> ?Deposit_20 ->  
+!Balance: 265 -> ?Withdraw_50 -> !50 -> ?Withdraw_100 -> !100 -> ?Deposit_20 -> !Balance: 135 -> ?Withdraw_5 ->  
+!5 -> ?Balance -> !Balance: 20 -> 
+===== END TRACE =====
+?Insert_card_valid_65 -> !Card_valid -> ?Incorrect_PIN_65 -> !PIN_incorrect -> ?Incorrect_PIN_65 -> !PIN_incorrect -> ?Incorrect_PIN_65 -> !PIN_incorrect ->  
+!Card_blocked -> ?Insert_card_valid_370 -> !Card_valid -> ?Correct_PIN_370 -> !PIN_correct -> ?Deposit_20 -> !Balance: 390 -> ?Balance ->  
+!Balance: 20 -> 
+===== START TRACE =====
+?Insert_card_invalid_90 -> !Card_invalid -> ?Insert_card_valid_0 -> !Card_valid -> ?Correct_PIN_0 -> !PIN_correct -> ?Deposit_100 ->  
+!Balance: 100 -> ?Deposit_10 -> !Balance: 110 -> ?Withdraw_100 -> !100 -> ?Deposit_100 -> !Balance: 110 -> ?Withdraw_100 ->  
+!100 -> ?Deposit_100 -> !Balance: 110 -> ?Deposit_10 -> !Balance: 120 -> ?Withdraw_50 -> !50 -> ?Withdraw_10 ->  
+!10 -> ?Exit -> !Card_60 -> ?Insert_card_invalid_450 -> !Card_invalid -> ?Insert_card_invalid_260 -> !Card_invalid -> ?Insert_card_valid_395 ->  
+!Card_valid -> ?Correct_PIN_395 -> !PIN_correct -> ?Exit -> !Card_395 -> ?Insert_card_invalid_230 -> !Card_invalid -> ?Insert_card_invalid_180 ->  
+!Card_invalid -> ?Insert_card_valid_95 -> !Card_valid -> ?Correct_PIN_95 -> !PIN_correct -> ?Deposit_20 -> !Balance: 115 -> ?Withdraw_5 ->  
+!5 -> ?Balance -> !Balance: 20 -> 
+===== END TRACE =====
+?Insert_card_valid_0 -> !Card_valid -> ?Correct_PIN_0 -> !PIN_correct -> ?Withdraw_10 -> !Insufficient_balance -> ?Exit -> !Card_0 ->  
+?Insert_card_valid_395 -> !Card_valid -> ?Correct_PIN_395 -> !PIN_correct -> ?Exit -> !Card_395 -> ?Insert_card_valid_95 -> !Card_valid ->  
+?Correct_PIN_95 -> !PIN_correct -> ?Deposit_20 -> !Balance: 115 -> ?Balance -> !Balance: 20 -> 
+===== START TRACE =====
+?Insert_card_invalid_355 -> !Card_invalid ->  
+?Insert_card_valid_165 -> !Card_valid -> ?Correct_PIN_165 -> !PIN_correct -> ?Deposit_50 -> !Balance: 215 -> ?Withdraw_50 -> !50 ->  
+?Deposit_20 -> !Balance: 185 -> ?Withdraw_100 -> !100 -> ?Deposit_50 -> !Balance: 135 -> ?Withdraw_10 -> !10 ->  
+?Balance -> !Balance: 50 -> 
+===== END TRACE =====
+?Insert_card_valid_165 -> !Card_valid -> ?Correct_PIN_165 -> !PIN_correct -> ?Deposit_50 -> !Balance: 215 -> ?Balance -> !Balance: 50 ->  
+
+===== START TRACE =====
+?Insert_card_valid_500 -> !Card_valid -> ?Correct_PIN_500 -> !PIN_correct -> ?Withdraw_20 -> !20 -> ?Withdraw_50 -> !50 ->  
+?Withdraw_10 -> !10 -> ?Exit -> !Card_420 -> ?Insert_card_valid_305 -> !Card_valid -> ?Correct_PIN_305 -> !PIN_correct ->  
+?Deposit_10 -> !Balance: 315 -> ?Deposit_100 -> !Balance: 415 -> ?Exit -> !Card_415 -> ?Insert_card_valid_475 -> !Card_valid ->  
+?Correct_PIN_475 -> !PIN_correct -> ?Exit -> !Card_475 -> ?Insert_card_valid_145 -> !Card_valid -> ?Correct_PIN_145 -> !PIN_correct ->  
+?Deposit_50 -> !Balance: 195 -> ?Withdraw_50 -> !50 -> ?Deposit_20 -> !Balance: 165 -> ?Exit -> !Card_165 ->  
+?Insert_card_invalid_480 -> !Card_invalid -> ?Insert_card_invalid_275 -> !Card_invalid -> ?Insert_card_invalid_220 -> !Card_invalid -> ?Insert_card_valid_385 -> !Card_valid ->  
+?Correct_PIN_385 -> !PIN_correct -> ?Deposit_5 -> !Balance: 390 -> ?Deposit_10 -> !Balance: 400 -> ?Deposit_5 -> !Balance: 405 ->  
+?Deposit_10 -> !Balance: 415 -> ?Exit -> !Card_415 -> ?Insert_card_valid_300 -> !Card_valid -> ?Correct_PIN_300 -> !PIN_correct ->  
+?Deposit_20 -> !Balance: 320 -> ?Deposit_20 -> !Balance: 340 -> ?Deposit_10 -> !Balance: 350 -> ?Exit -> !Card_350 ->  
+?Insert_card_valid_50 -> !Card_valid -> ?Incorrect_PIN_50 -> !PIN_incorrect -> ?Incorrect_PIN_50 -> !PIN_incorrect -> ?Correct_PIN_50 -> !PIN_correct ->  
+?Deposit_100 -> !Balance: 150 -> ?Deposit_50 -> !Balance: 200 -> ?Deposit_20 -> !Balance: 220 -> ?Deposit_20 -> !Balance: 240 ->  
+?Exit -> !Card_240 -> ?Insert_card_invalid_470 -> !Card_invalid -> ?Insert_card_invalid_195 -> !Card_invalid -> ?Insert_card_valid_125 -> !Card_valid ->  
+?Correct_PIN_125 -> !PIN_correct -> ?Withdraw_100 -> !100 -> ?Withdraw_10 -> !10 -> ?Exit -> !Card_15 ->  
+?Insert_card_invalid_405 -> !Card_invalid -> ?Insert_card_invalid_70 -> !Card_invalid -> ?Insert_card_valid_210 -> !Card_valid -> ?Correct_PIN_210 -> !PIN_correct ->  
+?Withdraw_10 -> !10 -> ?Exit -> !Card_200 -> ?Insert_card_invalid_255 -> !Card_invalid -> ?Insert_card_invalid_495 -> !Card_invalid ->  
+?Insert_card_valid_30 -> !Card_valid -> ?Incorrect_PIN_30 -> !PIN_incorrect -> ?Incorrect_PIN_30 -> !PIN_incorrect -> ?Correct_PIN_30 -> !PIN_correct ->  
+?Balance -> !Balance: 30 -> ?Deposit_100 -> !Balance: 130 -> ?Deposit_5 -> !Balance: 135 -> ?Balance -> !Balance: 5 ->  
+
+===== END TRACE =====
+?Insert_card_valid_500 -> !Card_valid -> ?Correct_PIN_500 -> !PIN_correct -> ?Exit -> !Card_500 -> ?Insert_card_valid_305 -> !Card_valid ->  
+?Correct_PIN_305 -> !PIN_correct -> ?Exit -> !Card_305 -> ?Insert_card_valid_385 -> !Card_valid -> ?Correct_PIN_385 -> !PIN_correct ->  
+?Deposit_5 -> !Balance: 390 -> ?Exit -> !Card_390 -> ?Insert_card_valid_210 -> !Card_valid -> ?Correct_PIN_210 -> !PIN_correct ->  
+?Exit -> !Card_210 -> ?Insert_card_valid_30 -> !Card_valid -> ?Correct_PIN_30 -> !PIN_correct -> ?Deposit_5 -> !Balance: 35 ->  
+?Balance -> !Balance: 5 -> 
+Generated on: 2024-07-10 00:38:43.93353321 +0200
+===== SHRINKER: [Shrinking::CycleShrink2, Shrinking::ElemShrink2] =====
+===== START TRACE =====
+?Insert_card_invalid_485 -> !Card_invalid -> ?Insert_card_invalid_90 -> !Card_invalid -> ?Insert_card_invalid_485 -> !Card_invalid -> ?Insert_card_valid_320 -> !Card_valid ->  
+?Correct_PIN_320 -> !PIN_correct -> ?Withdraw_5 -> !5 -> ?Withdraw_5 -> !5 -> ?Deposit_20 -> !Balance: 330 ->  
+?Deposit_20 -> !Balance: 350 -> ?Balance -> !Balance: 20 -> 
+===== END TRACE =====
+?Insert_card_valid_320 -> !Card_valid -> ?Correct_PIN_320 -> !PIN_correct -> ?Deposit_20 -> !Balance: 340 -> ?Balance -> !Balance: 20 ->  
+
+===== START TRACE =====
+?Insert_card_invalid_370 -> !Card_invalid -> ?Insert_card_invalid_125 -> !Card_invalid -> ?Insert_card_valid_485 -> !Card_valid -> ?Incorrect_PIN_485 -> !PIN_incorrect ->  
+?Correct_PIN_485 -> !PIN_correct -> ?Withdraw_50 -> !50 -> ?Withdraw_100 -> !100 -> ?Deposit_20 -> !Balance: 355 ->  
+?Withdraw_100 -> !100 -> ?Deposit_5 -> !Balance: 260 -> ?Deposit_50 -> !Balance: 310 -> ?Withdraw_100 -> !100 ->  
+?Deposit_10 -> !Balance: 220 -> ?Deposit_5 -> !Balance: 225 -> ?Withdraw_50 -> !50 -> ?Withdraw_5 -> !5 ->  
+?Exit -> !Card_170 -> ?Insert_card_invalid_245 -> !Card_invalid -> ?Insert_card_invalid_370 -> !Card_invalid -> ?Insert_card_valid_385 -> !Card_valid ->  
+?Correct_PIN_385 -> !PIN_correct -> ?Withdraw_20 -> !20 -> ?Withdraw_100 -> !100 -> ?Withdraw_5 -> !5 ->  
+?Deposit_5 -> !Balance: 265 -> ?Deposit_50 -> !Balance: 315 -> ?Withdraw_50 -> !50 -> ?Deposit_5 -> !Balance: 270 ->  
+?Withdraw_50 -> !50 -> ?Deposit_50 -> !Balance: 270 -> ?Balance -> !Balance: 50 -> 
+===== END TRACE =====
+?Insert_card_valid_385 -> !Card_valid -> ?Correct_PIN_385 -> !PIN_correct -> ?Deposit_5 -> !Balance: 390 -> ?Balance -> !Balance: 5 ->  
+
+===== START TRACE =====
+?Insert_card_invalid_345 -> !Card_invalid -> ?Insert_card_invalid_485 -> !Card_invalid -> ?Insert_card_invalid_480 -> !Card_invalid -> ?Insert_card_valid_50 -> !Card_valid ->  
+?Correct_PIN_50 -> !PIN_correct -> ?Withdraw_100 -> !Insufficient_balance -> ?Exit -> !Card_50 -> ?Insert_card_valid_75 -> !Card_valid ->  
+?Incorrect_PIN_75 -> !PIN_incorrect -> ?Correct_PIN_75 -> !PIN_correct -> ?Withdraw_10 -> !10 -> ?Withdraw_20 -> !20 ->  
+?Withdraw_50 -> !Insufficient_balance -> ?Withdraw_50 -> !Insufficient_balance -> ?Withdraw_100 -> !Insufficient_balance -> ?Deposit_20 -> !Balance: 65 ->  
+?Deposit_50 -> !Balance: 115 -> ?Deposit_20 -> !Balance: 135 -> ?Deposit_100 -> !Balance: 235 -> ?Deposit_10 -> !Balance: 245 ->  
+?Withdraw_20 -> !20 -> ?Deposit_5 -> !Balance: 230 -> ?Balance -> !Balance: 5 -> 
+===== END TRACE =====
+?Insert_card_valid_75 -> !Card_valid -> ?Correct_PIN_75 -> !PIN_correct -> ?Deposit_5 -> !Balance: 80 -> ?Balance -> !Balance: 5 ->  
+
+===== START TRACE =====
+?Insert_card_valid_5 -> !Card_valid -> ?Correct_PIN_5 -> !PIN_correct -> ?Withdraw_50 -> !Insufficient_balance -> ?Balance -> !Balance: 5 ->  
+?Withdraw_100 -> !Insufficient_balance -> ?Deposit_5 -> !Balance: 10 -> ?Withdraw_50 -> !Insufficient_balance -> ?Deposit_5 -> !Balance: 15 ->  
+?Exit -> !Card_15 -> ?Insert_card_valid_75 -> !Card_valid -> ?Correct_PIN_75 -> !PIN_correct -> ?Exit -> !Card_75 ->  
+?Insert_card_invalid_25 -> !Card_invalid -> ?Insert_card_valid_175 -> !Card_valid -> ?Correct_PIN_175 -> !PIN_correct -> ?Deposit_20 -> !Balance: 195 ->  
+?Deposit_50 -> !Balance: 245 -> ?Exit -> !Card_245 -> ?Insert_card_valid_35 -> !Card_valid -> ?Incorrect_PIN_35 -> !PIN_incorrect ->  
+?Incorrect_PIN_35 -> !PIN_incorrect -> ?Correct_PIN_35 -> !PIN_correct -> ?Deposit_5 -> !Balance: 40 -> ?Withdraw_50 -> !Insufficient_balance ->  
+?Deposit_5 -> !Balance: 45 -> ?Balance -> !Balance: 5 -> 
+===== END TRACE =====
+?Insert_card_valid_35 -> !Card_valid -> ?Correct_PIN_35 -> !PIN_correct -> ?Deposit_5 -> !Balance: 40 -> ?Balance -> !Balance: 5 ->  
+
+===== START TRACE =====
+?Insert_card_invalid_495 -> !Card_invalid -> ?Insert_card_invalid_270 -> !Card_invalid -> ?Insert_card_invalid_200 -> !Card_invalid -> ?Insert_card_invalid_450 -> !Card_invalid ->  
+?Insert_card_invalid_350 -> !Card_invalid -> ?Insert_card_invalid_100 -> !Card_invalid -> ?Insert_card_valid_190 -> !Card_valid -> ?Incorrect_PIN_190 -> !PIN_incorrect ->  
+?Incorrect_PIN_190 -> !PIN_incorrect -> ?Incorrect_PIN_190 -> !PIN_incorrect -> !Card_blocked -> ?Insert_card_invalid_260 -> !Card_invalid -> ?Insert_card_invalid_310 ->  
+!Card_invalid -> ?Insert_card_valid_30 -> !Card_valid -> ?Correct_PIN_30 -> !PIN_correct -> ?Withdraw_20 -> !20 -> ?Deposit_100 ->  
+!Balance: 110 -> ?Withdraw_100 -> !100 -> ?Deposit_20 -> !Balance: 30 -> ?Withdraw_20 -> !20 -> ?Deposit_50 ->  
+!Balance: 60 -> ?Deposit_5 -> !Balance: 65 -> ?Withdraw_20 -> !20 -> ?Balance -> !Balance: 5 -> 
+===== END TRACE =====
+?Insert_card_valid_30 -> !Card_valid -> ?Correct_PIN_30 -> !PIN_correct -> ?Deposit_5 -> !Balance: 35 -> ?Balance -> !Balance: 5 ->  
+
+===== START TRACE =====
+?Insert_card_valid_105 -> !Card_valid -> ?Correct_PIN_105 -> !PIN_correct -> ?Exit -> !Card_105 -> ?Insert_card_valid_135 -> !Card_valid ->  
+?Correct_PIN_135 -> !PIN_correct -> ?Deposit_20 -> !Balance: 155 -> ?Withdraw_50 -> !50 -> ?Withdraw_5 -> !5 ->  
+?Withdraw_50 -> !50 -> ?Balance -> !Balance: 20 -> 
+===== END TRACE =====
+?Insert_card_valid_135 -> !Card_valid -> ?Correct_PIN_135 -> !PIN_correct -> ?Deposit_20 -> !Balance: 155 -> ?Balance -> !Balance: 20 ->  
+
+===== START TRACE =====
+?Insert_card_invalid_145 -> !Card_invalid -> ?Insert_card_valid_65 -> !Card_valid -> ?Incorrect_PIN_65 -> !PIN_incorrect -> ?Incorrect_PIN_65 -> !PIN_incorrect ->  
+?Incorrect_PIN_65 -> !PIN_incorrect -> !Card_blocked -> ?Insert_card_valid_370 -> !Card_valid -> ?Incorrect_PIN_370 -> !PIN_incorrect -> ?Correct_PIN_370 ->  
+!PIN_correct -> ?Withdraw_20 -> !20 -> ?Withdraw_100 -> !100 -> ?Withdraw_10 -> !10 -> ?Deposit_5 ->  
+!Balance: 245 -> ?Deposit_20 -> !Balance: 265 -> ?Withdraw_50 -> !50 -> ?Withdraw_100 -> !100 -> ?Deposit_20 ->  
+!Balance: 135 -> ?Withdraw_5 -> !5 -> ?Balance -> !Balance: 20 -> 
+===== END TRACE =====
+?Insert_card_valid_370 -> !Card_valid -> ?Correct_PIN_370 -> !PIN_correct -> ?Deposit_20 -> !Balance: 390 -> ?Balance -> !Balance: 20 ->  
+
+===== START TRACE =====
+?Insert_card_invalid_90 -> !Card_invalid -> ?Insert_card_valid_0 -> !Card_valid -> ?Correct_PIN_0 -> !PIN_correct -> ?Deposit_100 -> !Balance: 100 ->  
+?Deposit_10 -> !Balance: 110 -> ?Withdraw_100 -> !100 -> ?Deposit_100 -> !Balance: 110 -> ?Withdraw_100 -> !100 ->  
+?Deposit_100 -> !Balance: 110 -> ?Deposit_10 -> !Balance: 120 -> ?Withdraw_50 -> !50 -> ?Withdraw_10 -> !10 ->  
+?Exit -> !Card_60 -> ?Insert_card_invalid_450 -> !Card_invalid -> ?Insert_card_invalid_260 -> !Card_invalid -> ?Insert_card_valid_395 -> !Card_valid ->  
+?Correct_PIN_395 -> !PIN_correct -> ?Exit -> !Card_395 -> ?Insert_card_invalid_230 -> !Card_invalid -> ?Insert_card_invalid_180 -> !Card_invalid ->  
+?Insert_card_valid_95 -> !Card_valid -> ?Correct_PIN_95 -> !PIN_correct -> ?Deposit_20 -> !Balance: 115 -> ?Withdraw_5 -> !5 ->  
+?Balance -> !Balance: 20 -> 
+===== END TRACE =====
+?Insert_card_valid_95 -> !Card_valid -> ?Correct_PIN_95 -> !PIN_correct -> ?Deposit_20 -> !Balance: 115 -> ?Balance -> !Balance: 20 ->  
+
+===== START TRACE =====
+?Insert_card_invalid_355 -> !Card_invalid -> ?Insert_card_valid_165 -> !Card_valid -> ?Correct_PIN_165 -> !PIN_correct -> ?Deposit_50 -> !Balance: 215 ->  
+?Withdraw_50 -> !50 -> ?Deposit_20 -> !Balance: 185 -> ?Withdraw_100 -> !100 -> ?Deposit_50 -> !Balance: 135 ->  
+?Withdraw_10 -> !10 -> ?Balance -> !Balance: 50 -> 
+===== END TRACE =====
+?Insert_card_valid_165 -> !Card_valid -> ?Correct_PIN_165 -> !PIN_correct -> ?Deposit_50 -> !Balance: 215 -> ?Balance -> !Balance: 50 ->  
+
+===== START TRACE =====
+?Insert_card_valid_500 -> !Card_valid -> ?Correct_PIN_500 -> !PIN_correct -> ?Withdraw_20 -> !20 -> ?Withdraw_50 -> !50 ->  
+?Withdraw_10 -> !10 -> ?Exit -> !Card_420 -> ?Insert_card_valid_305 -> !Card_valid -> ?Correct_PIN_305 -> !PIN_correct ->  
+?Deposit_10 -> !Balance: 315 -> ?Deposit_100 -> !Balance: 415 -> ?Exit -> !Card_415 -> ?Insert_card_valid_475 -> !Card_valid ->  
+?Correct_PIN_475 -> !PIN_correct -> ?Exit -> !Card_475 -> ?Insert_card_valid_145 -> !Card_valid -> ?Correct_PIN_145 -> !PIN_correct ->  
+?Deposit_50 -> !Balance: 195 -> ?Withdraw_50 -> !50 -> ?Deposit_20 -> !Balance: 165 -> ?Exit -> !Card_165 ->  
+?Insert_card_invalid_480 -> !Card_invalid -> ?Insert_card_invalid_275 -> !Card_invalid -> ?Insert_card_invalid_220 -> !Card_invalid -> ?Insert_card_valid_385 -> !Card_valid ->  
+?Correct_PIN_385 -> !PIN_correct -> ?Deposit_5 -> !Balance: 390 -> ?Deposit_10 -> !Balance: 400 -> ?Deposit_5 -> !Balance: 405 ->  
+?Deposit_10 -> !Balance: 415 -> ?Exit -> !Card_415 -> ?Insert_card_valid_300 -> !Card_valid -> ?Correct_PIN_300 -> !PIN_correct ->  
+?Deposit_20 -> !Balance: 320 -> ?Deposit_20 -> !Balance: 340 -> ?Deposit_10 -> !Balance: 350 -> ?Exit -> !Card_350 ->  
+?Insert_card_valid_50 -> !Card_valid -> ?Incorrect_PIN_50 -> !PIN_incorrect -> ?Incorrect_PIN_50 -> !PIN_incorrect -> ?Correct_PIN_50 -> !PIN_correct ->  
+?Deposit_100 -> !Balance: 150 -> ?Deposit_50 -> !Balance: 200 -> ?Deposit_20 -> !Balance: 220 -> ?Deposit_20 -> !Balance: 240 ->  
+?Exit -> !Card_240 -> ?Insert_card_invalid_470 -> !Card_invalid -> ?Insert_card_invalid_195 -> !Card_invalid -> ?Insert_card_valid_125 -> !Card_valid ->  
+?Correct_PIN_125 -> !PIN_correct -> ?Withdraw_100 -> !100 -> ?Withdraw_10 -> !10 -> ?Exit -> !Card_15 ->  
+?Insert_card_invalid_405 -> !Card_invalid -> ?Insert_card_invalid_70 -> !Card_invalid -> ?Insert_card_valid_210 -> !Card_valid -> ?Correct_PIN_210 -> !PIN_correct ->  
+?Withdraw_10 -> !10 -> ?Exit -> !Card_200 -> ?Insert_card_invalid_255 -> !Card_invalid -> ?Insert_card_invalid_495 -> !Card_invalid ->  
+?Insert_card_valid_30 -> !Card_valid -> ?Incorrect_PIN_30 -> !PIN_incorrect -> ?Incorrect_PIN_30 -> !PIN_incorrect -> ?Correct_PIN_30 -> !PIN_correct ->  
+?Balance -> !Balance: 30 -> ?Deposit_100 -> !Balance: 130 -> ?Deposit_5 -> !Balance: 135 -> ?Balance -> !Balance: 5 ->  
+
+===== END TRACE =====
+?Insert_card_valid_30 -> !Card_valid -> ?Correct_PIN_30 -> !PIN_correct -> ?Deposit_5 -> !Balance: 35 -> ?Balance -> !Balance: 5 ->  
+
+Generated on: 2024-07-10 00:38:43.980352376 +0200
+===== SHRINKER: [Shrinking::CycleShrink2, Shrinking::BinaryShrink2] =====
+===== START TRACE =====
+?Insert_card_invalid_485 -> !Card_invalid -> ?Insert_card_invalid_90 -> !Card_invalid -> ?Insert_card_invalid_485 -> !Card_invalid -> ?Insert_card_valid_320 -> !Card_valid ->  
+?Correct_PIN_320 -> !PIN_correct -> ?Withdraw_5 -> !5 -> ?Withdraw_5 -> !5 -> ?Deposit_20 -> !Balance: 330 ->  
+?Deposit_20 -> !Balance: 350 -> ?Balance -> !Balance: 20 -> 
+===== END TRACE =====
+?Insert_card_valid_320 -> !Card_valid -> ?Correct_PIN_320 -> !PIN_correct -> ?Deposit_20 -> !Balance: 340 -> ?Balance -> !Balance: 20 ->  
+
+===== START TRACE =====
+?Insert_card_invalid_370 -> !Card_invalid -> ?Insert_card_invalid_125 -> !Card_invalid -> ?Insert_card_valid_485 -> !Card_valid -> ?Incorrect_PIN_485 -> !PIN_incorrect ->  
+?Correct_PIN_485 -> !PIN_correct -> ?Withdraw_50 -> !50 -> ?Withdraw_100 -> !100 -> ?Deposit_20 -> !Balance: 355 ->  
+?Withdraw_100 -> !100 -> ?Deposit_5 -> !Balance: 260 -> ?Deposit_50 -> !Balance: 310 -> ?Withdraw_100 -> !100 ->  
+?Deposit_10 -> !Balance: 220 -> ?Deposit_5 -> !Balance: 225 -> ?Withdraw_50 -> !50 -> ?Withdraw_5 -> !5 ->  
+?Exit -> !Card_170 -> ?Insert_card_invalid_245 -> !Card_invalid -> ?Insert_card_invalid_370 -> !Card_invalid -> ?Insert_card_valid_385 -> !Card_valid ->  
+?Correct_PIN_385 -> !PIN_correct -> ?Withdraw_20 -> !20 -> ?Withdraw_100 -> !100 -> ?Withdraw_5 -> !5 ->  
+?Deposit_5 -> !Balance: 265 -> ?Deposit_50 -> !Balance: 315 -> ?Withdraw_50 -> !50 -> ?Deposit_5 -> !Balance: 270 ->  
+?Withdraw_50 -> !50 -> ?Deposit_50 -> !Balance: 270 -> ?Balance -> !Balance: 50 -> 
+===== END TRACE =====
+?Insert_card_valid_385 -> !Card_valid -> ?Correct_PIN_385 -> !PIN_correct -> ?Deposit_5 -> !Balance: 390 -> ?Balance -> !Balance: 5 ->  
+
+===== START TRACE =====
+?Insert_card_invalid_345 -> !Card_invalid -> ?Insert_card_invalid_485 -> !Card_invalid -> ?Insert_card_invalid_480 -> !Card_invalid -> ?Insert_card_valid_50 -> !Card_valid ->  
+?Correct_PIN_50 -> !PIN_correct -> ?Withdraw_100 -> !Insufficient_balance -> ?Exit -> !Card_50 -> ?Insert_card_valid_75 -> !Card_valid ->  
+?Incorrect_PIN_75 -> !PIN_incorrect -> ?Correct_PIN_75 -> !PIN_correct -> ?Withdraw_10 -> !10 -> ?Withdraw_20 -> !20 ->  
+?Withdraw_50 -> !Insufficient_balance -> ?Withdraw_50 -> !Insufficient_balance -> ?Withdraw_100 -> !Insufficient_balance -> ?Deposit_20 -> !Balance: 65 ->  
+?Deposit_50 -> !Balance: 115 -> ?Deposit_20 -> !Balance: 135 -> ?Deposit_100 -> !Balance: 235 -> ?Deposit_10 -> !Balance: 245 ->  
+?Withdraw_20 -> !20 -> ?Deposit_5 -> !Balance: 230 -> ?Balance -> !Balance: 5 -> 
+===== END TRACE =====
+?Insert_card_valid_75 -> !Card_valid -> ?Correct_PIN_75 -> !PIN_correct -> ?Deposit_5 -> !Balance: 80 -> ?Balance -> !Balance: 5 ->  
+
+===== START TRACE =====
+?Insert_card_valid_5 -> !Card_valid -> ?Correct_PIN_5 -> !PIN_correct -> ?Withdraw_50 -> !Insufficient_balance -> ?Balance -> !Balance: 5 ->  
+?Withdraw_100 -> !Insufficient_balance -> ?Deposit_5 -> !Balance: 10 -> ?Withdraw_50 -> !Insufficient_balance -> ?Deposit_5 -> !Balance: 15 ->  
+?Exit -> !Card_15 -> ?Insert_card_valid_75 -> !Card_valid -> ?Correct_PIN_75 -> !PIN_correct -> ?Exit -> !Card_75 ->  
+?Insert_card_invalid_25 -> !Card_invalid -> ?Insert_card_valid_175 -> !Card_valid -> ?Correct_PIN_175 -> !PIN_correct -> ?Deposit_20 -> !Balance: 195 ->  
+?Deposit_50 -> !Balance: 245 -> ?Exit -> !Card_245 -> ?Insert_card_valid_35 -> !Card_valid -> ?Incorrect_PIN_35 -> !PIN_incorrect ->  
+?Incorrect_PIN_35 -> !PIN_incorrect -> ?Correct_PIN_35 -> !PIN_correct -> ?Deposit_5 -> !Balance: 40 -> ?Withdraw_50 -> !Insufficient_balance ->  
+?Deposit_5 -> !Balance: 45 -> ?Balance -> !Balance: 5 -> 
+===== END TRACE =====
+?Insert_card_valid_35 -> !Card_valid -> ?Correct_PIN_35 -> !PIN_correct -> ?Deposit_5 -> !Balance: 40 -> ?Balance -> !Balance: 5 ->  
+
+===== START TRACE =====
+?Insert_card_invalid_495 -> !Card_invalid -> ?Insert_card_invalid_270 -> !Card_invalid -> ?Insert_card_invalid_200 -> !Card_invalid -> ?Insert_card_invalid_450 -> !Card_invalid ->  
+?Insert_card_invalid_350 -> !Card_invalid -> ?Insert_card_invalid_100 -> !Card_invalid -> ?Insert_card_valid_190 -> !Card_valid -> ?Incorrect_PIN_190 -> !PIN_incorrect ->  
+?Incorrect_PIN_190 -> !PIN_incorrect -> ?Incorrect_PIN_190 -> !PIN_incorrect -> !Card_blocked -> ?Insert_card_invalid_260 -> !Card_invalid -> ?Insert_card_invalid_310 ->  
+!Card_invalid -> ?Insert_card_valid_30 -> !Card_valid -> ?Correct_PIN_30 -> !PIN_correct -> ?Withdraw_20 -> !20 -> ?Deposit_100 ->  
+!Balance: 110 -> ?Withdraw_100 -> !100 -> ?Deposit_20 -> !Balance: 30 -> ?Withdraw_20 -> !20 -> ?Deposit_50 ->  
+!Balance: 60 -> ?Deposit_5 -> !Balance: 65 -> ?Withdraw_20 -> !20 -> ?Balance -> !Balance: 5 -> 
+===== END TRACE =====
+?Insert_card_valid_30 -> !Card_valid -> ?Correct_PIN_30 -> !PIN_correct -> ?Deposit_5 -> !Balance: 35 -> ?Balance -> !Balance: 5 ->  
+
+===== START TRACE =====
+?Insert_card_valid_105 -> !Card_valid -> ?Correct_PIN_105 -> !PIN_correct -> ?Exit -> !Card_105 -> ?Insert_card_valid_135 -> !Card_valid ->  
+?Correct_PIN_135 -> !PIN_correct -> ?Deposit_20 -> !Balance: 155 -> ?Withdraw_50 -> !50 -> ?Withdraw_5 -> !5 ->  
+?Withdraw_50 -> !50 -> ?Balance -> !Balance: 20 -> 
+===== END TRACE =====
+?Insert_card_valid_135 -> !Card_valid -> ?Correct_PIN_135 -> !PIN_correct -> ?Deposit_20 -> !Balance: 155 -> ?Balance -> !Balance: 20 ->  
+
+===== START TRACE =====
+?Insert_card_invalid_145 -> !Card_invalid -> ?Insert_card_valid_65 -> !Card_valid -> ?Incorrect_PIN_65 -> !PIN_incorrect -> ?Incorrect_PIN_65 -> !PIN_incorrect ->  
+?Incorrect_PIN_65 -> !PIN_incorrect -> !Card_blocked -> ?Insert_card_valid_370 -> !Card_valid -> ?Incorrect_PIN_370 -> !PIN_incorrect -> ?Correct_PIN_370 ->  
+!PIN_correct -> ?Withdraw_20 -> !20 -> ?Withdraw_100 -> !100 -> ?Withdraw_10 -> !10 -> ?Deposit_5 ->  
+!Balance: 245 -> ?Deposit_20 -> !Balance: 265 -> ?Withdraw_50 -> !50 -> ?Withdraw_100 -> !100 -> ?Deposit_20 ->  
+!Balance: 135 -> ?Withdraw_5 -> !5 -> ?Balance -> !Balance: 20 -> 
+===== END TRACE =====
+?Insert_card_valid_370 -> !Card_valid -> ?Correct_PIN_370 -> !PIN_correct -> ?Deposit_20 -> !Balance: 390 -> ?Balance -> !Balance: 20 ->  
+
+===== START TRACE =====
+?Insert_card_invalid_90 -> !Card_invalid -> ?Insert_card_valid_0 -> !Card_valid -> ?Correct_PIN_0 -> !PIN_correct -> ?Deposit_100 -> !Balance: 100 ->  
+?Deposit_10 -> !Balance: 110 -> ?Withdraw_100 -> !100 -> ?Deposit_100 -> !Balance: 110 -> ?Withdraw_100 -> !100 ->  
+?Deposit_100 -> !Balance: 110 -> ?Deposit_10 -> !Balance: 120 -> ?Withdraw_50 -> !50 -> ?Withdraw_10 -> !10 ->  
+?Exit -> !Card_60 -> ?Insert_card_invalid_450 -> !Card_invalid -> ?Insert_card_invalid_260 -> !Card_invalid -> ?Insert_card_valid_395 -> !Card_valid ->  
+?Correct_PIN_395 -> !PIN_correct -> ?Exit -> !Card_395 -> ?Insert_card_invalid_230 -> !Card_invalid -> ?Insert_card_invalid_180 -> !Card_invalid ->  
+?Insert_card_valid_95 -> !Card_valid -> ?Correct_PIN_95 -> !PIN_correct -> ?Deposit_20 -> !Balance: 115 -> ?Withdraw_5 -> !5 ->  
+?Balance -> !Balance: 20 -> 
+===== END TRACE =====
+?Insert_card_valid_95 -> !Card_valid -> ?Correct_PIN_95 -> !PIN_correct -> ?Deposit_20 -> !Balance: 115 -> ?Balance -> !Balance: 20 ->  
+
+===== START TRACE =====
+?Insert_card_invalid_355 -> !Card_invalid -> ?Insert_card_valid_165 -> !Card_valid -> ?Correct_PIN_165 -> !PIN_correct -> ?Deposit_50 -> !Balance: 215 ->  
+?Withdraw_50 -> !50 -> ?Deposit_20 -> !Balance: 185 -> ?Withdraw_100 -> !100 -> ?Deposit_50 -> !Balance: 135 ->  
+?Withdraw_10 -> !10 -> ?Balance -> !Balance: 50 -> 
+===== END TRACE =====
+?Insert_card_valid_165 -> !Card_valid -> ?Correct_PIN_165 -> !PIN_correct -> ?Deposit_50 -> !Balance: 215 -> ?Balance -> !Balance: 50 ->  
+
+===== START TRACE =====
+?Insert_card_valid_500 -> !Card_valid -> ?Correct_PIN_500 -> !PIN_correct -> ?Withdraw_20 -> !20 -> ?Withdraw_50 -> !50 ->  
+?Withdraw_10 -> !10 -> ?Exit -> !Card_420 -> ?Insert_card_valid_305 -> !Card_valid -> ?Correct_PIN_305 -> !PIN_correct ->  
+?Deposit_10 -> !Balance: 315 -> ?Deposit_100 -> !Balance: 415 -> ?Exit -> !Card_415 -> ?Insert_card_valid_475 -> !Card_valid ->  
+?Correct_PIN_475 -> !PIN_correct -> ?Exit -> !Card_475 -> ?Insert_card_valid_145 -> !Card_valid -> ?Correct_PIN_145 -> !PIN_correct ->  
+?Deposit_50 -> !Balance: 195 -> ?Withdraw_50 -> !50 -> ?Deposit_20 -> !Balance: 165 -> ?Exit -> !Card_165 ->  
+?Insert_card_invalid_480 -> !Card_invalid -> ?Insert_card_invalid_275 -> !Card_invalid -> ?Insert_card_invalid_220 -> !Card_invalid -> ?Insert_card_valid_385 -> !Card_valid ->  
+?Correct_PIN_385 -> !PIN_correct -> ?Deposit_5 -> !Balance: 390 -> ?Deposit_10 -> !Balance: 400 -> ?Deposit_5 -> !Balance: 405 ->  
+?Deposit_10 -> !Balance: 415 -> ?Exit -> !Card_415 -> ?Insert_card_valid_300 -> !Card_valid -> ?Correct_PIN_300 -> !PIN_correct ->  
+?Deposit_20 -> !Balance: 320 -> ?Deposit_20 -> !Balance: 340 -> ?Deposit_10 -> !Balance: 350 -> ?Exit -> !Card_350 ->  
+?Insert_card_valid_50 -> !Card_valid -> ?Incorrect_PIN_50 -> !PIN_incorrect -> ?Incorrect_PIN_50 -> !PIN_incorrect -> ?Correct_PIN_50 -> !PIN_correct ->  
+?Deposit_100 -> !Balance: 150 -> ?Deposit_50 -> !Balance: 200 -> ?Deposit_20 -> !Balance: 220 -> ?Deposit_20 -> !Balance: 240 ->  
+?Exit -> !Card_240 -> ?Insert_card_invalid_470 -> !Card_invalid -> ?Insert_card_invalid_195 -> !Card_invalid -> ?Insert_card_valid_125 -> !Card_valid ->  
+?Correct_PIN_125 -> !PIN_correct -> ?Withdraw_100 -> !100 -> ?Withdraw_10 -> !10 -> ?Exit -> !Card_15 ->  
+?Insert_card_invalid_405 -> !Card_invalid -> ?Insert_card_invalid_70 -> !Card_invalid -> ?Insert_card_valid_210 -> !Card_valid -> ?Correct_PIN_210 -> !PIN_correct ->  
+?Withdraw_10 -> !10 -> ?Exit -> !Card_200 -> ?Insert_card_invalid_255 -> !Card_invalid -> ?Insert_card_invalid_495 -> !Card_invalid ->  
+?Insert_card_valid_30 -> !Card_valid -> ?Incorrect_PIN_30 -> !PIN_incorrect -> ?Incorrect_PIN_30 -> !PIN_incorrect -> ?Correct_PIN_30 -> !PIN_correct ->  
+?Balance -> !Balance: 30 -> ?Deposit_100 -> !Balance: 130 -> ?Deposit_5 -> !Balance: 135 -> ?Balance -> !Balance: 5 ->  
+
+===== END TRACE =====
+?Insert_card_valid_30 -> !Card_valid -> ?Correct_PIN_30 -> !PIN_correct -> ?Deposit_5 -> !Balance: 35 -> ?Balance -> !Balance: 5 ->  
+
