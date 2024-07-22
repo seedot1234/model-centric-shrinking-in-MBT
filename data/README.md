@@ -36,7 +36,7 @@ The columns afterwards contain the maximum, minimum, and average size of the shr
 The final line contains a calculation for the time that was needed per interaction with the SUT.
 
 ## Files
-There are three folders, each containing the raw data of a different experiment: SmartDoor, Koopman, and ATM. Per experiment, the data are grouped per bug. SmartDoor contains 8 bugs, of which bug 1, 2, 4, 5, 6, and 7 are state bugs. The other bugs are trace bugs. Koopman contains 10 bugs, of which bug 3 and 6 are state bugs, the others being trace bugs. ATM contains 5 bugs; 1, 3 and 4 are state bugs and the others are trace bugs.
+There are three folders, each containing the raw data of a different experiment: smartdoor, koopman, and ATM. Per experiment, the data are grouped per bug. Smartdoor contains 8 bugs, of which bug 01, 02, 04, 05, 06, and 07 are state bugs. The other bugs are trace bugs. Koopman contains 10 bugs, of which bug 03 and 06 are state bugs, the others being trace bugs. ATM contains 5 bugs; 01, 03 and 04 are state bugs and the others are trace bugs.
 
 ## Acknowledgments
 This dataformat is taken from Lars Meijer: https://github.com/Lars-Meijer/sts-shrinking-results.
