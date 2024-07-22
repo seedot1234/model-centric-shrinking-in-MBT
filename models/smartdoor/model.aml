@@ -2,12 +2,11 @@ timeout 0.5
 
 external 'door'
 
-include 'scenarios.aml'
-
 process('smartdoor') {
   include 'interface.aml'
-  channel('door') { response 'quiescence' }
+  channel('door')
   goto 'closed'
+
   # In the closed state, the door can be locked and opened.
   state 'closed'
     repeat {
