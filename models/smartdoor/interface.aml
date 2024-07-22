@@ -1,0 +1,22 @@
+# The stimuli and responses of the door (on the external channel)
+channel('door') {
+  stimulus 'open'
+  stimulus 'close'
+  stimulus 'lock_correct_passcode'
+  stimulus 'lock_invalid_passcode'
+  stimulus 'unlock_correct_passcode'
+  stimulus 'unlock_incorrect_passcode'
+  stimulus 'unlock_invalid_passcode'
+
+  response 'opened'
+  response 'closed'
+  response 'locked'
+  response 'unlocked'
+
+  response 'invalid_command'
+  response 'invalid_passcode'
+  response 'incorrect_passcode'
+
+  response 'shut_off'
+}
+

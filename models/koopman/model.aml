@@ -1,0 +1,2221 @@
+timeout 1
+
+external 'vending'
+
+process ('Koopmans Machine') {
+
+  include 'interface.aml'
+
+  goto 'None_0'
+
+  state 'None_0'
+  repeat {
+    o { receive 'Info_None_0'; goto 'Info_None_0' }
+    o { receive 'Coin1'; goto 'None_1' }
+    o { receive 'Coin2'; goto 'None_2' }
+    o { receive 'Reset'; goto 'None_0' }
+    o { receive 'Choice_Coffee'; goto  'Coffee_0'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_0'}
+    o { receive 'Choice_Double'; goto  'Double_0'}
+    o { receive 'Choice_French'; goto  'French_0'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_0'}
+    o { receive 'Go' }
+  }
+
+  state 'Info_None_0'
+  repeat {
+    o { send 'Info_None_0'; goto 'None_0' }
+  }
+
+  state 'Coffee_0'
+  repeat {
+    o { receive 'Info_Coffee_0'; goto 'Info_Coffee_0' }
+    o { receive 'Coin1'; goto 'Coffee_1' }
+    o { receive 'Coin2'; goto 'Coffee_2' }
+    o { receive 'Reset'; goto 'None_0' }
+    o { receive 'Choice_Coffee'; goto  'Coffee_0'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_0'}
+    o { receive 'Choice_Double'; goto  'Double_0'}
+    o { receive 'Choice_French'; goto  'French_0'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_0'}
+    o { receive 'Go' }
+  }
+
+  state 'Info_Coffee_0'
+  repeat {
+    o { send 'Info_Coffee_0'; goto 'Coffee_0' }
+  }
+
+  state 'Espresso_0'
+  repeat {
+    o { receive 'Info_Espresso_0'; goto 'Info_Espresso_0' }
+    o { receive 'Coin1'; goto 'Espresso_1' }
+    o { receive 'Coin2'; goto 'Espresso_2' }
+    o { receive 'Reset'; goto 'None_0' }
+    o { receive 'Choice_Coffee'; goto  'Coffee_0'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_0'}
+    o { receive 'Choice_Double'; goto  'Double_0'}
+    o { receive 'Choice_French'; goto  'French_0'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_0'}
+    o { receive 'Go' }
+  }
+
+  state 'Info_Espresso_0'
+  repeat {
+    o { send 'Info_Espresso_0'; goto 'Espresso_0' }
+  }
+
+  state 'Double_0'
+  repeat {
+    o { receive 'Info_Double_0'; goto 'Info_Double_0' }
+    o { receive 'Coin1'; goto 'Double_1' }
+    o { receive 'Coin2'; goto 'Double_2' }
+    o { receive 'Reset'; goto 'None_0' }
+    o { receive 'Choice_Coffee'; goto  'Coffee_0'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_0'}
+    o { receive 'Choice_Double'; goto  'Double_0'}
+    o { receive 'Choice_French'; goto  'French_0'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_0'}
+    o { receive 'Go' }
+  }
+
+  state 'Info_Double_0'
+  repeat {
+    o { send 'Info_Double_0'; goto 'Double_0' }
+  }
+
+  state 'French_0'
+  repeat {
+    o { receive 'Info_French_0'; goto 'Info_French_0' }
+    o { receive 'Coin1'; goto 'French_1' }
+    o { receive 'Coin2'; goto 'French_2' }
+    o { receive 'Reset'; goto 'None_0' }
+    o { receive 'Choice_Coffee'; goto  'Coffee_0'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_0'}
+    o { receive 'Choice_Double'; goto  'Double_0'}
+    o { receive 'Choice_French'; goto  'French_0'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_0'}
+    o { receive 'Go' }
+  }
+
+  state 'Info_French_0'
+  repeat {
+    o { send 'Info_French_0'; goto 'French_0' }
+  }
+
+  state 'Wiener_0'
+  repeat {
+    o { receive 'Info_Wiener_0'; goto 'Info_Wiener_0' }
+    o { receive 'Coin1'; goto 'Wiener_1' }
+    o { receive 'Coin2'; goto 'Wiener_2' }
+    o { receive 'Reset'; goto 'None_0' }
+    o { receive 'Choice_Coffee'; goto  'Coffee_0'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_0'}
+    o { receive 'Choice_Double'; goto  'Double_0'}
+    o { receive 'Choice_French'; goto  'French_0'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_0'}
+    o { receive 'Go' }
+  }
+
+  state 'Info_Wiener_0'
+  repeat {
+    o { send 'Info_Wiener_0'; goto 'Wiener_0' }
+  }
+
+  state 'None_1'
+  repeat {
+    o { receive 'Info_None_1'; goto 'Info_None_1' }
+    o { receive 'Coin1'; goto 'None_2' }
+    o { receive 'Coin2'; goto 'None_3' }
+    o { receive 'Reset'; goto  'Change_1'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_1'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_1'}
+    o { receive 'Choice_Double'; goto  'Double_1'}
+    o { receive 'Choice_French'; goto  'French_1'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_1'}
+    o { receive 'Go' }
+  }
+
+  state 'Info_None_1'
+  repeat {
+    o { send 'Info_None_1'; goto 'None_1' }
+  }
+
+  state 'Coffee_1'
+  repeat {
+    o { receive 'Info_Coffee_1'; goto 'Info_Coffee_1' }
+    o { receive 'Coin1'; goto 'Coffee_2' }
+    o { receive 'Coin2'; goto 'Coffee_3' }
+    o { receive 'Reset'; goto  'Change_1'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_1'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_1'}
+    o { receive 'Choice_Double'; goto  'Double_1'}
+    o { receive 'Choice_French'; goto  'French_1'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_1'}
+    o { receive 'Go' }
+  }
+
+  state 'Info_Coffee_1'
+  repeat {
+    o { send 'Info_Coffee_1'; goto 'Coffee_1' }
+  }
+
+  state 'Espresso_1'
+  repeat {
+    o { receive 'Info_Espresso_1'; goto 'Info_Espresso_1' }
+    o { receive 'Coin1'; goto 'Espresso_2' }
+    o { receive 'Coin2'; goto 'Espresso_3' }
+    o { receive 'Reset'; goto  'Change_1'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_1'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_1'}
+    o { receive 'Choice_Double'; goto  'Double_1'}
+    o { receive 'Choice_French'; goto  'French_1'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_1'}
+    o { receive 'Go' }
+  }
+
+  state 'Info_Espresso_1'
+  repeat {
+    o { send 'Info_Espresso_1'; goto 'Espresso_1' }
+  }
+
+  state 'Double_1'
+  repeat {
+    o { receive 'Info_Double_1'; goto 'Info_Double_1' }
+    o { receive 'Coin1'; goto 'Double_2' }
+    o { receive 'Coin2'; goto 'Double_3' }
+    o { receive 'Reset'; goto  'Change_1'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_1'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_1'}
+    o { receive 'Choice_Double'; goto  'Double_1'}
+    o { receive 'Choice_French'; goto  'French_1'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_1'}
+    o { receive 'Go' }
+  }
+
+  state 'Info_Double_1'
+  repeat {
+    o { send 'Info_Double_1'; goto 'Double_1' }
+  }
+
+  state 'French_1'
+  repeat {
+    o { receive 'Info_French_1'; goto 'Info_French_1' }
+    o { receive 'Coin1'; goto 'French_2' }
+    o { receive 'Coin2'; goto 'French_3' }
+    o { receive 'Reset'; goto  'Change_1'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_1'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_1'}
+    o { receive 'Choice_Double'; goto  'Double_1'}
+    o { receive 'Choice_French'; goto  'French_1'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_1'}
+    o { receive 'Go' }
+  }
+
+  state 'Info_French_1'
+  repeat {
+    o { send 'Info_French_1'; goto 'French_1' }
+  }
+
+  state 'Wiener_1'
+  repeat {
+    o { receive 'Info_Wiener_1'; goto 'Info_Wiener_1' }
+    o { receive 'Coin1'; goto 'Wiener_2' }
+    o { receive 'Coin2'; goto 'Wiener_3' }
+    o { receive 'Reset'; goto  'Change_1'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_1'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_1'}
+    o { receive 'Choice_Double'; goto  'Double_1'}
+    o { receive 'Choice_French'; goto  'French_1'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_1'}
+    o { receive 'Go' }
+  }
+
+  state 'Info_Wiener_1'
+  repeat {
+    o { send 'Info_Wiener_1'; goto 'Wiener_1' }
+  }
+
+  state 'None_2'
+  repeat {
+    o { receive 'Info_None_2'; goto 'Info_None_2' }
+    o { receive 'Coin1'; goto 'None_3' }
+    o { receive 'Coin2'; goto 'None_4' }
+    o { receive 'Reset'; goto  'Change_2'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_2'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_2'}
+    o { receive 'Choice_Double'; goto  'Double_2'}
+    o { receive 'Choice_French'; goto  'French_2'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_2'}
+    o { receive 'Go' }
+  }
+
+  state 'Info_None_2'
+  repeat {
+    o { send 'Info_None_2'; goto 'None_2' }
+  }
+
+  state 'Coffee_2'
+  repeat {
+    o { receive 'Info_Coffee_2'; goto 'Info_Coffee_2' }
+    o { receive 'Coin1'; goto 'Coffee_3' }
+    o { receive 'Coin2'; goto 'Coffee_4' }
+    o { receive 'Reset'; goto  'Change_2'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_2'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_2'}
+    o { receive 'Choice_Double'; goto  'Double_2'}
+    o { receive 'Choice_French'; goto  'French_2'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_2'}
+    o { receive 'Go'; goto  'Cup_Coffee_2'}
+  }
+
+  state 'Info_Coffee_2'
+  repeat {
+    o { send 'Info_Coffee_2'; goto 'Coffee_2' }
+  }
+
+  state 'Cup_Coffee_2'
+  repeat {
+    o { send 'Cup_Coffee'; goto 'None_0' }
+  }
+
+  state 'Espresso_2'
+  repeat {
+    o { receive 'Info_Espresso_2'; goto 'Info_Espresso_2' }
+    o { receive 'Coin1'; goto 'Espresso_3' }
+    o { receive 'Coin2'; goto 'Espresso_4' }
+    o { receive 'Reset'; goto  'Change_2'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_2'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_2'}
+    o { receive 'Choice_Double'; goto  'Double_2'}
+    o { receive 'Choice_French'; goto  'French_2'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_2'}
+    o { receive 'Go' }
+  }
+
+  state 'Info_Espresso_2'
+  repeat {
+    o { send 'Info_Espresso_2'; goto 'Espresso_2' }
+  }
+
+  state 'Double_2'
+  repeat {
+    o { receive 'Info_Double_2'; goto 'Info_Double_2' }
+    o { receive 'Coin1'; goto 'Double_3' }
+    o { receive 'Coin2'; goto 'Double_4' }
+    o { receive 'Reset'; goto  'Change_2'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_2'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_2'}
+    o { receive 'Choice_Double'; goto  'Double_2'}
+    o { receive 'Choice_French'; goto  'French_2'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_2'}
+    o { receive 'Go' }
+  }
+
+  state 'Info_Double_2'
+  repeat {
+    o { send 'Info_Double_2'; goto 'Double_2' }
+  }
+
+  state 'French_2'
+  repeat {
+    o { receive 'Info_French_2'; goto 'Info_French_2' }
+    o { receive 'Coin1'; goto 'French_3' }
+    o { receive 'Coin2'; goto 'French_4' }
+    o { receive 'Reset'; goto  'Change_2'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_2'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_2'}
+    o { receive 'Choice_Double'; goto  'Double_2'}
+    o { receive 'Choice_French'; goto  'French_2'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_2'}
+    o { receive 'Go' }
+  }
+
+  state 'Info_French_2'
+  repeat {
+    o { send 'Info_French_2'; goto 'French_2' }
+  }
+
+  state 'Wiener_2'
+  repeat {
+    o { receive 'Info_Wiener_2'; goto 'Info_Wiener_2' }
+    o { receive 'Coin1'; goto 'Wiener_3' }
+    o { receive 'Coin2'; goto 'Wiener_4' }
+    o { receive 'Reset'; goto  'Change_2'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_2'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_2'}
+    o { receive 'Choice_Double'; goto  'Double_2'}
+    o { receive 'Choice_French'; goto  'French_2'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_2'}
+    o { receive 'Go' }
+  }
+
+  state 'Info_Wiener_2'
+  repeat {
+    o { send 'Info_Wiener_2'; goto 'Wiener_2' }
+  }
+
+  state 'None_3'
+  repeat {
+    o { receive 'Info_None_3'; goto 'Info_None_3' }
+    o { receive 'Coin1'; goto 'None_4' }
+    o { receive 'Coin2'; goto 'None_5' }
+    o { receive 'Reset'; goto  'Change_3'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_3'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_3'}
+    o { receive 'Choice_Double'; goto  'Double_3'}
+    o { receive 'Choice_French'; goto  'French_3'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_3'}
+    o { receive 'Go' }
+  }
+
+  state 'Info_None_3'
+  repeat {
+    o { send 'Info_None_3'; goto 'None_3' }
+  }
+
+  state 'Coffee_3'
+  repeat {
+    o { receive 'Info_Coffee_3'; goto 'Info_Coffee_3' }
+    o { receive 'Coin1'; goto 'Coffee_4' }
+    o { receive 'Coin2'; goto 'Coffee_5' }
+    o { receive 'Reset'; goto  'Change_3'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_3'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_3'}
+    o { receive 'Choice_Double'; goto  'Double_3'}
+    o { receive 'Choice_French'; goto  'French_3'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_3'}
+    o { receive 'Go'; goto  'Cup_Coffee_3'}
+  }
+
+  state 'Info_Coffee_3'
+  repeat {
+    o { send 'Info_Coffee_3'; goto 'Coffee_3' }
+  }
+
+  state 'Cup_Coffee_3'
+  repeat {
+    o { send 'Cup_Coffee'; goto 'None_1' }
+  }
+
+  state 'Espresso_3'
+  repeat {
+    o { receive 'Info_Espresso_3'; goto 'Info_Espresso_3' }
+    o { receive 'Coin1'; goto 'Espresso_4' }
+    o { receive 'Coin2'; goto 'Espresso_5' }
+    o { receive 'Reset'; goto  'Change_3'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_3'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_3'}
+    o { receive 'Choice_Double'; goto  'Double_3'}
+    o { receive 'Choice_French'; goto  'French_3'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_3'}
+    o { receive 'Go'; goto  'Cup_Espresso_3'}
+  }
+
+  state 'Info_Espresso_3'
+  repeat {
+    o { send 'Info_Espresso_3'; goto 'Espresso_3' }
+  }
+
+  state 'Cup_Espresso_3'
+  repeat {
+    o { send 'Cup_Espresso'; goto 'None_0' }
+  }
+
+  state 'Double_3'
+  repeat {
+    o { receive 'Info_Double_3'; goto 'Info_Double_3' }
+    o { receive 'Coin1'; goto 'Double_4' }
+    o { receive 'Coin2'; goto 'Double_5' }
+    o { receive 'Reset'; goto  'Change_3'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_3'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_3'}
+    o { receive 'Choice_Double'; goto  'Double_3'}
+    o { receive 'Choice_French'; goto  'French_3'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_3'}
+    o { receive 'Go'; goto  'Cup_Double_3'}
+  }
+
+  state 'Info_Double_3'
+  repeat {
+    o { send 'Info_Double_3'; goto 'Double_3' }
+  }
+
+  state 'Cup_Double_3'
+  repeat {
+    o { send 'Cup_Double'; goto 'None_0' }
+  }
+
+  state 'French_3'
+  repeat {
+    o { receive 'Info_French_3'; goto 'Info_French_3' }
+    o { receive 'Coin1'; goto 'French_4' }
+    o { receive 'Coin2'; goto 'French_5' }
+    o { receive 'Reset'; goto  'Change_3'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_3'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_3'}
+    o { receive 'Choice_Double'; goto  'Double_3'}
+    o { receive 'Choice_French'; goto  'French_3'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_3'}
+    o { receive 'Go'; goto  'Cup_French_3'}
+  }
+
+  state 'Info_French_3'
+  repeat {
+    o { send 'Info_French_3'; goto 'French_3' }
+  }
+
+  state 'Cup_French_3'
+  repeat {
+    o { send 'Cup_French'; goto 'None_0' }
+  }
+
+  state 'Wiener_3'
+  repeat {
+    o { receive 'Info_Wiener_3'; goto 'Info_Wiener_3' }
+    o { receive 'Coin1'; goto 'Wiener_4' }
+    o { receive 'Coin2'; goto 'Wiener_5' }
+    o { receive 'Reset'; goto  'Change_3'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_3'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_3'}
+    o { receive 'Choice_Double'; goto  'Double_3'}
+    o { receive 'Choice_French'; goto  'French_3'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_3'}
+    o { receive 'Go'; goto  'Cup_Wiener_3'}
+  }
+
+  state 'Info_Wiener_3'
+  repeat {
+    o { send 'Info_Wiener_3'; goto 'Wiener_3' }
+  }
+
+  state 'Cup_Wiener_3'
+  repeat {
+    o { send 'Cup_Wiener'; goto 'None_0' }
+  }
+
+  state 'None_4'
+  repeat {
+    o { receive 'Info_None_4'; goto 'Info_None_4' }
+    o { receive 'Coin1'; goto 'None_5' }
+    o { receive 'Coin2'; goto 'None_6' }
+    o { receive 'Reset'; goto  'Change_4'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_4'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_4'}
+    o { receive 'Choice_Double'; goto  'Double_4'}
+    o { receive 'Choice_French'; goto  'French_4'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_4'}
+    o { receive 'Go' }
+  }
+
+  state 'Info_None_4'
+  repeat {
+    o { send 'Info_None_4'; goto 'None_4' }
+  }
+
+  state 'Coffee_4'
+  repeat {
+    o { receive 'Info_Coffee_4'; goto 'Info_Coffee_4' }
+    o { receive 'Coin1'; goto 'Coffee_5' }
+    o { receive 'Coin2'; goto 'Coffee_6' }
+    o { receive 'Reset'; goto  'Change_4'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_4'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_4'}
+    o { receive 'Choice_Double'; goto  'Double_4'}
+    o { receive 'Choice_French'; goto  'French_4'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_4'}
+    o { receive 'Go'; goto  'Cup_Coffee_4'}
+  }
+
+  state 'Info_Coffee_4'
+  repeat {
+    o { send 'Info_Coffee_4'; goto 'Coffee_4' }
+  }
+
+  state 'Cup_Coffee_4'
+  repeat {
+    o { send 'Cup_Coffee'; goto 'None_2' }
+  }
+
+  state 'Espresso_4'
+  repeat {
+    o { receive 'Info_Espresso_4'; goto 'Info_Espresso_4' }
+    o { receive 'Coin1'; goto 'Espresso_5' }
+    o { receive 'Coin2'; goto 'Espresso_6' }
+    o { receive 'Reset'; goto  'Change_4'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_4'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_4'}
+    o { receive 'Choice_Double'; goto  'Double_4'}
+    o { receive 'Choice_French'; goto  'French_4'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_4'}
+    o { receive 'Go'; goto  'Cup_Espresso_4'}
+  }
+
+  state 'Info_Espresso_4'
+  repeat {
+    o { send 'Info_Espresso_4'; goto 'Espresso_4' }
+  }
+
+  state 'Cup_Espresso_4'
+  repeat {
+    o { send 'Cup_Espresso'; goto 'None_1' }
+  }
+
+  state 'Double_4'
+  repeat {
+    o { receive 'Info_Double_4'; goto 'Info_Double_4' }
+    o { receive 'Coin1'; goto 'Double_5' }
+    o { receive 'Coin2'; goto 'Double_6' }
+    o { receive 'Reset'; goto  'Change_4'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_4'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_4'}
+    o { receive 'Choice_Double'; goto  'Double_4'}
+    o { receive 'Choice_French'; goto  'French_4'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_4'}
+    o { receive 'Go'; goto  'Cup_Double_4'}
+  }
+
+  state 'Info_Double_4'
+  repeat {
+    o { send 'Info_Double_4'; goto 'Double_4' }
+  }
+
+  state 'Cup_Double_4'
+  repeat {
+    o { send 'Cup_Double'; goto 'None_1' }
+  }
+
+  state 'French_4'
+  repeat {
+    o { receive 'Info_French_4'; goto 'Info_French_4' }
+    o { receive 'Coin1'; goto 'French_5' }
+    o { receive 'Coin2'; goto 'French_6' }
+    o { receive 'Reset'; goto  'Change_4'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_4'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_4'}
+    o { receive 'Choice_Double'; goto  'Double_4'}
+    o { receive 'Choice_French'; goto  'French_4'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_4'}
+    o { receive 'Go'; goto  'Cup_French_4'}
+  }
+
+  state 'Info_French_4'
+  repeat {
+    o { send 'Info_French_4'; goto 'French_4' }
+  }
+
+  state 'Cup_French_4'
+  repeat {
+    o { send 'Cup_French'; goto 'None_1' }
+  }
+
+  state 'Wiener_4'
+  repeat {
+    o { receive 'Info_Wiener_4'; goto 'Info_Wiener_4' }
+    o { receive 'Coin1'; goto 'Wiener_5' }
+    o { receive 'Coin2'; goto 'Wiener_6' }
+    o { receive 'Reset'; goto  'Change_4'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_4'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_4'}
+    o { receive 'Choice_Double'; goto  'Double_4'}
+    o { receive 'Choice_French'; goto  'French_4'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_4'}
+    o { receive 'Go'; goto  'Cup_Wiener_4'}
+  }
+
+  state 'Info_Wiener_4'
+  repeat {
+    o { send 'Info_Wiener_4'; goto 'Wiener_4' }
+  }
+
+  state 'Cup_Wiener_4'
+  repeat {
+    o { send 'Cup_Wiener'; goto 'None_1' }
+  }
+
+  state 'None_5'
+  repeat {
+    o { receive 'Info_None_5'; goto 'Info_None_5' }
+    o { receive 'Coin1'; goto 'None_6' }
+    o { receive 'Coin2'; goto 'None_7' }
+    o { receive 'Reset'; goto  'Change_5'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_5'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_5'}
+    o { receive 'Choice_Double'; goto  'Double_5'}
+    o { receive 'Choice_French'; goto  'French_5'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_5'}
+    o { receive 'Go' }
+  }
+
+  state 'Info_None_5'
+  repeat {
+    o { send 'Info_None_5'; goto 'None_5' }
+  }
+
+  state 'Coffee_5'
+  repeat {
+    o { receive 'Info_Coffee_5'; goto 'Info_Coffee_5' }
+    o { receive 'Coin1'; goto 'Coffee_6' }
+    o { receive 'Coin2'; goto 'Coffee_7' }
+    o { receive 'Reset'; goto  'Change_5'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_5'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_5'}
+    o { receive 'Choice_Double'; goto  'Double_5'}
+    o { receive 'Choice_French'; goto  'French_5'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_5'}
+    o { receive 'Go'; goto  'Cup_Coffee_5'}
+  }
+
+  state 'Info_Coffee_5'
+  repeat {
+    o { send 'Info_Coffee_5'; goto 'Coffee_5' }
+  }
+
+  state 'Cup_Coffee_5'
+  repeat {
+    o { send 'Cup_Coffee'; goto 'None_3' }
+  }
+
+  state 'Espresso_5'
+  repeat {
+    o { receive 'Info_Espresso_5'; goto 'Info_Espresso_5' }
+    o { receive 'Coin1'; goto 'Espresso_6' }
+    o { receive 'Coin2'; goto 'Espresso_7' }
+    o { receive 'Reset'; goto  'Change_5'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_5'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_5'}
+    o { receive 'Choice_Double'; goto  'Double_5'}
+    o { receive 'Choice_French'; goto  'French_5'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_5'}
+    o { receive 'Go'; goto  'Cup_Espresso_5'}
+  }
+
+  state 'Info_Espresso_5'
+  repeat {
+    o { send 'Info_Espresso_5'; goto 'Espresso_5' }
+  }
+
+  state 'Cup_Espresso_5'
+  repeat {
+    o { send 'Cup_Espresso'; goto 'None_2' }
+  }
+
+  state 'Double_5'
+  repeat {
+    o { receive 'Info_Double_5'; goto 'Info_Double_5' }
+    o { receive 'Coin1'; goto 'Double_6' }
+    o { receive 'Coin2'; goto 'Double_7' }
+    o { receive 'Reset'; goto  'Change_5'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_5'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_5'}
+    o { receive 'Choice_Double'; goto  'Double_5'}
+    o { receive 'Choice_French'; goto  'French_5'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_5'}
+    o { receive 'Go'; goto  'Cup_Double_5'}
+  }
+
+  state 'Info_Double_5'
+  repeat {
+    o { send 'Info_Double_5'; goto 'Double_5' }
+  }
+
+  state 'Cup_Double_5'
+  repeat {
+    o { send 'Cup_Double'; goto 'None_2' }
+  }
+
+  state 'French_5'
+  repeat {
+    o { receive 'Info_French_5'; goto 'Info_French_5' }
+    o { receive 'Coin1'; goto 'French_6' }
+    o { receive 'Coin2'; goto 'French_7' }
+    o { receive 'Reset'; goto  'Change_5'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_5'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_5'}
+    o { receive 'Choice_Double'; goto  'Double_5'}
+    o { receive 'Choice_French'; goto  'French_5'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_5'}
+    o { receive 'Go'; goto  'Cup_French_5'}
+  }
+
+  state 'Info_French_5'
+  repeat {
+    o { send 'Info_French_5'; goto 'French_5' }
+  }
+
+  state 'Cup_French_5'
+  repeat {
+    o { send 'Cup_French'; goto 'None_2' }
+  }
+
+  state 'Wiener_5'
+  repeat {
+    o { receive 'Info_Wiener_5'; goto 'Info_Wiener_5' }
+    o { receive 'Coin1'; goto 'Wiener_6' }
+    o { receive 'Coin2'; goto 'Wiener_7' }
+    o { receive 'Reset'; goto  'Change_5'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_5'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_5'}
+    o { receive 'Choice_Double'; goto  'Double_5'}
+    o { receive 'Choice_French'; goto  'French_5'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_5'}
+    o { receive 'Go'; goto  'Cup_Wiener_5'}
+  }
+
+  state 'Info_Wiener_5'
+  repeat {
+    o { send 'Info_Wiener_5'; goto 'Wiener_5' }
+  }
+
+  state 'Cup_Wiener_5'
+  repeat {
+    o { send 'Cup_Wiener'; goto 'None_2' }
+  }
+
+  state 'None_6'
+  repeat {
+    o { receive 'Info_None_6'; goto 'Info_None_6' }
+    o { receive 'Coin1'; goto 'None_7' }
+    o { receive 'Coin2'; goto 'None_8' }
+    o { receive 'Reset'; goto  'Change_6'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_6'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_6'}
+    o { receive 'Choice_Double'; goto  'Double_6'}
+    o { receive 'Choice_French'; goto  'French_6'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_6'}
+    o { receive 'Go' }
+  }
+
+  state 'Info_None_6'
+  repeat {
+    o { send 'Info_None_6'; goto 'None_6' }
+  }
+
+  state 'Coffee_6'
+  repeat {
+    o { receive 'Info_Coffee_6'; goto 'Info_Coffee_6' }
+    o { receive 'Coin1'; goto 'Coffee_7' }
+    o { receive 'Coin2'; goto 'Coffee_8' }
+    o { receive 'Reset'; goto  'Change_6'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_6'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_6'}
+    o { receive 'Choice_Double'; goto  'Double_6'}
+    o { receive 'Choice_French'; goto  'French_6'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_6'}
+    o { receive 'Go'; goto  'Cup_Coffee_6'}
+  }
+
+  state 'Info_Coffee_6'
+  repeat {
+    o { send 'Info_Coffee_6'; goto 'Coffee_6' }
+  }
+
+  state 'Cup_Coffee_6'
+  repeat {
+    o { send 'Cup_Coffee'; goto 'None_4' }
+  }
+
+  state 'Espresso_6'
+  repeat {
+    o { receive 'Info_Espresso_6'; goto 'Info_Espresso_6' }
+    o { receive 'Coin1'; goto 'Espresso_7' }
+    o { receive 'Coin2'; goto 'Espresso_8' }
+    o { receive 'Reset'; goto  'Change_6'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_6'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_6'}
+    o { receive 'Choice_Double'; goto  'Double_6'}
+    o { receive 'Choice_French'; goto  'French_6'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_6'}
+    o { receive 'Go'; goto  'Cup_Espresso_6'}
+  }
+
+  state 'Info_Espresso_6'
+  repeat {
+    o { send 'Info_Espresso_6'; goto 'Espresso_6' }
+  }
+
+  state 'Cup_Espresso_6'
+  repeat {
+    o { send 'Cup_Espresso'; goto 'None_3' }
+  }
+
+  state 'Double_6'
+  repeat {
+    o { receive 'Info_Double_6'; goto 'Info_Double_6' }
+    o { receive 'Coin1'; goto 'Double_7' }
+    o { receive 'Coin2'; goto 'Double_8' }
+    o { receive 'Reset'; goto  'Change_6'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_6'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_6'}
+    o { receive 'Choice_Double'; goto  'Double_6'}
+    o { receive 'Choice_French'; goto  'French_6'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_6'}
+    o { receive 'Go'; goto  'Cup_Double_6'}
+  }
+
+  state 'Info_Double_6'
+  repeat {
+    o { send 'Info_Double_6'; goto 'Double_6' }
+  }
+
+  state 'Cup_Double_6'
+  repeat {
+    o { send 'Cup_Double'; goto 'None_3' }
+  }
+
+  state 'French_6'
+  repeat {
+    o { receive 'Info_French_6'; goto 'Info_French_6' }
+    o { receive 'Coin1'; goto 'French_7' }
+    o { receive 'Coin2'; goto 'French_8' }
+    o { receive 'Reset'; goto  'Change_6'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_6'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_6'}
+    o { receive 'Choice_Double'; goto  'Double_6'}
+    o { receive 'Choice_French'; goto  'French_6'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_6'}
+    o { receive 'Go'; goto  'Cup_French_6'}
+  }
+
+  state 'Info_French_6'
+  repeat {
+    o { send 'Info_French_6'; goto 'French_6' }
+  }
+
+  state 'Cup_French_6'
+  repeat {
+    o { send 'Cup_French'; goto 'None_3' }
+  }
+
+  state 'Wiener_6'
+  repeat {
+    o { receive 'Info_Wiener_6'; goto 'Info_Wiener_6' }
+    o { receive 'Coin1'; goto 'Wiener_7' }
+    o { receive 'Coin2'; goto 'Wiener_8' }
+    o { receive 'Reset'; goto  'Change_6'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_6'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_6'}
+    o { receive 'Choice_Double'; goto  'Double_6'}
+    o { receive 'Choice_French'; goto  'French_6'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_6'}
+    o { receive 'Go'; goto  'Cup_Wiener_6'}
+  }
+
+  state 'Info_Wiener_6'
+  repeat {
+    o { send 'Info_Wiener_6'; goto 'Wiener_6' }
+  }
+
+  state 'Cup_Wiener_6'
+  repeat {
+    o { send 'Cup_Wiener'; goto 'None_3' }
+  }
+
+  state 'None_7'
+  repeat {
+    o { receive 'Info_None_7'; goto 'Info_None_7' }
+    o { receive 'Coin1'; goto 'None_8' }
+    o { receive 'Coin2'; goto 'None_9' }
+    o { receive 'Reset'; goto  'Change_7'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_7'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_7'}
+    o { receive 'Choice_Double'; goto  'Double_7'}
+    o { receive 'Choice_French'; goto  'French_7'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_7'}
+    o { receive 'Go' }
+  }
+
+  state 'Info_None_7'
+  repeat {
+    o { send 'Info_None_7'; goto 'None_7' }
+  }
+
+  state 'Coffee_7'
+  repeat {
+    o { receive 'Info_Coffee_7'; goto 'Info_Coffee_7' }
+    o { receive 'Coin1'; goto 'Coffee_8' }
+    o { receive 'Coin2'; goto 'Coffee_9' }
+    o { receive 'Reset'; goto  'Change_7'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_7'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_7'}
+    o { receive 'Choice_Double'; goto  'Double_7'}
+    o { receive 'Choice_French'; goto  'French_7'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_7'}
+    o { receive 'Go'; goto  'Cup_Coffee_7'}
+  }
+
+  state 'Info_Coffee_7'
+  repeat {
+    o { send 'Info_Coffee_7'; goto 'Coffee_7' }
+  }
+
+  state 'Cup_Coffee_7'
+  repeat {
+    o { send 'Cup_Coffee'; goto 'None_5' }
+  }
+
+  state 'Espresso_7'
+  repeat {
+    o { receive 'Info_Espresso_7'; goto 'Info_Espresso_7' }
+    o { receive 'Coin1'; goto 'Espresso_8' }
+    o { receive 'Coin2'; goto 'Espresso_9' }
+    o { receive 'Reset'; goto  'Change_7'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_7'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_7'}
+    o { receive 'Choice_Double'; goto  'Double_7'}
+    o { receive 'Choice_French'; goto  'French_7'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_7'}
+    o { receive 'Go'; goto  'Cup_Espresso_7'}
+  }
+
+  state 'Info_Espresso_7'
+  repeat {
+    o { send 'Info_Espresso_7'; goto 'Espresso_7' }
+  }
+
+  state 'Cup_Espresso_7'
+  repeat {
+    o { send 'Cup_Espresso'; goto 'None_4' }
+  }
+
+  state 'Double_7'
+  repeat {
+    o { receive 'Info_Double_7'; goto 'Info_Double_7' }
+    o { receive 'Coin1'; goto 'Double_8' }
+    o { receive 'Coin2'; goto 'Double_9' }
+    o { receive 'Reset'; goto  'Change_7'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_7'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_7'}
+    o { receive 'Choice_Double'; goto  'Double_7'}
+    o { receive 'Choice_French'; goto  'French_7'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_7'}
+    o { receive 'Go'; goto  'Cup_Double_7'}
+  }
+
+  state 'Info_Double_7'
+  repeat {
+    o { send 'Info_Double_7'; goto 'Double_7' }
+  }
+
+  state 'Cup_Double_7'
+  repeat {
+    o { send 'Cup_Double'; goto 'None_4' }
+  }
+
+  state 'French_7'
+  repeat {
+    o { receive 'Info_French_7'; goto 'Info_French_7' }
+    o { receive 'Coin1'; goto 'French_8' }
+    o { receive 'Coin2'; goto 'French_9' }
+    o { receive 'Reset'; goto  'Change_7'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_7'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_7'}
+    o { receive 'Choice_Double'; goto  'Double_7'}
+    o { receive 'Choice_French'; goto  'French_7'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_7'}
+    o { receive 'Go'; goto  'Cup_French_7'}
+  }
+
+  state 'Info_French_7'
+  repeat {
+    o { send 'Info_French_7'; goto 'French_7' }
+  }
+
+  state 'Cup_French_7'
+  repeat {
+    o { send 'Cup_French'; goto 'None_4' }
+  }
+
+  state 'Wiener_7'
+  repeat {
+    o { receive 'Info_Wiener_7'; goto 'Info_Wiener_7' }
+    o { receive 'Coin1'; goto 'Wiener_8' }
+    o { receive 'Coin2'; goto 'Wiener_9' }
+    o { receive 'Reset'; goto  'Change_7'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_7'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_7'}
+    o { receive 'Choice_Double'; goto  'Double_7'}
+    o { receive 'Choice_French'; goto  'French_7'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_7'}
+    o { receive 'Go'; goto  'Cup_Wiener_7'}
+  }
+
+  state 'Info_Wiener_7'
+  repeat {
+    o { send 'Info_Wiener_7'; goto 'Wiener_7' }
+  }
+
+  state 'Cup_Wiener_7'
+  repeat {
+    o { send 'Cup_Wiener'; goto 'None_4' }
+  }
+
+  state 'None_8'
+  repeat {
+    o { receive 'Info_None_8'; goto 'Info_None_8' }
+    o { receive 'Coin1'; goto 'None_9' }
+    o { receive 'Coin2'; goto 'None_10' }
+    o { receive 'Reset'; goto  'Change_8'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_8'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_8'}
+    o { receive 'Choice_Double'; goto  'Double_8'}
+    o { receive 'Choice_French'; goto  'French_8'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_8'}
+    o { receive 'Go' }
+  }
+
+  state 'Info_None_8'
+  repeat {
+    o { send 'Info_None_8'; goto 'None_8' }
+  }
+
+  state 'Coffee_8'
+  repeat {
+    o { receive 'Info_Coffee_8'; goto 'Info_Coffee_8' }
+    o { receive 'Coin1'; goto 'Coffee_9' }
+    o { receive 'Coin2'; goto 'Coffee_10' }
+    o { receive 'Reset'; goto  'Change_8'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_8'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_8'}
+    o { receive 'Choice_Double'; goto  'Double_8'}
+    o { receive 'Choice_French'; goto  'French_8'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_8'}
+    o { receive 'Go'; goto  'Cup_Coffee_8'}
+  }
+
+  state 'Info_Coffee_8'
+  repeat {
+    o { send 'Info_Coffee_8'; goto 'Coffee_8' }
+  }
+
+  state 'Cup_Coffee_8'
+  repeat {
+    o { send 'Cup_Coffee'; goto 'None_6' }
+  }
+
+  state 'Espresso_8'
+  repeat {
+    o { receive 'Info_Espresso_8'; goto 'Info_Espresso_8' }
+    o { receive 'Coin1'; goto 'Espresso_9' }
+    o { receive 'Coin2'; goto 'Espresso_10' }
+    o { receive 'Reset'; goto  'Change_8'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_8'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_8'}
+    o { receive 'Choice_Double'; goto  'Double_8'}
+    o { receive 'Choice_French'; goto  'French_8'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_8'}
+    o { receive 'Go'; goto  'Cup_Espresso_8'}
+  }
+
+  state 'Info_Espresso_8'
+  repeat {
+    o { send 'Info_Espresso_8'; goto 'Espresso_8' }
+  }
+
+  state 'Cup_Espresso_8'
+  repeat {
+    o { send 'Cup_Espresso'; goto 'None_5' }
+  }
+
+  state 'Double_8'
+  repeat {
+    o { receive 'Info_Double_8'; goto 'Info_Double_8' }
+    o { receive 'Coin1'; goto 'Double_9' }
+    o { receive 'Coin2'; goto 'Double_10' }
+    o { receive 'Reset'; goto  'Change_8'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_8'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_8'}
+    o { receive 'Choice_Double'; goto  'Double_8'}
+    o { receive 'Choice_French'; goto  'French_8'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_8'}
+    o { receive 'Go'; goto  'Cup_Double_8'}
+  }
+
+  state 'Info_Double_8'
+  repeat {
+    o { send 'Info_Double_8'; goto 'Double_8' }
+  }
+
+  state 'Cup_Double_8'
+  repeat {
+    o { send 'Cup_Double'; goto 'None_5' }
+  }
+
+  state 'French_8'
+  repeat {
+    o { receive 'Info_French_8'; goto 'Info_French_8' }
+    o { receive 'Coin1'; goto 'French_9' }
+    o { receive 'Coin2'; goto 'French_10' }
+    o { receive 'Reset'; goto  'Change_8'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_8'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_8'}
+    o { receive 'Choice_Double'; goto  'Double_8'}
+    o { receive 'Choice_French'; goto  'French_8'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_8'}
+    o { receive 'Go'; goto  'Cup_French_8'}
+  }
+
+  state 'Info_French_8'
+  repeat {
+    o { send 'Info_French_8'; goto 'French_8' }
+  }
+
+  state 'Cup_French_8'
+  repeat {
+    o { send 'Cup_French'; goto 'None_5' }
+  }
+
+  state 'Wiener_8'
+  repeat {
+    o { receive 'Info_Wiener_8'; goto 'Info_Wiener_8' }
+    o { receive 'Coin1'; goto 'Wiener_9' }
+    o { receive 'Coin2'; goto 'Wiener_10' }
+    o { receive 'Reset'; goto  'Change_8'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_8'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_8'}
+    o { receive 'Choice_Double'; goto  'Double_8'}
+    o { receive 'Choice_French'; goto  'French_8'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_8'}
+    o { receive 'Go'; goto  'Cup_Wiener_8'}
+  }
+
+  state 'Info_Wiener_8'
+  repeat {
+    o { send 'Info_Wiener_8'; goto 'Wiener_8' }
+  }
+
+  state 'Cup_Wiener_8'
+  repeat {
+    o { send 'Cup_Wiener'; goto 'None_5' }
+  }
+
+  state 'None_9'
+  repeat {
+    o { receive 'Info_None_9'; goto 'Info_None_9' }
+    o { receive 'Coin1'; goto 'None_10' }
+    o { receive 'Coin2'; goto 'None_11' }
+    o { receive 'Reset'; goto  'Change_9'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_9'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_9'}
+    o { receive 'Choice_Double'; goto  'Double_9'}
+    o { receive 'Choice_French'; goto  'French_9'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_9'}
+    o { receive 'Go' }
+  }
+
+  state 'Info_None_9'
+  repeat {
+    o { send 'Info_None_9'; goto 'None_9' }
+  }
+
+  state 'Coffee_9'
+  repeat {
+    o { receive 'Info_Coffee_9'; goto 'Info_Coffee_9' }
+    o { receive 'Coin1'; goto 'Coffee_10' }
+    o { receive 'Coin2'; goto 'Coffee_11' }
+    o { receive 'Reset'; goto  'Change_9'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_9'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_9'}
+    o { receive 'Choice_Double'; goto  'Double_9'}
+    o { receive 'Choice_French'; goto  'French_9'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_9'}
+    o { receive 'Go'; goto  'Cup_Coffee_9'}
+  }
+
+  state 'Info_Coffee_9'
+  repeat {
+    o { send 'Info_Coffee_9'; goto 'Coffee_9' }
+  }
+
+  state 'Cup_Coffee_9'
+  repeat {
+    o { send 'Cup_Coffee'; goto 'None_7' }
+  }
+
+  state 'Espresso_9'
+  repeat {
+    o { receive 'Info_Espresso_9'; goto 'Info_Espresso_9' }
+    o { receive 'Coin1'; goto 'Espresso_10' }
+    o { receive 'Coin2'; goto 'Espresso_11' }
+    o { receive 'Reset'; goto  'Change_9'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_9'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_9'}
+    o { receive 'Choice_Double'; goto  'Double_9'}
+    o { receive 'Choice_French'; goto  'French_9'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_9'}
+    o { receive 'Go'; goto  'Cup_Espresso_9'}
+  }
+
+  state 'Info_Espresso_9'
+  repeat {
+    o { send 'Info_Espresso_9'; goto 'Espresso_9' }
+  }
+
+  state 'Cup_Espresso_9'
+  repeat {
+    o { send 'Cup_Espresso'; goto 'None_6' }
+  }
+
+  state 'Double_9'
+  repeat {
+    o { receive 'Info_Double_9'; goto 'Info_Double_9' }
+    o { receive 'Coin1'; goto 'Double_10' }
+    o { receive 'Coin2'; goto 'Double_11' }
+    o { receive 'Reset'; goto  'Change_9'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_9'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_9'}
+    o { receive 'Choice_Double'; goto  'Double_9'}
+    o { receive 'Choice_French'; goto  'French_9'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_9'}
+    o { receive 'Go'; goto  'Cup_Double_9'}
+  }
+
+  state 'Info_Double_9'
+  repeat {
+    o { send 'Info_Double_9'; goto 'Double_9' }
+  }
+
+  state 'Cup_Double_9'
+  repeat {
+    o { send 'Cup_Double'; goto 'None_6' }
+  }
+
+  state 'French_9'
+  repeat {
+    o { receive 'Info_French_9'; goto 'Info_French_9' }
+    o { receive 'Coin1'; goto 'French_10' }
+    o { receive 'Coin2'; goto 'French_11' }
+    o { receive 'Reset'; goto  'Change_9'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_9'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_9'}
+    o { receive 'Choice_Double'; goto  'Double_9'}
+    o { receive 'Choice_French'; goto  'French_9'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_9'}
+    o { receive 'Go'; goto  'Cup_French_9'}
+  }
+
+  state 'Info_French_9'
+  repeat {
+    o { send 'Info_French_9'; goto 'French_9' }
+  }
+
+  state 'Cup_French_9'
+  repeat {
+    o { send 'Cup_French'; goto 'None_6' }
+  }
+
+  state 'Wiener_9'
+  repeat {
+    o { receive 'Info_Wiener_9'; goto 'Info_Wiener_9' }
+    o { receive 'Coin1'; goto 'Wiener_10' }
+    o { receive 'Coin2'; goto 'Wiener_11' }
+    o { receive 'Reset'; goto  'Change_9'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_9'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_9'}
+    o { receive 'Choice_Double'; goto  'Double_9'}
+    o { receive 'Choice_French'; goto  'French_9'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_9'}
+    o { receive 'Go'; goto  'Cup_Wiener_9'}
+  }
+
+  state 'Info_Wiener_9'
+  repeat {
+    o { send 'Info_Wiener_9'; goto 'Wiener_9' }
+  }
+
+  state 'Cup_Wiener_9'
+  repeat {
+    o { send 'Cup_Wiener'; goto 'None_6' }
+  }
+
+  state 'None_10'
+  repeat {
+    o { receive 'Info_None_10'; goto 'Info_None_10' }
+    o { receive 'Coin1'; goto 'None_11' }
+    o { receive 'Coin2'; goto 'None_12' }
+    o { receive 'Reset'; goto  'Change_10'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_10'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_10'}
+    o { receive 'Choice_Double'; goto  'Double_10'}
+    o { receive 'Choice_French'; goto  'French_10'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_10'}
+    o { receive 'Go' }
+  }
+
+  state 'Info_None_10'
+  repeat {
+    o { send 'Info_None_10'; goto 'None_10' }
+  }
+
+  state 'Coffee_10'
+  repeat {
+    o { receive 'Info_Coffee_10'; goto 'Info_Coffee_10' }
+    o { receive 'Coin1'; goto 'Coffee_11' }
+    o { receive 'Coin2'; goto 'Coffee_12' }
+    o { receive 'Reset'; goto  'Change_10'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_10'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_10'}
+    o { receive 'Choice_Double'; goto  'Double_10'}
+    o { receive 'Choice_French'; goto  'French_10'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_10'}
+    o { receive 'Go'; goto  'Cup_Coffee_10'}
+  }
+
+  state 'Info_Coffee_10'
+  repeat {
+    o { send 'Info_Coffee_10'; goto 'Coffee_10' }
+  }
+
+  state 'Cup_Coffee_10'
+  repeat {
+    o { send 'Cup_Coffee'; goto 'None_8' }
+  }
+
+  state 'Espresso_10'
+  repeat {
+    o { receive 'Info_Espresso_10'; goto 'Info_Espresso_10' }
+    o { receive 'Coin1'; goto 'Espresso_11' }
+    o { receive 'Coin2'; goto 'Espresso_12' }
+    o { receive 'Reset'; goto  'Change_10'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_10'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_10'}
+    o { receive 'Choice_Double'; goto  'Double_10'}
+    o { receive 'Choice_French'; goto  'French_10'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_10'}
+    o { receive 'Go'; goto  'Cup_Espresso_10'}
+  }
+
+  state 'Info_Espresso_10'
+  repeat {
+    o { send 'Info_Espresso_10'; goto 'Espresso_10' }
+  }
+
+  state 'Cup_Espresso_10'
+  repeat {
+    o { send 'Cup_Espresso'; goto 'None_7' }
+  }
+
+  state 'Double_10'
+  repeat {
+    o { receive 'Info_Double_10'; goto 'Info_Double_10' }
+    o { receive 'Coin1'; goto 'Double_11' }
+    o { receive 'Coin2'; goto 'Double_12' }
+    o { receive 'Reset'; goto  'Change_10'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_10'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_10'}
+    o { receive 'Choice_Double'; goto  'Double_10'}
+    o { receive 'Choice_French'; goto  'French_10'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_10'}
+    o { receive 'Go'; goto  'Cup_Double_10'}
+  }
+
+  state 'Info_Double_10'
+  repeat {
+    o { send 'Info_Double_10'; goto 'Double_10' }
+  }
+
+  state 'Cup_Double_10'
+  repeat {
+    o { send 'Cup_Double'; goto 'None_7' }
+  }
+
+  state 'French_10'
+  repeat {
+    o { receive 'Info_French_10'; goto 'Info_French_10' }
+    o { receive 'Coin1'; goto 'French_11' }
+    o { receive 'Coin2'; goto 'French_12' }
+    o { receive 'Reset'; goto  'Change_10'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_10'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_10'}
+    o { receive 'Choice_Double'; goto  'Double_10'}
+    o { receive 'Choice_French'; goto  'French_10'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_10'}
+    o { receive 'Go'; goto  'Cup_French_10'}
+  }
+
+  state 'Info_French_10'
+  repeat {
+    o { send 'Info_French_10'; goto 'French_10' }
+  }
+
+  state 'Cup_French_10'
+  repeat {
+    o { send 'Cup_French'; goto 'None_7' }
+  }
+
+  state 'Wiener_10'
+  repeat {
+    o { receive 'Info_Wiener_10'; goto 'Info_Wiener_10' }
+    o { receive 'Coin1'; goto 'Wiener_11' }
+    o { receive 'Coin2'; goto 'Wiener_12' }
+    o { receive 'Reset'; goto  'Change_10'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_10'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_10'}
+    o { receive 'Choice_Double'; goto  'Double_10'}
+    o { receive 'Choice_French'; goto  'French_10'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_10'}
+    o { receive 'Go'; goto  'Cup_Wiener_10'}
+  }
+
+  state 'Info_Wiener_10'
+  repeat {
+    o { send 'Info_Wiener_10'; goto 'Wiener_10' }
+  }
+
+  state 'Cup_Wiener_10'
+  repeat {
+    o { send 'Cup_Wiener'; goto 'None_7' }
+  }
+
+  state 'None_11'
+  repeat {
+    o { receive 'Info_None_11'; goto 'Info_None_11' }
+    o { receive 'Coin1'; goto 'None_12' }
+    o { receive 'Coin2'; goto 'None_13' }
+    o { receive 'Reset'; goto  'Change_11'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_11'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_11'}
+    o { receive 'Choice_Double'; goto  'Double_11'}
+    o { receive 'Choice_French'; goto  'French_11'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_11'}
+    o { receive 'Go' }
+  }
+
+  state 'Info_None_11'
+  repeat {
+    o { send 'Info_None_11'; goto 'None_11' }
+  }
+
+  state 'Coffee_11'
+  repeat {
+    o { receive 'Info_Coffee_11'; goto 'Info_Coffee_11' }
+    o { receive 'Coin1'; goto 'Coffee_12' }
+    o { receive 'Coin2'; goto 'Coffee_13' }
+    o { receive 'Reset'; goto  'Change_11'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_11'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_11'}
+    o { receive 'Choice_Double'; goto  'Double_11'}
+    o { receive 'Choice_French'; goto  'French_11'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_11'}
+    o { receive 'Go'; goto  'Cup_Coffee_11'}
+  }
+
+  state 'Info_Coffee_11'
+  repeat {
+    o { send 'Info_Coffee_11'; goto 'Coffee_11' }
+  }
+
+  state 'Cup_Coffee_11'
+  repeat {
+    o { send 'Cup_Coffee'; goto 'None_9' }
+  }
+
+  state 'Espresso_11'
+  repeat {
+    o { receive 'Info_Espresso_11'; goto 'Info_Espresso_11' }
+    o { receive 'Coin1'; goto 'Espresso_12' }
+    o { receive 'Coin2'; goto 'Espresso_13' }
+    o { receive 'Reset'; goto  'Change_11'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_11'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_11'}
+    o { receive 'Choice_Double'; goto  'Double_11'}
+    o { receive 'Choice_French'; goto  'French_11'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_11'}
+    o { receive 'Go'; goto  'Cup_Espresso_11'}
+  }
+
+  state 'Info_Espresso_11'
+  repeat {
+    o { send 'Info_Espresso_11'; goto 'Espresso_11' }
+  }
+
+  state 'Cup_Espresso_11'
+  repeat {
+    o { send 'Cup_Espresso'; goto 'None_8' }
+  }
+
+  state 'Double_11'
+  repeat {
+    o { receive 'Info_Double_11'; goto 'Info_Double_11' }
+    o { receive 'Coin1'; goto 'Double_12' }
+    o { receive 'Coin2'; goto 'Double_13' }
+    o { receive 'Reset'; goto  'Change_11'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_11'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_11'}
+    o { receive 'Choice_Double'; goto  'Double_11'}
+    o { receive 'Choice_French'; goto  'French_11'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_11'}
+    o { receive 'Go'; goto  'Cup_Double_11'}
+  }
+
+  state 'Info_Double_11'
+  repeat {
+    o { send 'Info_Double_11'; goto 'Double_11' }
+  }
+
+  state 'Cup_Double_11'
+  repeat {
+    o { send 'Cup_Double'; goto 'None_8' }
+  }
+
+  state 'French_11'
+  repeat {
+    o { receive 'Info_French_11'; goto 'Info_French_11' }
+    o { receive 'Coin1'; goto 'French_12' }
+    o { receive 'Coin2'; goto 'French_13' }
+    o { receive 'Reset'; goto  'Change_11'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_11'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_11'}
+    o { receive 'Choice_Double'; goto  'Double_11'}
+    o { receive 'Choice_French'; goto  'French_11'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_11'}
+    o { receive 'Go'; goto  'Cup_French_11'}
+  }
+
+  state 'Info_French_11'
+  repeat {
+    o { send 'Info_French_11'; goto 'French_11' }
+  }
+
+  state 'Cup_French_11'
+  repeat {
+    o { send 'Cup_French'; goto 'None_8' }
+  }
+
+  state 'Wiener_11'
+  repeat {
+    o { receive 'Info_Wiener_11'; goto 'Info_Wiener_11' }
+    o { receive 'Coin1'; goto 'Wiener_12' }
+    o { receive 'Coin2'; goto 'Wiener_13' }
+    o { receive 'Reset'; goto  'Change_11'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_11'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_11'}
+    o { receive 'Choice_Double'; goto  'Double_11'}
+    o { receive 'Choice_French'; goto  'French_11'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_11'}
+    o { receive 'Go'; goto  'Cup_Wiener_11'}
+  }
+
+  state 'Info_Wiener_11'
+  repeat {
+    o { send 'Info_Wiener_11'; goto 'Wiener_11' }
+  }
+
+  state 'Cup_Wiener_11'
+  repeat {
+    o { send 'Cup_Wiener'; goto 'None_8' }
+  }
+
+  state 'None_12'
+  repeat {
+    o { receive 'Info_None_12'; goto 'Info_None_12' }
+    o { receive 'Coin1'; goto 'None_13' }
+    o { receive 'Coin2'; goto 'None_14' }
+    o { receive 'Reset'; goto  'Change_12'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_12'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_12'}
+    o { receive 'Choice_Double'; goto  'Double_12'}
+    o { receive 'Choice_French'; goto  'French_12'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_12'}
+    o { receive 'Go' }
+  }
+
+  state 'Info_None_12'
+  repeat {
+    o { send 'Info_None_12'; goto 'None_12' }
+  }
+
+  state 'Coffee_12'
+  repeat {
+    o { receive 'Info_Coffee_12'; goto 'Info_Coffee_12' }
+    o { receive 'Coin1'; goto 'Coffee_13' }
+    o { receive 'Coin2'; goto 'Coffee_14' }
+    o { receive 'Reset'; goto  'Change_12'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_12'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_12'}
+    o { receive 'Choice_Double'; goto  'Double_12'}
+    o { receive 'Choice_French'; goto  'French_12'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_12'}
+    o { receive 'Go'; goto  'Cup_Coffee_12'}
+  }
+
+  state 'Info_Coffee_12'
+  repeat {
+    o { send 'Info_Coffee_12'; goto 'Coffee_12' }
+  }
+
+  state 'Cup_Coffee_12'
+  repeat {
+    o { send 'Cup_Coffee'; goto 'None_10' }
+  }
+
+  state 'Espresso_12'
+  repeat {
+    o { receive 'Info_Espresso_12'; goto 'Info_Espresso_12' }
+    o { receive 'Coin1'; goto 'Espresso_13' }
+    o { receive 'Coin2'; goto 'Espresso_14' }
+    o { receive 'Reset'; goto  'Change_12'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_12'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_12'}
+    o { receive 'Choice_Double'; goto  'Double_12'}
+    o { receive 'Choice_French'; goto  'French_12'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_12'}
+    o { receive 'Go'; goto  'Cup_Espresso_12'}
+  }
+
+  state 'Info_Espresso_12'
+  repeat {
+    o { send 'Info_Espresso_12'; goto 'Espresso_12' }
+  }
+
+  state 'Cup_Espresso_12'
+  repeat {
+    o { send 'Cup_Espresso'; goto 'None_9' }
+  }
+
+  state 'Double_12'
+  repeat {
+    o { receive 'Info_Double_12'; goto 'Info_Double_12' }
+    o { receive 'Coin1'; goto 'Double_13' }
+    o { receive 'Coin2'; goto 'Double_14' }
+    o { receive 'Reset'; goto  'Change_12'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_12'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_12'}
+    o { receive 'Choice_Double'; goto  'Double_12'}
+    o { receive 'Choice_French'; goto  'French_12'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_12'}
+    o { receive 'Go'; goto  'Cup_Double_12'}
+  }
+
+  state 'Info_Double_12'
+  repeat {
+    o { send 'Info_Double_12'; goto 'Double_12' }
+  }
+
+  state 'Cup_Double_12'
+  repeat {
+    o { send 'Cup_Double'; goto 'None_9' }
+  }
+
+  state 'French_12'
+  repeat {
+    o { receive 'Info_French_12'; goto 'Info_French_12' }
+    o { receive 'Coin1'; goto 'French_13' }
+    o { receive 'Coin2'; goto 'French_14' }
+    o { receive 'Reset'; goto  'Change_12'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_12'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_12'}
+    o { receive 'Choice_Double'; goto  'Double_12'}
+    o { receive 'Choice_French'; goto  'French_12'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_12'}
+    o { receive 'Go'; goto  'Cup_French_12'}
+  }
+
+  state 'Info_French_12'
+  repeat {
+    o { send 'Info_French_12'; goto 'French_12' }
+  }
+
+  state 'Cup_French_12'
+  repeat {
+    o { send 'Cup_French'; goto 'None_9' }
+  }
+
+  state 'Wiener_12'
+  repeat {
+    o { receive 'Info_Wiener_12'; goto 'Info_Wiener_12' }
+    o { receive 'Coin1'; goto 'Wiener_13' }
+    o { receive 'Coin2'; goto 'Wiener_14' }
+    o { receive 'Reset'; goto  'Change_12'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_12'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_12'}
+    o { receive 'Choice_Double'; goto  'Double_12'}
+    o { receive 'Choice_French'; goto  'French_12'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_12'}
+    o { receive 'Go'; goto  'Cup_Wiener_12'}
+  }
+
+  state 'Info_Wiener_12'
+  repeat {
+    o { send 'Info_Wiener_12'; goto 'Wiener_12' }
+  }
+
+  state 'Cup_Wiener_12'
+  repeat {
+    o { send 'Cup_Wiener'; goto 'None_9' }
+  }
+
+  state 'None_13'
+  repeat {
+    o { receive 'Info_None_13'; goto 'Info_None_13' }
+    o { receive 'Coin1'; goto 'None_14' }
+    o { receive 'Coin2'; goto 'None_15' }
+    o { receive 'Reset'; goto  'Change_13'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_13'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_13'}
+    o { receive 'Choice_Double'; goto  'Double_13'}
+    o { receive 'Choice_French'; goto  'French_13'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_13'}
+    o { receive 'Go' }
+  }
+
+  state 'Info_None_13'
+  repeat {
+    o { send 'Info_None_13'; goto 'None_13' }
+  }
+
+  state 'Coffee_13'
+  repeat {
+    o { receive 'Info_Coffee_13'; goto 'Info_Coffee_13' }
+    o { receive 'Coin1'; goto 'Coffee_14' }
+    o { receive 'Coin2'; goto 'Coffee_15' }
+    o { receive 'Reset'; goto  'Change_13'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_13'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_13'}
+    o { receive 'Choice_Double'; goto  'Double_13'}
+    o { receive 'Choice_French'; goto  'French_13'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_13'}
+    o { receive 'Go'; goto  'Cup_Coffee_13'}
+  }
+
+  state 'Info_Coffee_13'
+  repeat {
+    o { send 'Info_Coffee_13'; goto 'Coffee_13' }
+  }
+
+  state 'Cup_Coffee_13'
+  repeat {
+    o { send 'Cup_Coffee'; goto 'None_11' }
+  }
+
+  state 'Espresso_13'
+  repeat {
+    o { receive 'Info_Espresso_13'; goto 'Info_Espresso_13' }
+    o { receive 'Coin1'; goto 'Espresso_14' }
+    o { receive 'Coin2'; goto 'Espresso_15' }
+    o { receive 'Reset'; goto  'Change_13'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_13'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_13'}
+    o { receive 'Choice_Double'; goto  'Double_13'}
+    o { receive 'Choice_French'; goto  'French_13'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_13'}
+    o { receive 'Go'; goto  'Cup_Espresso_13'}
+  }
+
+  state 'Info_Espresso_13'
+  repeat {
+    o { send 'Info_Espresso_13'; goto 'Espresso_13' }
+  }
+
+  state 'Cup_Espresso_13'
+  repeat {
+    o { send 'Cup_Espresso'; goto 'None_10' }
+  }
+
+  state 'Double_13'
+  repeat {
+    o { receive 'Info_Double_13'; goto 'Info_Double_13' }
+    o { receive 'Coin1'; goto 'Double_14' }
+    o { receive 'Coin2'; goto 'Double_15' }
+    o { receive 'Reset'; goto  'Change_13'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_13'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_13'}
+    o { receive 'Choice_Double'; goto  'Double_13'}
+    o { receive 'Choice_French'; goto  'French_13'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_13'}
+    o { receive 'Go'; goto  'Cup_Double_13'}
+  }
+
+  state 'Info_Double_13'
+  repeat {
+    o { send 'Info_Double_13'; goto 'Double_13' }
+  }
+
+  state 'Cup_Double_13'
+  repeat {
+    o { send 'Cup_Double'; goto 'None_10' }
+  }
+
+  state 'French_13'
+  repeat {
+    o { receive 'Info_French_13'; goto 'Info_French_13' }
+    o { receive 'Coin1'; goto 'French_14' }
+    o { receive 'Coin2'; goto 'French_15' }
+    o { receive 'Reset'; goto  'Change_13'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_13'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_13'}
+    o { receive 'Choice_Double'; goto  'Double_13'}
+    o { receive 'Choice_French'; goto  'French_13'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_13'}
+    o { receive 'Go'; goto  'Cup_French_13'}
+  }
+
+  state 'Info_French_13'
+  repeat {
+    o { send 'Info_French_13'; goto 'French_13' }
+  }
+
+  state 'Cup_French_13'
+  repeat {
+    o { send 'Cup_French'; goto 'None_10' }
+  }
+
+  state 'Wiener_13'
+  repeat {
+    o { receive 'Info_Wiener_13'; goto 'Info_Wiener_13' }
+    o { receive 'Coin1'; goto 'Wiener_14' }
+    o { receive 'Coin2'; goto 'Wiener_15' }
+    o { receive 'Reset'; goto  'Change_13'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_13'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_13'}
+    o { receive 'Choice_Double'; goto  'Double_13'}
+    o { receive 'Choice_French'; goto  'French_13'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_13'}
+    o { receive 'Go'; goto  'Cup_Wiener_13'}
+  }
+
+  state 'Info_Wiener_13'
+  repeat {
+    o { send 'Info_Wiener_13'; goto 'Wiener_13' }
+  }
+
+  state 'Cup_Wiener_13'
+  repeat {
+    o { send 'Cup_Wiener'; goto 'None_10' }
+  }
+
+  state 'None_14'
+  repeat {
+    o { receive 'Info_None_14'; goto 'Info_None_14' }
+    o { receive 'Coin1'; goto 'None_15' }
+    o { receive 'Reset'; goto  'Change_14'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_14'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_14'}
+    o { receive 'Choice_Double'; goto  'Double_14'}
+    o { receive 'Choice_French'; goto  'French_14'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_14'}
+    o { receive 'Go' }
+  }
+
+  state 'Info_None_14'
+  repeat {
+    o { send 'Info_None_14'; goto 'None_14' }
+  }
+
+  state 'Coffee_14'
+  repeat {
+    o { receive 'Info_Coffee_14'; goto 'Info_Coffee_14' }
+    o { receive 'Coin1'; goto 'Coffee_15' }
+    o { receive 'Reset'; goto  'Change_14'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_14'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_14'}
+    o { receive 'Choice_Double'; goto  'Double_14'}
+    o { receive 'Choice_French'; goto  'French_14'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_14'}
+    o { receive 'Go'; goto  'Cup_Coffee_14'}
+  }
+
+  state 'Info_Coffee_14'
+  repeat {
+    o { send 'Info_Coffee_14'; goto 'Coffee_14' }
+  }
+
+  state 'Cup_Coffee_14'
+  repeat {
+    o { send 'Cup_Coffee'; goto 'None_12' }
+  }
+
+  state 'Espresso_14'
+  repeat {
+    o { receive 'Info_Espresso_14'; goto 'Info_Espresso_14' }
+    o { receive 'Coin1'; goto 'Espresso_15' }
+    o { receive 'Reset'; goto  'Change_14'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_14'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_14'}
+    o { receive 'Choice_Double'; goto  'Double_14'}
+    o { receive 'Choice_French'; goto  'French_14'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_14'}
+    o { receive 'Go'; goto  'Cup_Espresso_14'}
+  }
+
+  state 'Info_Espresso_14'
+  repeat {
+    o { send 'Info_Espresso_14'; goto 'Espresso_14' }
+  }
+
+  state 'Cup_Espresso_14'
+  repeat {
+    o { send 'Cup_Espresso'; goto 'None_11' }
+  }
+
+  state 'Double_14'
+  repeat {
+    o { receive 'Info_Double_14'; goto 'Info_Double_14' }
+    o { receive 'Coin1'; goto 'Double_15' }
+    o { receive 'Reset'; goto  'Change_14'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_14'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_14'}
+    o { receive 'Choice_Double'; goto  'Double_14'}
+    o { receive 'Choice_French'; goto  'French_14'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_14'}
+    o { receive 'Go'; goto  'Cup_Double_14'}
+  }
+
+  state 'Info_Double_14'
+  repeat {
+    o { send 'Info_Double_14'; goto 'Double_14' }
+  }
+
+  state 'Cup_Double_14'
+  repeat {
+    o { send 'Cup_Double'; goto 'None_11' }
+  }
+
+  state 'French_14'
+  repeat {
+    o { receive 'Info_French_14'; goto 'Info_French_14' }
+    o { receive 'Coin1'; goto 'French_15' }
+    o { receive 'Reset'; goto  'Change_14'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_14'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_14'}
+    o { receive 'Choice_Double'; goto  'Double_14'}
+    o { receive 'Choice_French'; goto  'French_14'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_14'}
+    o { receive 'Go'; goto  'Cup_French_14'}
+  }
+
+  state 'Info_French_14'
+  repeat {
+    o { send 'Info_French_14'; goto 'French_14' }
+  }
+
+  state 'Cup_French_14'
+  repeat {
+    o { send 'Cup_French'; goto 'None_11' }
+  }
+
+  state 'Wiener_14'
+  repeat {
+    o { receive 'Info_Wiener_14'; goto 'Info_Wiener_14' }
+    o { receive 'Coin1'; goto 'Wiener_15' }
+    o { receive 'Reset'; goto  'Change_14'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_14'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_14'}
+    o { receive 'Choice_Double'; goto  'Double_14'}
+    o { receive 'Choice_French'; goto  'French_14'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_14'}
+    o { receive 'Go'; goto  'Cup_Wiener_14'}
+  }
+
+  state 'Info_Wiener_14'
+  repeat {
+    o { send 'Info_Wiener_14'; goto 'Wiener_14' }
+  }
+
+  state 'Cup_Wiener_14'
+  repeat {
+    o { send 'Cup_Wiener'; goto 'None_11' }
+  }
+
+  state 'None_15'
+  repeat {
+    o { receive 'Info_None_15'; goto 'Info_None_15' }
+    o { receive 'Reset'; goto  'Change_15'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_15'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_15'}
+    o { receive 'Choice_Double'; goto  'Double_15'}
+    o { receive 'Choice_French'; goto  'French_15'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_15'}
+    o { receive 'Go' }
+  }
+
+  state 'Info_None_15'
+  repeat {
+    o { send 'Info_None_15'; goto 'None_15' }
+  }
+
+  state 'Coffee_15'
+  repeat {
+    o { receive 'Info_Coffee_15'; goto 'Info_Coffee_15' }
+    o { receive 'Reset'; goto  'Change_15'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_15'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_15'}
+    o { receive 'Choice_Double'; goto  'Double_15'}
+    o { receive 'Choice_French'; goto  'French_15'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_15'}
+    o { receive 'Go'; goto  'Cup_Coffee_15'}
+  }
+
+  state 'Info_Coffee_15'
+  repeat {
+    o { send 'Info_Coffee_15'; goto 'Coffee_15' }
+  }
+
+  state 'Cup_Coffee_15'
+  repeat {
+    o { send 'Cup_Coffee'; goto 'None_13' }
+  }
+
+  state 'Espresso_15'
+  repeat {
+    o { receive 'Info_Espresso_15'; goto 'Info_Espresso_15' }
+    o { receive 'Reset'; goto  'Change_15'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_15'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_15'}
+    o { receive 'Choice_Double'; goto  'Double_15'}
+    o { receive 'Choice_French'; goto  'French_15'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_15'}
+    o { receive 'Go'; goto  'Cup_Espresso_15'}
+  }
+
+  state 'Info_Espresso_15'
+  repeat {
+    o { send 'Info_Espresso_15'; goto 'Espresso_15' }
+  }
+
+  state 'Cup_Espresso_15'
+  repeat {
+    o { send 'Cup_Espresso'; goto 'None_12' }
+  }
+
+  state 'Double_15'
+  repeat {
+    o { receive 'Info_Double_15'; goto 'Info_Double_15' }
+    o { receive 'Reset'; goto  'Change_15'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_15'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_15'}
+    o { receive 'Choice_Double'; goto  'Double_15'}
+    o { receive 'Choice_French'; goto  'French_15'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_15'}
+    o { receive 'Go'; goto  'Cup_Double_15'}
+  }
+
+  state 'Info_Double_15'
+  repeat {
+    o { send 'Info_Double_15'; goto 'Double_15' }
+  }
+
+  state 'Cup_Double_15'
+  repeat {
+    o { send 'Cup_Double'; goto 'None_12' }
+  }
+
+  state 'French_15'
+  repeat {
+    o { receive 'Info_French_15'; goto 'Info_French_15' }
+    o { receive 'Reset'; goto  'Change_15'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_15'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_15'}
+    o { receive 'Choice_Double'; goto  'Double_15'}
+    o { receive 'Choice_French'; goto  'French_15'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_15'}
+    o { receive 'Go'; goto  'Cup_French_15'}
+  }
+
+  state 'Info_French_15'
+  repeat {
+    o { send 'Info_French_15'; goto 'French_15' }
+  }
+
+  state 'Cup_French_15'
+  repeat {
+    o { send 'Cup_French'; goto 'None_12' }
+  }
+
+  state 'Wiener_15'
+  repeat {
+    o { receive 'Info_Wiener_15'; goto 'Info_Wiener_15' }
+    o { receive 'Reset'; goto  'Change_15'}
+    o { receive 'Choice_Coffee'; goto  'Coffee_15'}
+    o { receive 'Choice_Espresso'; goto  'Espresso_15'}
+    o { receive 'Choice_Double'; goto  'Double_15'}
+    o { receive 'Choice_French'; goto  'French_15'}
+    o { receive 'Choice_Wiener'; goto  'Wiener_15'}
+    o { receive 'Go'; goto  'Cup_Wiener_15'}
+  }
+
+  state 'Info_Wiener_15'
+  repeat {
+    o { send 'Info_Wiener_15'; goto 'Wiener_15' }
+  }
+
+  state 'Cup_Wiener_15'
+  repeat {
+    o { send 'Cup_Wiener'; goto 'None_12' }
+  }
+
+  state 'Change_1'
+  repeat {
+    o { send 'Change_1'; goto 'None_0' }
+  }
+
+  state 'Change_2'
+  repeat {
+    o { send 'Change_2'; goto 'None_0' }
+  }
+
+  state 'Change_3'
+  repeat {
+    o { send 'Change_3'; goto 'None_0' }
+  }
+
+  state 'Change_4'
+  repeat {
+    o { send 'Change_4'; goto 'None_0' }
+  }
+
+  state 'Change_5'
+  repeat {
+    o { send 'Change_5'; goto 'None_0' }
+  }
+
+  state 'Change_6'
+  repeat {
+    o { send 'Change_6'; goto 'None_0' }
+  }
+
+  state 'Change_7'
+  repeat {
+    o { send 'Change_7'; goto 'None_0' }
+  }
+
+  state 'Change_8'
+  repeat {
+    o { send 'Change_8'; goto 'None_0' }
+  }
+
+  state 'Change_9'
+  repeat {
+    o { send 'Change_9'; goto 'None_0' }
+  }
+
+  state 'Change_10'
+  repeat {
+    o { send 'Change_10'; goto 'None_0' }
+  }
+
+  state 'Change_11'
+  repeat {
+    o { send 'Change_11'; goto 'None_0' }
+  }
+
+  state 'Change_12'
+  repeat {
+    o { send 'Change_12'; goto 'None_0' }
+  }
+
+  state 'Change_13'
+  repeat {
+    o { send 'Change_13'; goto 'None_0' }
+  }
+
+  state 'Change_14'
+  repeat {
+    o { send 'Change_14'; goto 'None_0' }
+  }
+
+  state 'Change_15'
+  repeat {
+    o { send 'Change_15'; goto 'None_0' }
+  }
+}
