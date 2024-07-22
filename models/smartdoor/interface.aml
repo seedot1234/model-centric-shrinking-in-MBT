@@ -16,6 +16,7 @@ channel('door') {
   response 'invalid_command'
   response 'invalid_passcode'
   response 'incorrect_passcode'
+  response 'quiescence'
 
   response 'shut_off'
 }
