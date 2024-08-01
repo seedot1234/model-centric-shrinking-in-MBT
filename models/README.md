@@ -17,6 +17,6 @@ These are the Axini Modeling Language (AMP) models that were used in the experim
 
 ## Files
 
-There are three folders, each containing the models of a different experiment: smartdoor, koopman, and ATM. Per experiment, the model and the interface of the model are shown. The interface contains all the stimuli and responses that that model accepts.
+There are two folders: koopman, and ATM. Per experiment, the model and the interface of the model are shown. The interface contains all the stimuli and responses that that model accepts. Due to confidentiality reasons, the SmartDoor model could not be published with open access. To gain access to this model, please contact the author.
 
 [^1]: Koopman, P., Achten, P., Plasmeijer, R. (2014). Model-Based Shrinking for State-Based Testing. In: McCarthy, J. (eds) Trends in Functional Programming. TFP 2013. Lecture Notes in Computer Science, vol 8322. Springer, Berlin, Heidelberg. https://doi.org/10.1007/978-3-642-45340-3_7
